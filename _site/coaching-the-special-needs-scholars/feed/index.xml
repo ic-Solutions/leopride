@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Coaching the Special Needs Scholars	</title>
+	<atom:link href="/coaching-the-special-needs-scholars/feed/" rel="self" type="application/rss+xml" />
+	<link>/coaching-the-special-needs-scholars/</link>
+	<description>Your One Stop Career Solution</description>
+	<lastBuildDate>Mon, 25 Feb 2019 06:18:52 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.4</generator>
+	<item>
+		<title>
+		By: ram		</title>
+		<link>/coaching-the-special-needs-scholars/#comment-17</link>
+
+		<dc:creator><![CDATA[ram]]></dc:creator>
+		<pubDate>Mon, 19 Nov 2018 10:05:57 +0000</pubDate>
+		<guid isPermaLink="false">http://themes-demo.com/blog-fw/?p=11979#comment-17</guid>
+
+					<description><![CDATA[test 1]]></description>
+			<content:encoded><![CDATA[<p>test 1</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: ram		</title>
+		<link>/coaching-the-special-needs-scholars/#comment-16</link>
+
+		<dc:creator><![CDATA[ram]]></dc:creator>
+		<pubDate>Mon, 19 Nov 2018 10:05:48 +0000</pubDate>
+		<guid isPermaLink="false">http://themes-demo.com/blog-fw/?p=11979#comment-16</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;/coaching-the-special-needs-scholars/#comment-15&quot;&gt;ram&lt;/a&gt;.
+
+test]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="/coaching-the-special-needs-scholars/#comment-15">ram</a>.</p>
+<p>test</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: ram		</title>
+		<link>/coaching-the-special-needs-scholars/#comment-15</link>
+
+		<dc:creator><![CDATA[ram]]></dc:creator>
+		<pubDate>Mon, 19 Nov 2018 10:05:38 +0000</pubDate>
+		<guid isPermaLink="false">http://themes-demo.com/blog-fw/?p=11979#comment-15</guid>
+
+					<description><![CDATA[hi]]></description>
+			<content:encoded><![CDATA[<p>hi</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
