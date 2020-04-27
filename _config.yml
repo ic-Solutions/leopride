@@ -1,4 +1,12 @@
 title: Leopride
+description: 14+ Glorious Years of Excellence
 
+
+
+include:
+  - _pages
 
 destination: output_site
+
+plugins:
+  - jekyll-seo-tag
