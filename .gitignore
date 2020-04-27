@@ -1,4 +1,3 @@
-_sass/
 .jekyll-cache
--sass-cache
+.sass-cache
 output_site
