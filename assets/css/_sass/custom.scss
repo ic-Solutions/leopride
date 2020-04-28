@@ -1,0 +1,12 @@
+.dt-sc-icon-box.type2.custom-style {
+	h5 {
+		box-shadow: inset 0 0 0 8px $h-color !important;
+	}
+	&:hover {
+		h5 {
+			color: white !important;
+			background-color: $h-color !important;
+			box-shadow: inset 0 0 0 8px black !important;
+		}
+	}
+}
