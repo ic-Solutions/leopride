@@ -99,3 +99,11 @@ blockquote {
   }
   
 }
+
+.border {
+	border: 4px solid $h-color;
+}
+
+.border-radius {
+	border-radius: 10px;
+}
