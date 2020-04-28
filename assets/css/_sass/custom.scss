@@ -10,3 +10,24 @@
 		}
 	}
 }
+
+
+blockquote {
+	color: $h-color !important;
+
+	q {
+		border-bottom: 3px solid  $h-color !important;
+		border-top: 3px solid  $h-color !important;
+	}
+}
+
+.dt-sc-icon-box:hover .icon-wrapper, 
+.dt-sc-counter:hover .icon-wrapper {
+	background-color: $h-color !important;
+}
+
+.whychooseus {
+	.dt-sc-icon-box:hover .icon-wrapper {
+		background-color: transparent !important;
+	}
+}
