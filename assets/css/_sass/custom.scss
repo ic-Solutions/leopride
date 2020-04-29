@@ -111,3 +111,12 @@ blockquote {
 .bg-h {
 	background-color: $h-color;
 }
+.h-100 {
+	height: 100vh;
+}
+.header-slide {
+	height:90vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
