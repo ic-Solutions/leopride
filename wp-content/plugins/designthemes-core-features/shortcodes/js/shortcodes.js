@@ -353,6 +353,7 @@ jQuery(document).ready(function($) {
 				slidesToScroll: 1,
 				arrows: false,
 				fade: true,
+				autoplay: true,
 				asNavFor: '.testimonial-details-nav'
 			});
 	
