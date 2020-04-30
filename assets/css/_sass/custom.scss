@@ -120,3 +120,13 @@ blockquote {
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
+.image-bullet li:before{
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url('/assets/images/right-tick-30.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
