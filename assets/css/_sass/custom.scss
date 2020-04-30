@@ -130,3 +130,16 @@ blockquote {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+#main {
+  @include media-query($on-palm) {
+    padding-top: 0 !important;
+  }
+}
+
+//about page
+.class3 {
+  max-width: 80%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
