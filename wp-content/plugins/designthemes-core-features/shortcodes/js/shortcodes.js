@@ -631,14 +631,14 @@ if ('function' !== typeof (window['vc_waypoints'])) {
 
 // header slider
 jQuery(document).ready(function($) {
-		  $('#header-slider').slick({
-		  	dots: true,
-		    infinite: true,
-		    speed: 700,
-		    autoplay: true,
-		    autoplaySpeed: 2000,
-		    arrows:false,
-		    slidesToShow: 1,
-		    slidesToScroll: 1,
-		  });
+	setTimeout(function(){
+	  $('#header-slider').slick({
+	  	dots: true,
+	    infinite: true,
+	    speed: 700,
+	    arrows:false,
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	  })
+	}, 5000);
 })
