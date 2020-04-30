@@ -45,8 +45,9 @@ blockquote {
 .grid {
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-auto-rows: 200px;
+  // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 260px;
   grid-auto-flow: row dense;
 }
 
@@ -62,23 +63,10 @@ blockquote {
 	object-fit: cover;
 	object-position: center;
 	overflow: hidden;
-  
-  &:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.3;
-    transition: opacity 0.3s ease-in-out;
-  }
+
   
   &:hover {
     transform: scale(1.05);
-    
-    &:after {
-      opacity: 0;
-    }
   }
 
   &--medium {
