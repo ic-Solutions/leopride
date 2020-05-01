@@ -245,3 +245,11 @@ a.control_next {
   z-index: 99999 !important;
   background-color: white !important
 }
+
+
+//workflow section
+.workflow-section {
+  @include media-query($on-palm) {
+    margin-top: 50px
+  }
+}
