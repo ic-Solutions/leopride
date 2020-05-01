@@ -33,7 +33,10 @@ blockquote {
 }
 
 .d-flex {
-	display: flex;
+	display: flex !important;
+}
+.d-inline-block {
+  display: inline-block !important;
 }
 
 .justify-content-center {
@@ -206,4 +209,20 @@ a.control_next {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+
+//career page grid
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
