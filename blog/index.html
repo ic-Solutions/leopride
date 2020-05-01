@@ -14,204 +14,42 @@ permalink: /blog/
                   <div class="dt-sc-posts-list-wrapper" data-delay="0">
                      <div class='tpl-blog-holder apply-isotope'>
                         <div class='grid-sizer column dt-sc-one-third dt-sc-post-entry entry-cover-layout dt-sc-overlay-iii-style  dt-sc-scalein-hover dt-sc-background-overlay alignnone'></div>
+                        {% for post in site.posts %}
                         <div class="column dt-sc-one-third dt-sc-post-entry entry-cover-layout dt-sc-overlay-iii-style  dt-sc-scalein-hover dt-sc-background-overlay alignnone first">
                            <article id="post-10758" class="blog-entry format-standard post-10758 post type-post status-publish format-link has-post-thumbnail hentry category-students category-tutors tag-students tag-tutoring post_format-post-format-link">
                               <div class="entry-thumb">
                                  <div class="blog-image">
-                                    <a style=background-image:url(/wp-content/uploads/2018/07/blog-1.jpg) href="/orientation-program-for-the-new-students/" title="Permalink to Orientation Program for the new students"></a> 
+                                    <a style=background-image:url({{post.image}}) href="{{post.url}}" title="{{post.title}}"></a> 
                                  </div>
                               </div>
                               <div class="entry-details">
                                  <div class="entry-title">
                                     <h4>
-                                       <a href="/orientation-program-for-the-new-students/" title="Permalink to Orientation Program for the new students">Orientation Program for the new students</a>
+                                       <a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a>
                                     </h4>
                                  </div>
                                  <div class="entry-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus...</p>
+                                    <p>{{post.description}}</p>
                                  </div>
                                  <div class="entry-meta-group">
                                     <div class="entry-author">
                                        <i class="fas fa-user"> </i>
-                                       <a href="/author/nadvadvs/" title="View all posts by nadvadvs">nadvadvs</a> 
+                                       <a href="{{post.author.link}}" title="View all posts by nadvadvs">{{post.author}}</a> 
                                     </div>
                                     <div class="entry-date">
                                        <i class="fas fa-calendar"> </i>
                                        July 16, 2018 
                                     </div>
                                     <div class="entry-comments">
-                                       <a href="/orientation-program-for-the-new-students/#comments"><i class="fas fa-comment"> </i> 1</a> 
+                                       <a href="#"><i class="fas fa-comment"> </i> 1</a> 
                                     </div>
                                  </div>
-                                 <div class="entry-button"><a href="/orientation-program-for-the-new-students/" title="Orientation Program for the new students" class="dt-sc-button">Read More<span class="fas fa-angle-right"></span></a></div>
+                                 <div class="entry-button"><a href="{{post.url}}" title="Orientation Program for the new students" class="dt-sc-button">Read More<span class="fas fa-angle-right"></span></a></div>
                               </div>
                            </article>
                         </div>
-                        <div class="column dt-sc-one-third dt-sc-post-entry entry-cover-layout dt-sc-overlay-iii-style  dt-sc-scalein-hover dt-sc-background-overlay alignnone">
-                           <article id="post-1048" class="blog-entry format-status post-1048 post type-post status-publish format-quote has-post-thumbnail hentry category-jobs category-tips-tricks tag-library tag-members post_format-post-format-quote sticky">
-                              <div class="entry-thumb">
-                                 <div class="blog-image">
-                                    <a style=background-image:url(/wp-content/uploads/2018/07/blog-2.jpg) href="/enrolling-new-members-into-the-library/" title="Permalink to Enrolling new members into the Library"></a> 
-                                 </div>
-                              </div>
-                              <div class="entry-details">
-                                 <div class="entry-title">
-                                    <h4>
-                                       <span class="sticky-post"><i class="fas fa-star"></i><span>Featured</span></span> <a href="/enrolling-new-members-into-the-library/" title="Permalink to Enrolling new members into the Library">Enrolling new members into the Library</a>
-                                    </h4>
-                                 </div>
-                                 <div class="entry-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus...</p>
-                                 </div>
-                                 <div class="entry-meta-group">
-                                    <div class="entry-author">
-                                       <i class="fas fa-user"> </i>
-                                       <a href="/author/nadvadvs/" title="View all posts by nadvadvs">nadvadvs</a> 
-                                    </div>
-                                    <div class="entry-date">
-                                       <i class="fas fa-calendar"> </i>
-                                       May 13, 2018 
-                                    </div>
-                                    <div class="entry-comments">
-                                       <a href="/enrolling-new-members-into-the-library/#comments"><i class="fas fa-comment"> </i> 4</a> 
-                                    </div>
-                                 </div>
-                                 <div class="entry-button"><a href="/enrolling-new-members-into-the-library/" title="Enrolling new members into the Library" class="dt-sc-button">Read More<span class="fas fa-angle-right"></span></a></div>
-                              </div>
-                           </article>
-                        </div>
-                        <div class="column dt-sc-one-third dt-sc-post-entry entry-cover-layout dt-sc-overlay-iii-style  dt-sc-scalein-hover dt-sc-background-overlay alignnone">
-                           <article id="post-1047" class="blog-entry format-gallery post-1047 post type-post status-publish has-post-thumbnail hentry category-students category-tips-tricks tag-classroom tag-students post_format-post-format-gallery">
-                              <div class="entry-thumb">
-                                 <div class="blog-image">
-                                    <a style=background-image:url(/wp-content/uploads/2018/07/blog-3.jpg) href="/visualizing-the-classroom-as-a-student/" title="Permalink to Visualizing the Classroom as a student"></a> 
-                                 </div>
-                              </div>
-                              <div class="entry-details">
-                                 <div class="entry-title">
-                                    <h4>
-                                       <a href="/visualizing-the-classroom-as-a-student/" title="Permalink to Visualizing the Classroom as a student">Visualizing the Classroom as a student</a>
-                                    </h4>
-                                 </div>
-                                 <div class="entry-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus...</p>
-                                 </div>
-                                 <div class="entry-meta-group">
-                                    <div class="entry-author">
-                                       <i class="fas fa-user"> </i>
-                                       <a href="/author/nadvadvs/" title="View all posts by nadvadvs">nadvadvs</a> 
-                                    </div>
-                                    <div class="entry-date">
-                                       <i class="fas fa-calendar"> </i>
-                                       April 20, 2018 
-                                    </div>
-                                    <div class="entry-comments">
-                                       <a href="/visualizing-the-classroom-as-a-student/#comments"><i class="fas fa-comment"> </i> 1</a> 
-                                    </div>
-                                 </div>
-                                 <div class="entry-button"><a href="/visualizing-the-classroom-as-a-student/" title="Visualizing the Classroom as a student" class="dt-sc-button">Read More<span class="fas fa-angle-right"></span></a></div>
-                              </div>
-                           </article>
-                        </div>
-                        <div class="column dt-sc-one-third dt-sc-post-entry entry-cover-layout dt-sc-overlay-iii-style  dt-sc-scalein-hover dt-sc-background-overlay alignnone first">
-                           <article id="post-4" class="blog-entry format-standard post-4 post type-post status-publish has-post-thumbnail hentry category-jobs category-kids tag-education">
-                              <div class="entry-thumb">
-                                 <div class="blog-image">
-                                    <a style=background-image:url(/wp-content/uploads/2018/07/blog-4.jpg) href="/best-education-channels-on-youtube/" title="Permalink to Best Education Channels on YouTube"></a> 
-                                 </div>
-                              </div>
-                              <div class="entry-details">
-                                 <div class="entry-title">
-                                    <h4>
-                                       <a href="/best-education-channels-on-youtube/" title="Permalink to Best Education Channels on YouTube">Best Education Channels on YouTube</a>
-                                    </h4>
-                                 </div>
-                                 <div class="entry-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus...</p>
-                                 </div>
-                                 <div class="entry-meta-group">
-                                    <div class="entry-author">
-                                       <i class="fas fa-user"> </i>
-                                       <a href="/author/nadvadvs/" title="View all posts by nadvadvs">nadvadvs</a> 
-                                    </div>
-                                    <div class="entry-date">
-                                       <i class="fas fa-calendar"> </i>
-                                       August 30, 2017 
-                                    </div>
-                                    <div class="entry-comments">
-                                       <a href="/best-education-channels-on-youtube/#comments"><i class="fas fa-comment"> </i> 1</a> 
-                                    </div>
-                                 </div>
-                                 <div class="entry-button"><a href="/best-education-channels-on-youtube/" title="Best Education Channels on YouTube" class="dt-sc-button">Read More<span class="fas fa-angle-right"></span></a></div>
-                              </div>
-                           </article>
-                        </div>
-                        <div class="column dt-sc-one-third dt-sc-post-entry entry-cover-layout dt-sc-overlay-iii-style  dt-sc-scalein-hover dt-sc-background-overlay alignnone">
-                           <article id="post-6201" class="blog-entry format-image post-6201 post type-post status-publish has-post-thumbnail hentry category-students category-tips-tricks tag-improvement post_format-post-format-image">
-                              <div class="entry-thumb">
-                                 <div class="blog-image">
-                                    <a style=background-image:url(/wp-content/uploads/2018/07/blog-5.jpg) href="/keypoints-for-improving-focus-towards-you/" title="Permalink to Keypoints for Improving Focus towards you"></a> 
-                                 </div>
-                              </div>
-                              <div class="entry-details">
-                                 <div class="entry-title">
-                                    <h4>
-                                       <a href="/keypoints-for-improving-focus-towards-you/" title="Permalink to Keypoints for Improving Focus towards you">Keypoints for Improving Focus towards you</a>
-                                    </h4>
-                                 </div>
-                                 <div class="entry-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus...</p>
-                                 </div>
-                                 <div class="entry-meta-group">
-                                    <div class="entry-author">
-                                       <i class="fas fa-user"> </i>
-                                       <a href="/author/nadvadvs/" title="View all posts by nadvadvs">nadvadvs</a> 
-                                    </div>
-                                    <div class="entry-date">
-                                       <i class="fas fa-calendar"> </i>
-                                       August 18, 2015 
-                                    </div>
-                                    <div class="entry-comments">
-                                       <a href="/keypoints-for-improving-focus-towards-you/#comments"><i class="fas fa-comment"> </i> 2</a> 
-                                    </div>
-                                 </div>
-                                 <div class="entry-button"><a href="/keypoints-for-improving-focus-towards-you/" title="Keypoints for Improving Focus towards you" class="dt-sc-button">Read More<span class="fas fa-angle-right"></span></a></div>
-                              </div>
-                           </article>
-                        </div>
-                        <div class="column dt-sc-one-third dt-sc-post-entry entry-cover-layout dt-sc-overlay-iii-style  dt-sc-scalein-hover dt-sc-background-overlay alignnone">
-                           <article id="post-6204" class="blog-entry format-gallery post-6204 post type-post status-publish has-post-thumbnail hentry category-kids category-tips-tricks tag-students post_format-post-format-gallery">
-                              <div class="entry-thumb">
-                                 <div class="blog-image">
-                                    <a style=background-image:url(/wp-content/uploads/2018/07/blog-6.jpg) href="/ideas-for-students-not-to-forget-anything/" title="Permalink to Ideas for Students not to forget anything"></a> 
-                                 </div>
-                              </div>
-                              <div class="entry-details">
-                                 <div class="entry-title">
-                                    <h4>
-                                       <a href="/ideas-for-students-not-to-forget-anything/" title="Permalink to Ideas for Students not to forget anything">Ideas for Students not to forget anything</a>
-                                    </h4>
-                                 </div>
-                                 <div class="entry-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nunc lorem, nec faucibus...</p>
-                                 </div>
-                                 <div class="entry-meta-group">
-                                    <div class="entry-author">
-                                       <i class="fas fa-user"> </i>
-                                       <a href="/author/nadvadvs/" title="View all posts by nadvadvs">nadvadvs</a> 
-                                    </div>
-                                    <div class="entry-date">
-                                       <i class="fas fa-calendar"> </i>
-                                       August 18, 2015 
-                                    </div>
-                                    <div class="entry-comments">
-                                       <a href="/ideas-for-students-not-to-forget-anything/#respond"><i class="fas fa-comment"> </i> 0</a> 
-                                    </div>
-                                 </div>
-                                 <div class="entry-button"><a href="/ideas-for-students-not-to-forget-anything/" title="Ideas for Students not to forget anything" class="dt-sc-button">Read More<span class="fas fa-angle-right"></span></a></div>
-                              </div>
-                           </article>
-                        </div>
+                        {% endfor %}
+                        
                      </div>
                      <div class="pagination blog-pagination">
                         <div class="column one pager_wrapper">
