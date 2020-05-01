@@ -165,6 +165,9 @@ blockquote {
   height: 80vh;
   text-align: center;
   line-height: 300px;
+  @include media-query($on-palm) {
+    height: 40vh;
+  }
 }
 
 a.control_prev, a.control_next {
@@ -252,4 +255,13 @@ a.control_next {
   @include media-query($on-palm) {
     margin-top: 50px
   }
+}
+
+
+// goals section
+.dt-sc-title.with-right-border-decor.alignleft p, .dt-sc-title.with-right-border-decor.alignleft {
+  margin-left: 0;
+}
+.dt-sc-title.with-right-border-decor.alignleft p {
+  
 }
