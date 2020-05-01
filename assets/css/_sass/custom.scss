@@ -21,6 +21,10 @@ blockquote {
 	}
 }
 
+#header-wrapper {
+  margin-bottom: 0 
+}
+
 .dt-sc-icon-box:hover .icon-wrapper, 
 .dt-sc-counter:hover .icon-wrapper {
 	background-color: $h-color !important;
@@ -234,4 +238,10 @@ a.control_next {
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
+}
+
+
+.sub-menu {
+  z-index: 99999 !important;
+  background-color: white !important
 }
