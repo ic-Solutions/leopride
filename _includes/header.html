@@ -106,9 +106,35 @@
                               <div class="menu-container">
                                 <ul id="menu-new_menu" class="dt-primary-nav" data-menu="new_menu">
                                   <li class="close-nav"></li>
-                                  <li id="menu-item-19712" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-94 current_page_item menu-item-19712 dt-menu-item-19712"><a href="/" class="item-has-icon icon-position-left"><span>Home</span></a></li>
-                                  <li id="menu-item-19713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19713 dt-menu-item-19713"><a href="/about/" class="item-has-icon icon-position-left"><span>About</span></a></li>
-                                  <li id="menu-item-19713" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19713 dt-menu-item-19713"><a href="https://neetadvisor.com" class="item-has-icon icon-position-left"><span>NEET Advisor</span></a></li>
+                                  
+                                  <li id="menu-item-19712" 
+                                      class="menu-item 
+                                      menu-item-type-post_type 
+                                      menu-item-object-page 
+                                      menu-item-home
+                                      page_item page-item-94 
+                                      {% if page.url == '/' %} current_page_item {% endif %} 
+                                      menu-item-19712 
+                                      dt-menu-item-19712"><a href="/" class="item-has-icon icon-position-left"><span>Home</span></a></li>
+
+
+                                  <li id="menu-item-19713" 
+                                      class="menu-item 
+                                            menu-item-type-post_type 
+                                            menu-item-object-page 
+                                            menu-item-19713 
+                                            dt-menu-item-19713
+                                            {% if page.url == '/about/' %} current_page_item {% endif %}
+                                            "><a href="/about/"><span>About</span></a></li>
+
+                                  <li id="menu-item-19713" 
+                                      class="menu-item 
+                                            menu-item-type-post_type 
+                                            menu-item-object-page 
+                                            menu-item-19713 
+                                            dt-menu-item-19713
+                                            "><a href="https://neetadvisor.com" class="item-has-icon icon-position-left"><span>NEET Advisor</span></a></li>
+
                                   <li id="menu-item-20532" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20532 dt-menu-item-20532">
                                     <a href="#" class="item-has-icon icon-position-left"><span>Services</span></a>
                                     <ul class="sub-menu is-hidden">
@@ -136,8 +162,24 @@
                                       <li id="menu-item-20937" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20937 dt-menu-item-20937"><a href="/free-booklet-circulation/" class="item-has-icon icon-position-left"><span>Free Booklet</span></a></li>
                                     </ul>
                                   </li>
-                                  <li id="menu-item-21036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21036 dt-menu-item-21036"><a href="/career/" class="item-has-icon icon-position-left"><span>Career</span></a></li>
-                                  <li id="menu-item-19714" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19714 dt-menu-item-19714"><a href="/contact/" class="item-has-icon icon-position-left"><span>Contact</span></a></li>
+
+                                  <li id="menu-item-21036" 
+                                      class="menu-item 
+                                      menu-item-type-post_type 
+                                      menu-item-object-page 
+                                      menu-item-21036 
+                                      dt-menu-item-21036
+                                      {% if page.url == '/career/' %} current_page_item {% endif %}
+                                      "><a href="/career/" class="item-has-icon icon-position-left"><span>Career</span></a></li>
+
+                                  <li id="menu-item-19714" 
+                                      class="menu-item 
+                                      menu-item-type-post_type 
+                                      menu-item-object-page 
+                                      menu-item-19714 
+                                      dt-menu-item-19714
+                                      {% if page.url == '/contact/' %} current_page_item {% endif %}
+                                      "><a href="/contact/" class="item-has-icon icon-position-left"><span>Contact</span></a></li>
                                 </ul>
                                 <div class="sub-menu-overlay"></div>
                               </div>
