@@ -226,3 +226,12 @@ a.control_next {
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
 }
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
