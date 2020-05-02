@@ -12,45 +12,31 @@ permalink: /blog/
             <div class="vc_column-inner">
                <div class="wpb_wrapper">
                   <div class="dt-sc-posts-list-wrapper" data-delay="0">
-                     <div class='tpl-blog-holder apply-isotope'>
-                        <div class='grid-sizer column dt-sc-one-third dt-sc-post-entry entry-cover-layout dt-sc-overlay-iii-style  dt-sc-scalein-hover dt-sc-background-overlay alignnone'></div>
-                        {% for post in site.posts %}
-                        <div class="column dt-sc-one-third dt-sc-post-entry entry-cover-layout dt-sc-overlay-iii-style  dt-sc-scalein-hover dt-sc-background-overlay alignnone first">
-                           <article id="post-10758" class="blog-entry format-standard post-10758 post type-post status-publish format-link has-post-thumbnail hentry category-students category-tutors tag-students tag-tutoring post_format-post-format-link">
-                              <div class="entry-thumb">
-                                 <div class="blog-image">
-                                    <a style=background-image:url({{post.image}}) href="{{post.url}}" title="{{post.title}}"></a> 
+                     <div class="blog-index">
+                      {% for post in site.posts %}
+                           <div class="blog-card">
+                              <div class="blog-image-container">
+                                 <div class="blog-image" style="background-image: url({{post.image}});"></div>
+                              </div>
+                              <div class="blog-card-content p-4">
+                                 <div class="blog-title py-1 py-md-2">
+                                    <h4>{{post.title | truncate: 39}}</h4>
+                                 </div>
+                                 <div class="blog-description">
+                                    {{post.description | truncate: 80}}
+                                 </div>
+                                 <div class="blog-meta">
+                                    <div class="blog-date"></div>
+                                    <div class="blog-author"></div>
+                                 </div>
+                                 <div class="blog-button text-right pt-4">
+                                    <a class="btn btn-h" href="{{post.url}}">Read More</a>
                                  </div>
                               </div>
-                              <div class="entry-details">
-                                 <div class="entry-title">
-                                    <h4>
-                                       <a href="{{post.url}}" title="{{post.title}}">{{post.title}}</a>
-                                    </h4>
-                                 </div>
-                                 <div class="entry-body">
-                                    <p>{{post.description}}</p>
-                                 </div>
-                                 <div class="entry-meta-group">
-                                    <div class="entry-author">
-                                       <i class="fas fa-user"> </i>
-                                       <a href="{{post.author.link}}" title="View all posts by nadvadvs">{{post.author}}</a> 
-                                    </div>
-                                    <div class="entry-date">
-                                       <i class="fas fa-calendar"> </i>
-                                       July 16, 2018 
-                                    </div>
-                                    <div class="entry-comments">
-                                       <a href="#"><i class="fas fa-comment"> </i> 1</a> 
-                                    </div>
-                                 </div>
-                                 <div class="entry-button"><a href="{{post.url}}" title="Orientation Program for the new students" class="dt-sc-button">Read More<span class="fas fa-angle-right"></span></a></div>
-                              </div>
-                           </article>
-                        </div>
+                           </div>
                         {% endfor %}
-                        
                      </div>
+
                      <div class="pagination blog-pagination">
                         <div class="column one pager_wrapper">
                            <ul class='page-numbers'>
@@ -67,7 +53,7 @@ permalink: /blog/
             </div>
          </div>
       </div>
-      <div data-delay="0" data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid dt-sc-skin-highlight dt-sc-paper-pattern-bottom">
+      <div data-delay="0" data-vc-full-width="true" data-vc-full-width-init="false" class="py-3 py-md-5 vc_row wpb_row vc_row-fluid dt-sc-skin-highlight dt-sc-paper-pattern-bottom">
          <div class="wpb_column vc_column_container vc_col-sm-12" data-delay="0">
             <div class="vc_column-inner">
                <div class="wpb_wrapper">
