@@ -295,6 +295,15 @@ a.control_next {
   background-color: white !important
 }
 
+.menu-item-highlight {
+    a {
+      color: white !important;
+      background-color: $h-color !important;
+      &:hover {
+        background-color: lighten($h-color, 10%) !important;
+      }
+    }
+}
 
 //workflow section
 .workflow-section {
