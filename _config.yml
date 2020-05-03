@@ -2,7 +2,7 @@ title: Leopride
 description: 14+ Glorious Years of Excellence
 
 
-
+permalink: /blog/:title/
 
 sass:
   sass_dir: /assets/css/_sass

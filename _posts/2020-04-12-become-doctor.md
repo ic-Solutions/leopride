@@ -1,9 +1,8 @@
 ---
 title: To become a Doctor, speak to a Doctor
-image: /assets/images/Look_Beyond_MBBS.jpg
+image: /assets/images/blog/To-become-a-Doctor.jpg
 description: Many of the medical aspirants are looking for the answers to their questions with regards to NEET counselling and admission procedure, which can be solved by the people in same profession i.e. doctor but catch here is to which doctor is of benefit and vice versa.
 layout: post
-permalink: /become-doctor/
 author: Vipin Bansal
 ---
 

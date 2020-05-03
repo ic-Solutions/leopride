@@ -22,7 +22,7 @@ blockquote {
 }
 
 small {
-  font-size: 0.9em;
+  font-size: 0.95em;
 }
 
 #header-wrapper {
@@ -386,9 +386,10 @@ a.control_next {
   margin: 0 auto;
 
   .image {
-    height: 350px;
+    // height: 350px;
     overflow: hidden;
     img {
+      border: 1px solid #eee;
       object-fit: cover;
       object-position: center;
     }
