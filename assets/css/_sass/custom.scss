@@ -21,6 +21,10 @@ blockquote {
 	}
 }
 
+small {
+  font-size: 0.9em;
+}
+
 #header-wrapper {
   margin-bottom: 0 
 }
@@ -47,6 +51,13 @@ blockquote {
 	justify-content: center;
 }
 
+.text-gray {
+  color: #888 !important;
+}
+
+.text-body {
+  color: #555 !important;
+}
 
 // grid gallery 
 .grid {
@@ -366,6 +377,30 @@ a.control_next {
     transition: all 0.3s linear;
     &:hover {
        transform: scale(1.2);
+    }
+  }
+}
+
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+
+  .image {
+    height: 350px;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .title {
+    margin: 1em 0;
+  }
+
+  .content {
+    p {
+      font-size: 1em !important;
     }
   }
 }
