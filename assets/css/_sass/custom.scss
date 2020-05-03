@@ -387,6 +387,11 @@ a.control_next {
     &:hover {
        transform: scale(1.2);
     }
+
+    @include media-query($on-palm) {
+      height: 250px;
+    }
+
   }
 }
 
