@@ -1,0 +1,1236 @@
+
+/*--------------------------------------------------------------
+	1.1 - Widgets
+	--------------------------------------------------------------*/
+.widgettitle
+{
+    clear: both;
+    margin-bottom: 25px; 
+    padding-bottom: 15px;
+    position: relative;
+}
+.widgettitle:before
+{
+    bottom: 0; 
+    content: '';
+    height: 3px;
+    left: 0;
+    position: absolute;
+    width: 35px;
+}
+
+.widget ul
+{
+    clear: both; 
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.widget ul li
+{
+    border-bottom: 1px dashed;
+    clear: both;
+    display: block;
+    margin: 0;
+    padding: 10px 0 10px 20px;
+    position: relative;
+    width: 100%;
+}
+.widget ul li:last-child
+{
+    border-bottom-width: 0;
+}
+.widget ul li:only-child
+{
+    border-bottom-width: 1px;
+}
+
+.widget ul li > a,
+.widget.widget_nav_menu ul.menu li > a
+{
+    display: inline-block;
+    line-height: 24px;
+    width: 100%;
+}
+.widget ul li:last-child > a
+{
+    padding-bottom: 0;
+}
+
+.widget ul li:first-child,
+.widget.widget_nav_menu ul.menu li:first-child
+{
+    padding-top: 0;
+}
+
+.widget ul li:before
+{
+    content: '-';
+    font-family: FontAwesome;
+    font-size: 24px;
+    font-weight: bold; 
+    left: 1px;
+    position: absolute;
+    top: 7px;
+}
+
+.widget ul li:first-child:before
+{
+    top: -4px;
+}
+.woocommerce .widget ul.product-categories li:first-child:before,
+.woocommerce.widget ul.product-categories li:first-child:before,
+.widget.widget_layered_nav ul li:first-child:before
+{
+    top: 7px;
+}
+
+
+.widget.widget_pages ul li ul.children,
+.widget.widget_nav_menu ul li ul.sub-menu
+{
+    padding: 10px 0 0 20px;
+    width: 100%;
+}
+.widget.widget_archive ul li ul,
+.widget.widget_categories ul li ul,
+.widget.widget_pages ul li ul,
+.widget.widget_nav_menu ul.menu li ul
+{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+
+.widget.widget_nav_menu ul.menu li a
+{
+    background: none;
+    border: none; 
+    font-weight: normal;
+    padding: 0;
+    text-transform: lowercase;
+}
+.widget.widget_nav_menu ul.menu li a:first-letter
+{
+    text-transform: uppercase;
+}
+
+.widget.widget_archive ul li,
+.widget.widget_categories ul li,
+.widget.widget_pages ul li,
+.widget.widget_meta ul li,
+.widget.widget_nav_menu ul.menu li,
+.widget.widget_text ul li
+{
+    padding: 0;
+}
+.widget.widget_archive ul li > a,
+.widget.widget_categories ul li > a,
+.widget.widget_pages ul li > a,
+.widget.widget_meta ul li > a,
+.widget.widget_nav_menu ul.menu li > a,
+.widget.widget_text ul li > a
+{
+    padding: 10px 0 10px 20px;
+}
+.widget.widget_archive ul li:first-child > a,
+.widget.widget_categories ul li:first-child > a,
+.widget.widget_pages ul li:first-child > a,
+.widget.widget_meta ul li:first-child > a,
+.widget.widget_nav_menu ul.menu li:first-child > a,
+.widget.widget_text ul li:first-child > a
+{
+    padding-top: 0;
+}
+
+.widget .recent-portfolio-widget ul li:before,
+.widget .recent-posts-widget li:before,
+.widget .recent-posts-widget li:hover:before
+{
+    content: '';
+}
+
+.widget.widget_categories ul li > a
+{
+    position: relative;
+    text-transform: capitalize;
+}
+.widget.widget_categories ul li > a span,
+.widget.widget_archive ul li > a span
+{
+    padding: 0 10px; 
+    position: absolute;
+    right: 0;
+}
+
+.widget_categories label,
+.widget_archive label
+{
+    display: inline-block;
+    font-size: 14px; 
+    margin: 0 0 10px;
+}
+
+.widget .recent-portfolio-widget ul
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.widget .recent-portfolio-widget ul li
+{
+    border: none; 
+    clear: none;
+    display: inline;
+    float: left;
+    margin: 0 2% 5px 0;
+    overflow: hidden;
+    padding: 0;
+    width: 32%;
+}
+.widget .recent-portfolio-widget ul li img
+{
+    display: block;
+    line-height: 0;
+    width: 100%;
+}
+.widget .recent-portfolio-widget ul li:nth-child(3n)
+{
+    margin-right: 0;
+}
+
+.widget .recent-portfolio-widget ul li a
+{
+            backface-visibility: hidden; 
+    float: left;
+    padding: 0;
+    position: relative;
+    width: 100%;
+
+    -webkit-backface-visibility: hidden;
+}
+.widget .recent-portfolio-widget ul li a:before
+{
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0; 
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.widget .recent-portfolio-widget ul li a:hover:before
+{
+    opacity: 1;
+}
+.widget .recent-portfolio-widget ul li a:after
+{
+    bottom: auto;
+    color: #fff; 
+    content: '\e67b';
+    font-family: 'Stroke-Gap-Icons';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    left: 0;
+    margin: 0 auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+            transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    visibility: hidden;
+}
+.widget .recent-portfolio-widget ul li a:hover:after
+{
+    font-size: 20px; 
+    opacity: 1;
+    visibility: visible;
+}
+
+.widget .recent-posts-widget
+{
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+.widget .recent-posts-widget ul
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.widget .recent-posts-widget li
+{
+    clear: both;
+    display: block;
+    float: left;
+    margin: 0 0 10px;
+    padding-left: 0;
+}
+.widget .recent-posts-widget li:last-child
+{
+    margin-bottom: 0;
+}
+.widget .recent-posts-widget li .thumb
+{
+    float: left;
+    margin: 0 15px 10px 0;
+    padding: 0;
+    width: 60px;
+}
+.widget .recent-posts-widget li .thumb img
+{
+    max-width: 100%;
+}
+.widget .recent-posts-widget li .entry-title h4
+{
+    font-size: 13px;
+    letter-spacing: .25px;
+    line-height: 20px;
+    margin-bottom: 7px; 
+    margin-top: -5px;
+}
+.widget .recent-posts-widget li .entry-meta
+{
+    font-size: 14px;
+}
+
+.widget .recent-posts-widget li .entry-meta p
+{
+    float: left;
+    margin-right: 15px;
+}
+.widget .recent-posts-widget li .entry-meta p span
+{
+    margin-right: 5px;
+}
+
+.widget.widget_recent_comments li.recentcomments span.comment-author-link
+{
+    text-transform: capitalize;
+}
+
+.widget .tweet_list
+{
+    float: left;
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+.widget .tweet_list li
+{
+    border-bottom: 1px solid; 
+    display: block;
+    float: left;
+    margin: 0 0 20px;
+    padding: 0 0 20px 40px;
+    position: relative;
+}
+.widget .tweet_list li:before
+{
+    content: '\f081';
+    font-family: FontAwesome;
+    font-size: 24px; 
+    left: 0;
+    position: absolute;
+    top: 5px;
+}
+.widget .tweet_list li:first-child:before
+{
+    top: 5px;
+}
+.widget .tweet_list li:hover:before
+{
+    content: '\f081';
+}
+.widget .tweet_list li:last-child
+{
+    border: none;
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+.widget .tweet_list li .tweet-time
+{
+    clear: both;
+    display: block;
+    font-size: 14px;
+}
+
+.widget_text ul.no-border li
+{
+    border: none;
+}
+.widget_text ul.no-bullet li a
+{
+    padding-left: 0;
+}
+.widget_text ul.no-bullet li:before,
+.widget_text ul.no-bullet li:hover:before
+{
+    content: '';
+}
+
+.widget_text ul.split-list
+{
+    clear: none; 
+    float: left;
+    margin-right: 2%;
+    width: 48%;
+}
+.widget_text ul.split-list li
+{
+    border: none; 
+    position: relative;
+    width: 100%;
+}
+.widget_text ul.split-list li:before
+{
+    content: '\f105';
+}
+
+.widget .screen-reader-text
+{
+    display: none;
+}
+
+.flickr-widget div
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.flickr-widget div a
+{
+    display: block;
+    line-height: 0;
+    margin: 0 8px 8px 0;
+    max-width: 60px;
+}
+.flickr_badge_image img
+{
+    height: auto !important;
+}
+.flickr-widget div a:hover img
+{
+    opacity: .5;
+}
+
+.widget_tag_cloud .tagcloud
+{
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+.tagcloud a
+{
+    border-bottom: 1px solid;
+    float: left;
+    font-size: 12px !important;
+    margin: 0 10px 10px 0;
+    padding: 7px 15px 6px;
+    text-transform: capitalize;
+}
+.dt-sc-dark-bg .tagcloud a
+{
+    border-bottom: 1px solid;
+}
+
+.widget .dt-sc-newsletter-section
+{
+    padding: 0;
+}
+.widget .dt-sc-newsletter-section .dt-sc-subscribe-frm
+{
+    clear: both;
+    float: left;
+    position: relative; 
+    width: 100%;
+}
+.widget .dt-sc-newsletter-section .dt-sc-subscribe-frm input[type='text'],
+.widget .dt-sc-newsletter-section .dt-sc-subscribe-frm input[type='email']
+{
+    margin: 0;
+    width: 100%;
+}
+.widget .dt-sc-newsletter-section .dt-sc-subscribe-frm input[type='submit']
+{
+    height: 100%; 
+    position: absolute;
+    right: 0;
+}
+
+.widget #searchform
+{
+    border: 3px solid;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+.widget #searchform .dt-search-icon
+{
+    display: none;
+}
+.widget #searchform input[type='text']
+{
+    color: #090909;
+    font-size: 20px;
+    font-weight: 600; 
+    height: 49px;
+    padding-right: 70px;
+    text-transform: capitalize;
+}
+.widget #searchform input[type='submit']
+{
+    border-radius: 0;
+    border-width: 0 0 0 3px; 
+    height: 49px;
+    margin: 0;
+    padding: 16px 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.widget #wp-calendar caption
+{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.widget #wp-calendar th
+{
+    padding: 10px;
+}
+.widget #wp-calendar td
+{
+    padding: 9px 10px;
+}
+
+.widget .dt-sc-single-line-separator
+{
+    margin: 13px 0;
+}
+
+.widget ul.dt-sc-sociable li:before,
+.widget ul.dt-sc-sociable li:hover:before
+{
+    content: '';
+}
+.widget ul.dt-sc-sociable li a
+{
+    padding: 0;
+}
+
+.widget ul.dt-sc-sociable > li
+{
+    border-bottom: 0; 
+    width: auto;
+}
+.widget .dt-sc-sociable li a
+{
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    width: 36px;
+}
+
+.widget .dt-sc-sociable.hexagon-with-border li,
+.widget .dt-sc-sociable.hexagon-border li
+{
+    height: 25px; 
+    width: 40px;
+}
+.widget .dt-sc-sociable.hexagon-with-border li a,
+.widget .dt-sc-sociable.hexagon-border li a
+{
+    height: 52px; 
+    line-height: 52px;
+    width: 42px;
+}
+
+.widget .dt-sc-sociable.diamond-square-border li
+{
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    height: 30px; 
+    width: 30px;
+}
+.widget .dt-sc-sociable.diamond-square-border li a
+{
+    height: 40px;
+    line-height: 40px; 
+    width: 40px;
+}
+
+.widget .diamond-narrow-square-border li a
+{
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
+}
+.widget .dt-sc-sociable li:first-child:before
+{
+    top: 10px;
+}
+
+.widget_text ul.custom-social li a
+{
+    padding: 0 0 25px;
+}
+.widget_text ul.custom-social li:last-child a
+{
+    padding: 0;
+}
+
+.widget_text ul.dt-sc-sociable
+{
+    text-align: center;
+}
+.widget_text ul.dt-sc-sociable li
+{
+    clear: none;
+    display: inline-block;
+    float: none;
+    margin: 0 10px; 
+    text-align: center;
+}
+.widget_text ul.dt-sc-sociable li a
+{
+    display: inline-block;
+    float: none;
+    padding-bottom: 0;
+}
+
+.widget_text ul.dt-sc-sociable.alignleft li
+{
+    float: left;
+    margin: 0 10px 0 0;
+}
+.widget_text ul.dt-sc-sociable.alignleft li:last-child
+{
+    margin-right: 0;
+}
+.widget_text ul.dt-sc-sociable.alignleft li a
+{
+    text-align: left;
+}
+
+.widget_rss h3.widgettitle > a.rsswidget > img
+{
+    margin-right: 5px;
+}
+
+
+/*--------------------------------------------------------------
+    1.4 - Events Calendar Pro
+    --------------------------------------------------------------*/
+.widget ul.tribe-events-sub-nav
+{
+    float: none;
+    width: auto;
+}
+.widget.tribe-this-week-events-widget ul.tribe-events-sub-nav li:before
+{
+    display: none;
+}
+.widget.tribe-this-week-events-widget ul.tribe-events-sub-nav li
+{
+    clear: none;
+    width: auto;
+}
+.tribe-this-week-widget-wrapper .tribe-events-page-title
+{
+    font-size: 16px;
+    font-weight: 600;
+}
+.tribe-this-week-widget-wrapper .tribe-this-week-widget-day .duration,
+.tribe-this-week-widget-wrapper .tribe-this-week-widget-day .tribe-venue
+{
+    line-height: 21px;
+}
+
+
+/*--------------------------------------------------------------
+    1.5 - Footer
+    --------------------------------------------------------------*/
+.footer-widgets .widget
+{
+    clear: both;
+    float: left;
+    margin-bottom: 30px; 
+    width: 100%;
+}
+
+#footer .mailchimp-form
+{
+    margin: 40px 0 0;
+    position: relative;
+}
+#footer .mailchimp-form input[type='email']
+{
+    border-radius: 5px;  
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 15px;
+    width: 100%;
+}
+#footer .mailchimp-form input[type='submit']
+{
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0; 
+    padding: 15px;
+    position: absolute;
+    right: 0;
+}
+.tagcloud a:hover,
+#footer .dt-sc-dark-bg .tagcloud a:hover,
+#footer .tagcloud a:hover
+{
+    color: #fff;
+}
+
+
+
+
+/*--------------------------------------------------------------
+    1.11 - Responsive
+    --------------------------------------------------------------*/
+@media only screen and (min-width:992px) and (max-width:1199px)
+{
+    .mz-title .mz-title-content h1
+    {
+        line-height: normal;
+    }
+
+    /*----*****---- << Widgets >> ----*****----*/
+    .dt-sc-one-third .widget_text ul.split-list
+    {
+        margin-right: 0; 
+        width: 100%;
+    }
+    .flickr-widget div
+    {
+        height: 68px;
+        width: 68px;
+    }
+    .secondary-sidebar .type7 .widgettitle:before
+    {
+        left: -20px;
+    }
+
+    .secondary-sidebar .type8 .widget
+    {
+        padding: 0 15px 15px;
+    }
+    .secondary-sidebar .type8 .widgettitle
+    {
+        margin: -28px auto 20px;
+    }
+
+    .widget .recent-posts-widget li .entry-meta p:last-child
+    {
+        margin-right: 0;
+    }
+    .tagcloud a
+    {
+        margin: 0 4px 10px 0;
+    }
+
+    .secondary-sidebar .type9 .widget ul li,
+    .secondary-sidebar .type12 .widget ul li
+    {
+        font-size: 13px;
+    }
+
+    .secondary-sidebar .widget .tweet_list li
+    {
+        padding: 0 0 20px 30px;
+    }
+
+    .secondary-sidebar .widget .tweet_list li:before
+    {
+        font-size: 22px;
+    }
+    .secondary-sidebar .widget .tweet_list li:before,
+    .secondary-sidebar .widget .tweet_list li:first-child:before
+    {
+        top: 0;
+    }
+
+    .secondary-sidebar aside.widget,
+    .secondary-sidebar .type11 .widget
+    {
+        font-size: 18px;
+    }
+    .secondary-sidebar .type2 .widget,
+    .secondary-sidebar .type6 .widget,
+    .secondary-sidebar .type8 .widget,
+    .secondary-sidebar .type12 .widget,
+    .secondary-sidebar .type13 .widget
+    {
+        font-size: 13px;
+    }
+
+    .secondary-sidebar .type8 .widget,
+    .secondary-sidebar .type12 .widget
+    {
+        padding: 15px 15px 20px;
+    }
+    .secondary-sidebar .type11 .widget
+    {
+        padding: 15px 10px 20px;
+    }
+
+    .secondary-sidebar .type5 .widget .tweet_list li,
+    .secondary-sidebar .type8 .widget .tweet_list li,
+    .secondary-sidebar .type11 .widget .tweet_list li,
+    .secondary-sidebar .type12 .widget .tweet_list li
+    {
+        padding: 0 0 20px;
+    }
+    .secondary-sidebar .type5 .widget .tweet_list li:before,
+    .secondary-sidebar .type8 .widget .tweet_list li:before,
+    .secondary-sidebar .type11 .widget .tweet_list li:before,
+    .secondary-sidebar .type12 .widget .tweet_list li:before
+    {
+        margin-right: 8px;
+        position: static;
+    }
+
+    .secondary-sidebar .type11 > .widget:before
+    {
+        padding-right: 10px;
+        top: 18px;
+    }
+    .secondary-sidebar .type11 .widgettitle:before
+    {
+        top: 9px;
+    }
+    .secondary-sidebar .type11 .widgettitle
+    {
+        font-size: 22px;
+    }
+
+    .secondary-sidebar .type12 .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+        width: 100%;
+    }
+
+    .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+        float: right;
+        margin-top: 10px;
+        min-height: 50px;
+        position: inherit;
+    }
+    .woo-type4 .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+                border-radius: 5px; 
+           -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+             -o-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    .woo-type20 .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+        border-radius: 5px;
+    }
+    .widget.woocommerce .woocommerce-product-search input[type='search']
+    {
+        padding-right: 10px;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+    .flickr-widget div
+    {
+        height: 55px;
+        width: 55px;
+    }
+    .footer-widgets .dt-sc-contact-info span
+    {
+        font-size: 15px; 
+        margin: 7px 6px 0 0;
+        width: 20px;
+    }
+    .widget .dt-sc-newsletter-section .dt-sc-subscribe-frm input[type='submit']
+    {
+        float: right;
+        margin-top: 7px;
+        position: relative;
+    }
+    .dt-sc-one-third .widget_text ul.split-list
+    {
+        margin-right: 0; 
+        width: 100%;
+    }
+
+    .widget .dt-sc-newsletter-section.type6 .dt-sc-subscribe-frm input[type='submit']
+    {
+        margin: 0; 
+        position: absolute;
+    }
+    .widget .dt-sc-newsletter-section.type6 .dt-sc-subscribe-frm:after
+    {
+        right: 0;
+    }
+    .widget .dt-sc-newsletter-section.type6 .dt-sc-subscribe-frm input[type='email']
+    {
+        font-size: 14px;
+        padding: 13px 0;
+    }
+
+    .widget .recent-posts-widget li .entry-meta p:last-child
+    {
+        margin-right: 0;
+    }
+    .widget .recent-posts-widget li .entry-meta p
+    {
+        margin-right: 11px;
+    }
+    .widgettitle
+    {
+        font-size: 17px;
+    }
+    .secondary-sidebar .type7 .widgettitle:before
+    {
+        left: -20px;
+    }
+    .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+        float: right;
+        margin-top: 10px;
+        min-height: 50px;
+        position: inherit;
+    }
+    .woo-type20 .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+        border-radius: 5px;
+    }
+    .widget.woocommerce .woocommerce-product-search input[type='search']
+    {
+        padding-right: 10px;
+    }
+    .tagcloud a
+    {
+        margin: 0 4px 10px 0;
+    }
+    .widget .recent-posts-widget li .entry-meta p:last-child
+    {
+        margin-right: 0;
+    }
+    .secondary-sidebar .type5 .widget ul li,
+    .secondary-sidebar .type10 .widgettitle
+    {
+        font-size: 16px;
+    }
+
+    .secondary-sidebar .type9 h3.widgettitle
+    {
+        font-size: 18px;
+    }
+    .secondary-sidebar .type9 .widget.widget_categories ul li:before
+    {
+        top: 4px;
+    }
+    .secondary-sidebar .type12 .widget ul li
+    {
+        font-size: 13px;
+    }
+    .secondary-sidebar .type12 .widget.widget_categories ul li > a span,
+    .secondary-sidebar .widget.widget_archive ul li > a span
+    {
+        padding: 0 5px;
+    }
+    .secondary-sidebar .type12 .tagcloud a
+    {
+        margin: 0 5px 10px 0;
+    }
+    .secondary-sidebar .type11 .widget.widget_flickr
+    {
+        padding: 25px 10px;
+    }
+
+    .secondary-sidebar .widget .tweet_list li
+    {
+        padding: 0 0 20px 25px;
+    }
+    .secondary-sidebar .widget .tweet_list li:before
+    {
+        font-size: 20px;
+    }
+    .secondary-sidebar .widget .tweet_list li:before,
+    .secondary-sidebar .widget .tweet_list li:first-child:before
+    {
+        top: 0;
+    }
+
+    .secondary-sidebar aside.widget,
+    .secondary-sidebar .type11 .widget
+    {
+        font-size: 18px;
+    }
+    .secondary-sidebar .type2 .widget,
+    .secondary-sidebar .type6 .widget,
+    .secondary-sidebar .type8 .widget,
+    .secondary-sidebar .type12 .widget,
+    .secondary-sidebar .type13 .widget
+    {
+        font-size: 13px;
+    }
+
+    .secondary-sidebar .type8 .widgettitle
+    {
+        margin: -28px auto 20px;
+    }
+    .secondary-sidebar .type8 .widget,
+    .secondary-sidebar .type12 .widget
+    {
+        padding: 15px 15px 20px;
+    }
+
+    .secondary-sidebar .type11 .widget
+    {
+        padding: 15px 10px 20px;
+    }
+
+    .secondary-sidebar .type5 .widget .tweet_list li,
+    .secondary-sidebar .type8 .widget .tweet_list li,
+    .secondary-sidebar .type11 .widget .tweet_list li,
+    .secondary-sidebar .type12 .widget .tweet_list li
+    {
+        padding: 0 0 20px;
+    }
+    .secondary-sidebar .type5 .widget .tweet_list li:before,
+    .secondary-sidebar .type8 .widget .tweet_list li:before,
+    .secondary-sidebar .type11 .widget .tweet_list li:before,
+    .secondary-sidebar .type12 .widget .tweet_list li:before
+    {
+        margin-right: 8px;
+        position: static;
+    }
+
+    .secondary-sidebar .type11 > .widget:before
+    {
+        padding-right: 10px;
+        top: 18px;
+    }
+    .secondary-sidebar .type11 .widgettitle:before
+    {
+        top: 7px;
+    }
+    .secondary-sidebar .type11 .widgettitle
+    {
+        font-size: 18px;
+    }
+
+    .secondary-sidebar .type12 .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+        width: 100%;
+    }
+    .secondary-sidebar .type12 .widget .tagcloud a
+    {
+        padding: 7px 12px 6px;
+    }
+
+    .mz-title .mz-title-content h1
+    {
+        font-size: 42px;
+        line-height: normal;
+    }
+
+    .woo-type4 .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+                border-radius: 5px; 
+           -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+             -o-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    .woocommerce.widget_price_filter .price_label
+    {
+        font-size: 12px;
+        top: 12px;
+    }
+    .woocommerce .widget_price_filter .price_slider_amount .button,
+    .woocommerce-page .widget_price_filter .price_slider_amount .button
+    {
+        font-size: 12px; 
+        padding: 5px 10px;
+    }
+}
+
+
+@media only screen and (max-width: 767px)
+{
+    .widget .recent-posts-widget li .entry-meta p:last-child
+    {
+        margin-right: 0;
+    }
+    .secondary-sidebar .type7 .widgettitle:before
+    {
+        left: -23px;
+    }
+    .secondary-sidebar .type6 .widget ul li,
+    .secondary-sidebar .type9 .widget ul li
+    {
+        font-size: 14px;
+    }
+
+    .mz-title .mz-title-content h1
+    {
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+    .widget_text ul.split-list
+    {
+        margin: 0; 
+        width: 100%;
+    }
+    .alignright .dt-sc-sociable
+    {
+        text-align: center; 
+        width: 100%;
+    }
+
+    .tagcloud a
+    {
+        margin: 0 5px 10px 0;
+    }
+    .secondary-sidebar .flickr-widget div
+    {
+        width: auto;
+    }
+    .textwidget .dt-sc-contact-info span
+    {
+        font-size: 15px; 
+        margin: 7px 6px 0 0;
+        width: 20px;
+    }
+
+    .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+        float: right;
+        margin-top: 10px;
+        min-height: 50px;
+        position: inherit;
+    }
+    .woo-type20 .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+        border-radius: 5px;
+    }
+    .widget.woocommerce .woocommerce-product-search input[type='search']
+    {
+        padding-right: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 479px)
+{
+    .widget_text ul.split-list
+    {
+        margin: 0; 
+        width: 100%;
+    }
+
+    .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+        float: right;
+        margin-top: 10px;
+        min-height: 50px;
+        position: inherit;
+    }
+    .woo-type20 .widget.woocommerce .woocommerce-product-search input[type='submit']
+    {
+        border-radius: 5px;
+    }
+    .widget.woocommerce .woocommerce-product-search input[type='search']
+    {
+        padding-right: 10px;
+    }
+    .tagcloud a
+    {
+        margin: 0 4px 10px 0;
+    }
+    .secondary-sidebar .type12 .widget ul li
+    {
+        font-size: 13px;
+    }
+
+    .textwidget .dt-sc-contact-info span
+    {
+        font-size: 15px; 
+        margin: 7px 6px 0 0;
+        width: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px)
+{
+    .secondary-sidebar .flickr-widget div
+    {
+        width: auto;
+    }
+    .secondary-sidebar .type8 .widget
+    {
+        padding: 0 17px 15px;
+    }
+    .secondary-sidebar .type5 .widget ul li
+    {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 319px)
+{
+    .flickr-widget div
+    {
+        height: 66px; 
+        width: 66px;
+    }
+    .widget .dt-sc-newsletter-section .dt-sc-subscribe-frm input[type='submit']
+    {
+        float: right;
+        margin-top: 7px;
+        position: relative;
+    }
+
+    .secondary-sidebar .type8 .widgettitle
+    {
+        padding: 10px;
+    }
+    .secondary-sidebar .type8 .widget.widget_flickr
+    {
+        padding: 0 15px 15px;
+    }
+    .secondary-sidebar .type7 .widgettitle:before
+    {
+        left: -20px;
+    }
+    .secondary-sidebar .type5 .widget ul li
+    {
+        font-size: 16px;
+    }
+}

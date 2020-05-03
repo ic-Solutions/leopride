@@ -1,0 +1,2519 @@
+
+/* Table of Content
+==================================================
+	1.0  -  Contact Form
+	2.0  -  DT Responsive*/
+
+/*--------------------------------------------------------------
+	1.0 - Contact Form
+	--------------------------------------------------------------*/
+
+/*----*****---- << 1.1 - Business Contact Form >> ----*****----*/
+.business-contact-form
+{
+    background: #fff;
+    clear: both;
+    float: left;
+    margin: 0 0 10px;
+    padding: 30px 15px;
+    position: relative; 
+    width: 100%;
+}
+.business-contact-form h2
+{
+    font-size: 20px;
+}
+.business-contact-form:before
+{
+    border: 10px solid rgba(255, 255, 255, .4);
+    content: '';
+    height: 100%;
+    left: -10px;
+    position: absolute;
+    top: -10px; 
+    width: 100%;
+}
+.business-contact-form input[type='text'],
+.business-contact-form input[type='email'],
+.business-contact-form textarea
+{
+    background: rgba(0, 0, 0, .02);
+    border: 1px solid rgba(0, 0, 0, .05);
+    border-radius: 3px;
+    padding: 19px 15px 18px;
+}
+.business-contact-form textarea
+{
+    height: 134px;
+}
+.business-contact-form input[type='submit']
+{
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    padding: 20px 20px 17px;
+    text-transform: none;
+    width: 100%;
+}
+
+.business-contact-form input[type='text']:focus,
+.business-contact-form input[type='email']:focus,
+.business-contact-form textarea:focus
+{
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.business-contact-social li
+{
+    margin: 0 30px;
+}
+.business-contact-social li a
+{
+    color: #000; 
+    font-size: 20px;
+}
+
+
+/*----*****---- << 1.2 - Attorney Contact Form >> ----*****----*/
+.attorney-contact-form input[type='text'],
+.attorney-contact-form input[type='email'],
+.attorney-contact-form input[type='tel'],
+.attorney-contact-form textarea,
+.attorney-contact-form select
+{
+    border: 0;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: 16px; 
+    padding: 15px 0;
+}
+.attorney-contact-form
+{
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+.attorney-contact-form textarea
+{
+    height: 53px;
+}
+.attorney-contact-form input[type='submit']
+{
+    background: #000;
+    border-radius: 0;
+    float: none; 
+    margin: 20px 20px 0 0;
+    padding: 16px 30px;
+}
+.attorney-contact-form input[type='submit']:hover
+{
+    background: #cda85c;
+}
+.attorney-contact-form .selection-box:after
+{
+    content: none;
+}
+
+.secondary-sidebar .attorney-contact-form
+{
+    width: 100%;
+}
+.secondary-sidebar .attorney-contact-form input[type='submit']
+{
+    float: left;
+}
+
+
+/*----*****---- << 1.3 - Event Contact Form >> ----*****----*/
+.event-contact-form input[type='text'],
+.event-contact-form input[type='email'],
+.event-contact-form input[type='tel'],
+.event-contact-form textarea
+{
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px; 
+    color: #fff;
+    padding: 14px 15px 13px;
+}
+.event-contact-form textarea
+{
+    height: 153px;
+}
+.event-contact-form input[type='submit']
+{
+    float: right;
+    font-size: 16px;
+    font-weight: normal; 
+    margin: 20px 0 0;
+    text-transform: none;
+}
+
+
+/*----*****---- << 1.4 - Fitness Contact Form >> ----*****----*/
+.fitness-form h2
+{
+    color: #eb0029;
+    font-weight: 600;
+}
+.fitness-form .form-field
+{
+    clear: both;
+    float: left;
+    margin: 12px 0 0;
+    position: relative;
+    width: 100%;
+}
+.fitness-form span.fa,
+.fitness-form span.icon
+{
+    color: rgba(0, 0, 0, .2);
+    color: #161616; 
+    font-size: 16px;
+    left: 15px;
+    position: absolute;
+    top: 15px;
+    z-index: 9;
+}
+.fitness-form input[type='text'],
+.fitness-form input[type='email'],
+.fitness-form input[type='tel'],
+.fitness-form textarea
+{
+    border-color: #ebeef0;
+    border-width: 0 0 3px 0;
+    color: #000; 
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 13px 0 13px 40px;
+    text-transform: capitalize;
+}
+.fitness-form input[type='text']:hover,
+.fitness-form input[type='email']:hover,
+.fitness-form input[type='tel']:hover,
+.fitness-form textarea:hover
+{
+    border-color: #161616;
+            transition: all .3s linear; 
+       -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+         -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+.fitness-form input[type='submit']
+{
+    border-radius: 0;
+    float: right;
+    font-size: 16px;
+    font-weight: normal;
+    letter-spacing: .5px;
+    margin-top: 20px;
+    padding: 16px 30px;
+}
+.fitness-form textarea
+{
+    height: 120px;
+}
+
+.fitness-contact-info .dt-sc-contact-info
+{
+    font-size: 16px;
+}
+.fitness-contact-info .dt-sc-contact-info p b
+{
+    color: #666;
+}
+.fitness-contact-info .dt-sc-contact-info span
+{
+    color: #eb0029;
+    font-size: 18px;
+    margin: 1px 10px 30px 0;
+}
+.fitness-contact-info .dt-sc-contact-info h6
+{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.fitness-contact-info .dt-sc-sociable li a
+{
+    color: #161616;
+}
+.fitness-contact-info .dt-sc-sociable li a:hover
+{
+    color: #fff;
+}
+
+.fitness-contact-boxes .wpb_text_column
+{
+    float: left;
+    margin-bottom: 0; 
+    width: 20.5%;
+}
+.fitness-contact-boxes .wpb_text_column:nth-child(2),
+.fitness-contact-boxes .wpb_text_column:last-child
+{
+    float: left;
+    padding-left: 30px; 
+    width: 23.1%;
+}
+.fitness-contact-boxes .wpb_text_column:nth-child(3)
+{
+    float: left;
+    padding-top: 85px; 
+    width: 12.8%;
+}
+.fitness-form-container.extend-bg-fullwidth-right:after
+{
+    background: #fff;
+}
+
+
+/*----*****---- << 1.5 - Hosting Contact Form >> ----*****----*/
+.hosting-contact-form input[type='submit']
+{
+    margin-top: 15px; 
+    padding: 15px 20px 13px;
+    width: 100%;
+}
+.hosting-contact-form textarea
+{
+    height: 196px;
+}
+
+
+/*----*****---- << 1.6 - Restaurant Contact Form >> ----*****----*/
+.restaurant-contact-form
+{
+    float: right;
+    max-width: 570px;
+    padding: 30px 0 0; 
+    width: 100%;
+}
+.restaurant-contact-form h3
+{
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+.restaurant-contact-form input[type='text'],
+.restaurant-contact-form input[type='email'],
+.restaurant-contact-form input[type='tel'],
+.restaurant-contact-form textarea
+{
+    background: none;
+    border-color: rgba(255, 255, 255, .2);
+    color: #fff;
+}
+.restaurant-contact-form input[type='text']:focus,
+.restaurant-contact-form input[type='email']:focus,
+.restaurant-contact-form input[type='tel']:focus,
+.restaurant-contact-form textarea:focus
+{
+    border-color: #b48b3c;
+}
+.restaurant-contact-form input[type='submit']
+{
+    float: right; 
+    margin-top: 0;
+}
+
+.restaurant-contact-bg:before
+{
+    background: url(/wp-content/themes/owly/css/images/slanting-bg.png) no-repeat;
+    content: '';
+    height: 525px;
+    position: absolute;
+    right: -201px;
+    top: 0;
+    width: 201px;
+    z-index: 9;
+}
+
+.dt-sc-contact-details-on-map
+{
+    position: relative;
+}
+.dt-sc-contact-details-on-map:after
+{
+    background: rgba(0, 0, 0, .8);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.dt-sc-contact-details-on-map.hide-overlay:after
+{
+    display: none;
+}
+
+.dt-sc-contact-details-on-map .map
+{
+    width: 100%;
+}
+.dt-sc-contact-details-on-map .dt-sc-map-overlay
+{
+    padding: 72px 0 0;
+}
+.dt-sc-contact-details-on-map .back-to-contact
+{
+    display: none;
+}
+.dt-sc-contact-details-on-map .back-to-contact span
+{
+    background: #b48b3c;
+    border: 2px solid #b48b3c;
+    border-radius: 50%;
+    color: #fff;
+    float: left;
+    font-size: 28px;
+    height: 60px;
+    left: 0;
+    line-height: 60px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -30px;
+    width: 60px;
+    z-index: 99;
+}
+
+.dt-sc-contact-details-on-map .section-wrapper.dt-sc-map-overlay
+{
+    margin: auto;
+    max-width: 1170px; 
+    right: 0;
+}
+
+.dt-sc-contact-details-on-map .dt-sc-map-overlay:after
+{
+    left: 100%;
+    right: inherit;
+}
+.vc_row.vc_row-no-padding .dt-sc-map-overlay .wpb_column.vc_col-sm-3
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/*----*****---- << 1.7 - Spa Contact Form >> ----*****----*/
+.spa-contact-form input[type='text'],
+.spa-contact-form input[type='tel'],
+.spa-contact-form input[type='email'],
+.spa-contact-form textarea
+{
+    border-color: #ffc9d4;
+    border-radius: 15px 0; 
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.spa-contact-form input[type='text']:focus,
+.spa-contact-form input[type='tel']:focus,
+.spa-contact-form input[type='email']:focus,
+.spa-contact-form textarea:focus
+{
+    border-color: #ef577a;
+}
+
+
+/*----*****---- << 1.8 - University Forms >> ----*****----*/
+.university-contact-form .form-field,
+.university-contact-form .button-field
+{
+    clear: both;
+    float: left;
+    margin: 0 0 20px;
+    position: relative;
+    width: 100%;
+}
+.university-contact-form .form-field i,
+.university-contact-form .button-field i
+{
+    color: #1c3f55;
+    font-size: 23px;
+    font-weight: bold; 
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    z-index: 9;
+}
+.university-contact-form .form-field input[type='text'],
+.university-contact-form .form-field input[type='tel'],
+.university-contact-form .form-field input[type='email'],
+.university-contact-form textarea,
+.university-contact-form .form-field select
+{
+    color: #1c3f55;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: normal;
+    padding: 16px 30px 15px 12px;
+}
+.university-contact-form textarea
+{
+    height: 205px;
+}
+.university-contact-form .button-field
+{
+    margin: 10px 0 0;
+}
+.university-contact-form .button-field input[type='submit']
+{
+    border-radius: 0; 
+    color: #fff;
+    height: 49px;
+    line-height: 49px;
+    padding: 0 48px 0 20px;
+    width: 100%;
+}
+.university-contact-form .button-field i
+{
+    color: #463839;
+    height: 49px;
+    line-height: 49px;
+    right: 0;
+    text-align: center; 
+    top: 10px;
+    width: 48px;
+}
+
+
+/*----*****---- << 1.9 - Yoga Forms >> ----*****----*/
+.dt-sc-newsletter-section.yoga-expert-form .dt-sc-subscribe-frm
+{
+    float: left; 
+    width: 100%;
+}
+.dt-sc-newsletter-section.yoga-expert-form
+{
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.dt-sc-newsletter-section.yoga-expert-form .dt-sc-subscribe-frm input[type='email']
+{
+    border: 1px solid #c8dcdf;
+    border-radius: 5px;
+    float: left;
+    margin: 0 20px 0 0; 
+    width: 50%;
+}
+.dt-sc-newsletter-section.yoga-expert-form .dt-sc-subscribe-frm input[type='submit']
+{
+    background: #927d7d;
+    border-radius: 3px; 
+    clear: none;
+    margin: 0;
+    padding: 17px 20px;
+}
+.dt-sc-newsletter-section.yoga-expert-form .dt-sc-subscribe-frm input[type='submit']:hover
+{
+    background: #3c939d;
+}
+
+.yoga-contact-form input[type='text'],
+.yoga-contact-form input[type='email'],
+.yoga-contact-form input[type='tel'],
+.yoga-contact-form textarea
+{
+    border-color: #c8dcdf;
+    border-radius: 5px;
+}
+.yoga-contact-form input[type='submit']
+{
+    background: #927d7d;
+    margin: 20px 0 0;
+}
+.yoga-contact-form input[type='submit']:hover
+{
+    background: #3c939d;
+}
+.yoga-contact-form textarea
+{
+    height: 100px;
+}
+
+
+/*----*****---- << 1.10 - Nightclub Booking Form >> ----*****----*/
+.nightclub-contact
+{
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+.nightclub-contact-info
+{
+    border-bottom: 1px solid #000; 
+    float: left;
+    margin: 0 2.5% 0 0;
+    padding: 20px 0 67px;
+    width: 23%;
+}
+.nightclub-contact-info .dt-sc-contact-info
+{
+    font-size: 16px;
+    line-height: 34px;
+}
+.nightclub-contact-info .dt-sc-contact-info span
+{
+    color: #c09245;
+    font-size: 24px;
+}
+.nightclub-contact-info .dt-sc-contact-info span.icon-pointer
+{
+    font-size: 30px;
+}
+.nightclub-contact-info .dt-sc-contact-info span.icon-phone2
+{
+    margin-bottom: 45px;
+}
+.nightclub-contact-info .dt-sc-contact-info span.icon-plaine
+{
+    margin-bottom: 10px;
+}
+.nightclub-contact-info .dt-sc-contact-info a
+{
+    color: #000;
+}
+.nightclub-contact-info .dt-sc-contact-info a:hover
+{
+    color: #c09245;
+}
+.nightclub-working-hours
+{
+    background: #000;
+    color: #fff;
+    float: left;
+    margin: 0 2.5% 0 0; 
+    padding: 30px;
+    width: 32%;
+}
+.nightclub-working-hours h2
+{
+    color: #fff;
+}
+.nightclub-working-hours ul
+{
+    clear: both;
+    float: left;
+    margin: 10px 0 0;
+    width: 100%;
+}
+.nightclub-working-hours li
+{
+    clear: both;
+    color: #c09245;
+    display: block;
+    font-size: 16px;
+    margin: 0; 
+    padding: 0;
+}
+.nightclub-working-hours li span
+{
+    color: #fff;
+    display: inline-block; 
+    width: 120px;
+}
+
+
+.nightclub-booking-form
+{
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+.nightclub-booking-form p
+{
+    clear: both;
+    float: left;
+    margin-bottom: 20px;
+    position: relative; 
+    width: 100%;
+}
+.nightclub-booking-form p.date:before,
+.nightclub-booking-form p.time:before
+{
+    color: #fff;
+    font-family: FontAwesome; 
+    font-size: 25px;
+    position: absolute;
+    right: 14px;
+    top: 9px;
+}
+.nightclub-booking-form p.date:before
+{
+    content: '\f073';
+}
+.nightclub-booking-form p.time:before
+{
+    content: '\f017';
+}
+.nightclub-booking-form p label
+{
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    line-height: 52px; 
+    padding: 0 10px 0 0;
+    width: 35%;
+}
+.nightclub-booking-form input[type='text'],
+.nightclub-booking-form input[type='tel'],
+.nightclub-booking-form input[type='date']
+{
+    background: rgba(255, 255, 255, .1);
+    color: #fff;
+    float: left;
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 16px;
+    width: 65%;
+}
+.nightclub-booking-form input[type='submit']
+{
+    border-radius: 0;
+    float: right;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 10px -105px 0 0; 
+    text-transform: none;
+}
+
+.nightclub-contact-form
+{
+    background: #f2f2f2;
+    float: left;
+    margin: 0;
+    margin: -192px 0 0; 
+    padding: 45px 45px 30px;
+    position: relative;
+    width: 40%;
+}
+.nightclub-contact-form:before
+{
+    border: 4px solid #000;
+    bottom: 20px;
+    content: '';
+    height: auto;
+    left: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: auto;
+}
+.nightclub-contact-form p
+{
+    color: rgba(0, 0, 0, .5);
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    z-index: 1;
+}
+.nightclub-contact-form form
+{
+    clear: both;
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.nightclub-contact-form input[type='text'],
+.nightclub-contact-form input[type='email'],
+.nightclub-contact-form input[type='tel'],
+.nightclub-contact-form textarea
+{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 7px; 
+    padding: 16px 12px 8px 0;
+}
+.nightclub-contact-form textarea
+{
+    height: 150px;
+}
+.nightclub-contact-form input[type='submit']
+{
+    border-radius: 0;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 40px 0 0;
+    padding: 18px 20px 17px; 
+    text-align: center;
+    width: 100%;
+}
+
+
+/*----*****---- << 1.11 - Architecture Contact Form >> ----*****----*/
+.architecture-contact-form input[type='text'],
+.architecture-contact-form input[type='email'],
+.architecture-contact-form input[type='tel'],
+.architecture-contact-form textarea
+{
+    background: none; 
+    border: 0;
+    border-bottom: 1px solid #000;
+    color: #000;
+    font-size: 14px;
+    padding: 15px 0 10px 30px;
+}
+.architecture-contact-form textarea
+{
+    height: 130px;
+}
+.architecture-contact-form input[type='submit']
+{
+    background: #000;
+    border-radius: 0;
+    color: #fff;
+    float: right;
+    font-weight: normal;
+    margin: 20px 0 0 20px;
+    padding: 16px 30px;
+}
+.architecture-contact-form input[type='submit']:hover
+{
+    background: #ffe401;
+    color: #000;
+}
+
+.architecture-contact-form .form-field
+{
+    clear: both;
+    float: left;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+.architecture-contact-form span.fa
+{
+    color: #000;
+    font-size: 16px; 
+    left: 0;
+    position: absolute;
+    top: 15px;
+}
+
+
+/*----*****---- << 1.12 - Insurance Contact Form >> ----*****----*/
+.insurance-contact-form input[type='text'],
+.insurance-contact-form input[type='email'],
+.insurance-contact-form textarea
+{
+    background: rgba(0, 0, 0, .02);
+}
+.insurance-contact-form  input[type='submit']
+{
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 17px 20px 16px; 
+    width: 100%;
+}
+.insurance-contact-form textarea
+{
+    height: 122px;
+}
+
+.insurance-custom-tab .dt-sc-tabs-horizontal-frame-content
+{
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 0 0 3px 3px;
+    border-top: 0;
+    padding: 25px;
+}
+.insurance-quote-form
+{
+    float: left;
+    margin: 0;
+    padding: 0; 
+    width: 100%;
+}
+.insurance-quote-form label
+{
+    display: inline-block; 
+    margin-bottom: 5px;
+}
+.insurance-quote-form .radio-label
+{
+    clear: both;
+    margin: 0;
+}
+.insurance-quote-form .radio-label .wpcf7-list-item
+{
+    clear: both;
+    display: inline-block; 
+    position: relative;
+}
+.insurance-quote-form .radio-label .wpcf7-list-item label:before
+{
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 50%; 
+    content: '';
+    height: 14px;
+    left: 5px;
+    position: absolute;
+    top: 7px;
+    width: 14px;
+}
+.insurance-quote-form .radio-label input[type='radio']
+{
+    width: 30px;
+}
+.insurance-quote-form .radio-label .wpcf7-list-item-label
+{
+    display: inline-block;
+    line-height: 29px;
+    margin: 0; 
+    min-width: 40px;
+    position: relative;
+}
+.insurance-quote-form .radio-label .wpcf7-list-item-label:before
+{
+    opacity: 0;
+}
+.insurance-quote-form .radio-label input[type='radio']:checked + .wpcf7-list-item-label:before
+{
+    background: #008bd3;
+    border-radius: 50%;
+    bottom: 0;
+    content: '';
+    height: 6px;
+    left: -23px;
+    margin: auto;
+    opacity: 1; 
+    position: absolute;
+    top: 2px;
+    width: 6px;
+}
+.insurance-quote-form .radio-label .wpcf7-list-item.last input[type='radio']:checked + .wpcf7-list-item-label:before
+{
+    left: -31px;
+}
+
+.insurance-quote-form input[type='text'],
+.insurance-quote-form input[type='tel'],
+.insurance-quote-form input[type='date'],
+.insurance-quote-form select
+{
+    background: rgba(0, 0, 0, .02);
+}
+.insurance-quote-form .checkbox-label input[type='checkbox']
+{
+    left: 0;
+    position: absolute;
+    top: 2px;
+}
+.insurance-quote-form .checkbox-label span
+{
+    float: left;
+    line-height: 20px;
+    padding: 0 0 0 23px;
+}
+.insurance-quote-form .checkbox-label
+{
+    clear: both;
+    color: #222;
+    display: inline-block; 
+    font-size: 12px;
+    position: relative;
+}
+
+.insurance-quote-form input[type='submit']
+{
+    border-radius: 0;
+    padding: 14px 20px;
+}
+
+
+/*----*****---- << 1.13 - Hotel Contact Form >> ----*****----*/
+.wpcf7-form.hotel-contact-form p
+{
+    margin-bottom: 10px; 
+    position: relative;
+}
+.hotel-contact-form p span.fa
+{
+    color: rgba(0, 0, 0, .2);
+    font-size: 16px;
+    position: absolute;
+    right: 15px;
+    top: 17px;
+    z-index: 1;
+}
+.hotel-contact-form p textarea
+{
+    height: 120px;
+}
+.hotel-contact-form p input[type='submit']
+{
+    border-radius: 0; 
+    float: right;
+    margin: 15px 0 0 10px;
+}
+.hotel-contact-form p .clear
+{
+    background: #000;
+}
+.hotel-contact-form p .clear:hover
+{
+    background: #c09245;
+}
+
+
+/*----*****---- << 1.14 - Plumber Contact Form >> ----*****----*/
+.plumber-contact-form
+{
+    clear: both;
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+    width: 100%;
+}
+.plumber-contact-form form
+{
+    display: inline-block; 
+    width: 50%;
+}
+.plumber-contact-form form input[type='text'],
+.plumber-contact-form form input[type='email'],
+.plumber-contact-form form textarea
+{
+    border-color: #e2ebf1;
+    border-radius: 3px;
+}
+.plumber-contact-form form input[type='submit']
+{
+    background: none;
+    border: 1px solid #15a7e1;
+    box-shadow: 3px 3px 0 0 #1297cc;
+    color: #15a7e1;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 20px; 
+    width: 100%;
+}
+.plumber-contact-form form input[type='submit']:hover
+{
+    background: #15a7e1;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, .1); 
+    color: #fff;
+}
+
+
+/*----*****---- << 1.15 - Fashion Contact Form >> ----*****----*/
+.fashion-contact-details .dt-sc-contact-info span
+{
+    font-size: 14px;
+}
+.fashion-contact-form input[type='submit']
+{
+    background: #000;
+    float: right;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 15px 20px 12px;
+}
+.fashion-contact-form input[type='submit']:hover
+{
+    background: #c3875f;
+}
+
+
+
+/*----*****---- << 1.16 - Jewel Contact Form >> ----*****----*/
+.jewel-contact-form label
+{
+    color: #000; 
+    float: right;
+}
+.jewel-contact-form input[type='submit']
+{
+    float: right;
+    margin: 20px 0 0;
+    padding: 17px 20px 15px;
+}
+.jewel-contact-form textarea
+{
+    height: 306px;
+}
+
+
+/*--------------------------------------------------------------
+	2.0 - DT Responsive
+	--------------------------------------------------------------*/
+/* Note: Design for a width of 960px */
+@media only screen and (min-width:992px) and (max-width:1199px)
+{
+    /** Restaurant **/
+    .restaurant-contact-bg:before
+    {
+        content: none;
+    }
+    .restaurant-contact-bg > .vc_column-inner
+    {
+        padding-right: 0 !important;
+    }
+
+    .restaurant-contact-form
+    {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        max-width: 100%;
+        width: 80%;
+    }
+
+    /** Fitness **/
+    .fitness-contact-boxes .wpb_text_column:nth-child(3)
+    {
+        padding-top: 55px;
+    }
+}
+
+/* Note: Design for a width of 768px */
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+    /** Business **/
+    .business-contact-social li
+    {
+        margin: 0 20px;
+    }
+    .plumber-contact-form form
+    {
+        width: 100%;
+    }
+}
+
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+/* Common Styles for the devices below 767px width */
+@media only screen and (max-width: 767px)
+{
+    /** Restaurant **/
+    .restaurant-booking-form
+    {
+        padding: 0 50px;
+    }
+
+    .restaurant-contact-bg:before
+    {
+        content: none;
+    }
+    .restaurant-contact-bg > .vc_column-inner
+    {
+        padding-right: 0 !important;
+    }
+
+    .restaurant-contact-form
+    {
+        display: block;
+        float: none;
+        margin: 0 auto 20px;
+        max-width: 100%;
+        width: 80%;
+    }
+    .restaurant-contact-form .wpb_column
+    {
+        margin-bottom: 20px;
+    }
+
+    /** Contact-details-on-map **/
+    .dt-sc-contact-details-on-map:after
+    {
+        z-index: -1;
+    }
+    .dt-sc-contact-details-on-map .dt-sc-map-overlay
+    {
+        position: inherit;
+    }
+    .dt-sc-contact-details-on-map .dt-sc-map-overlay .dt-sc-contact-info.type3
+    {
+        font-size: 13px;
+    }
+
+    /** Jewel **/
+    .jewel-contact-form .vc_col-sm-2
+    {
+        width: 30% !important;
+    }
+    .jewel-contact-form .vc_col-sm-10
+    {
+        width: 70% !important;
+    }
+
+    /** Plumber **/
+    .plumber-contact-form form
+    {
+        width: 100%;
+    }
+}
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+/* Note: Design for a width of 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px)
+{
+    /** Wedding **/
+    .rsvp-form
+    {
+        padding: 65px 35px;
+    }
+    .rsvp-form form:before
+    {
+        left: -81px;
+    }
+    .rsvp-form form:after
+    {
+        right: -164px;
+    }
+}
+
+/* Common Styles for the devices below 479px width */
+@media only screen and (max-width: 479px)
+{
+    /** Attorney **/
+    .attorney-contact-form
+    {
+        width: 100%;
+    }
+
+    /** Wedding **/
+    .rsvp-form
+    {
+        padding: 65px 35px;
+        width: 100%;
+    }
+    .rsvp-form form:before,
+    .rsvp-form form:after
+    {
+        content: none;
+    }
+}
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 319px)
+{
+    /** Business **/
+    .business-contact-form
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .business-contact-social li
+    {
+        margin: 0 5px;
+    }
+
+    /** Jewel **/
+    .jewel-contact-form
+    {
+        text-align: center;
+    }
+    .jewel-contact-form label
+    {
+        float: none;
+    }
+    .jewel-contact-form .vc_col-sm-2,
+    .jewel-contact-form .vc_col-sm-10
+    {
+        width: 100% !important;
+    }
+
+    /** Wedding **/
+    .rsvp-form
+    {
+        margin-left: -15px;
+        padding: 65px 25px;
+        width: calc(100% + 30px);
+    }
+    .rsvp-form:before
+    {
+        bottom: 5px;
+        height: auto;
+        left: 5px;
+        right: 5px;
+        top: 5px;
+        width: auto;
+    }
+}
+
+
+/* Table of Content
+==================================================
+    1.0  -  Custom Class
+    2.0  -  Browser Fix
+    3.0  -  DT Responsive*/
+
+/*--------------------------------------------------------------
+    1.0 - Custom Class
+    --------------------------------------------------------------*/
+
+a.video-image span:after
+{
+            transition: all .3s linear; 
+       -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+         -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.title_uppercase
+{
+    text-transform: uppercase;
+}
+.title_bold
+{
+    font-weight: bold;
+}
+
+/* http://prntscr.com/dydrzx = Reseller Hosting page */
+.extend-bg-fullwidth-left.vc_col-has-fill > .vc_column-inner,
+.extend-bg-fullwidth-right.vc_col-has-fill > .vc_column-inner
+{
+    position: relative;
+}
+.extend-bg-fullwidth-left:not(.vc_col-has-fill):after,
+.extend-bg-fullwidth-right:not(.vc_col-has-fill):after,
+.extend-bg-fullwidth-left.vc_col-has-fill > .vc_column-inner:after,
+.extend-bg-fullwidth-right.vc_col-has-fill > .vc_column-inner:after
+{
+    content: '';
+    display: inline !important;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 9999px;
+    z-index: -1;
+}
+.extend-bg-fullwidth-left:not(.vc_col-has-fill):after,
+.extend-bg-fullwidth-left.vc_col-has-fill > .vc_column-inner:after
+{
+    right: 100%; 
+    z-index: 0;
+}
+.extend-bg-fullwidth-right:not(.vc_col-has-fill):after,
+.extend-bg-fullwidth-right.vc_col-has-fill > .vc_column-inner:after
+{
+    left: 100%; 
+    z-index: 0;
+}
+
+.extend-bg-fullwidth-left:after,
+.extend-bg-fullwidth-right:after,
+.extend-bg-fullwidth-left.vc_col-has-fill > .vc_column-inner:after,
+.extend-bg-fullwidth-right.vc_col-has-fill > .vc_column-inner:after
+{
+    background-color: inherit;
+}
+
+
+.dt-sc-special-testimonial-container .extend-bg-fullwidth-left:after,
+.dt-sc-special-testimonial-container .extend-bg-fullwidth-right:after
+{
+    background: none;
+}
+
+.vc_row.extend-bg-fill-slanting .extend-bg-fullwidth-left:not(.vc_col-has-fill):after,
+.vc_row.extend-bg-fill-slanting .extend-bg-fullwidth-left.vc_col-has-fill > .vc_column-inner:after
+{
+    box-shadow: 8px 0 0 0 #fff; 
+    right: 0;
+    transform: skewX(-30deg) translateX(18px);
+    z-index: 0;
+}
+
+.vc_row.extend-bg-fill-slanting .extend-bg-fullwidth-left:not(.dt-col-static-position) > .vc_column-inner
+{
+    position: relative;
+    z-index: 1 !important;
+}
+
+.vc_row.extend-bg-fill-slanting .extend-bg-fullwidth-left.vc_col-has-fill > .vc_column-inner:before
+{
+    left: 0;
+    transform: skewX(-30deg) translateX(-32px);
+}
+
+.vc_row.extend-bg-fill-slanting .extend-bg-fullwidth-left[class*='dt-skin-'],
+.vc_row.extend-bg-fill-slanting .extend-bg-fullwidth-right[class*='dt-skin-']
+{
+    background-color: transparent;
+}
+
+a.video-image span
+{
+    opacity: 0; 
+    position: absolute;
+}
+a.video-image span:after
+{
+    background: #2b2b2b;
+    border-radius: 50%;
+            box-shadow: 0 0 0 5px rgba(255,255,255,.35);
+       -moz-box-shadow: 0 0 0 5px rgba(255,255,255,.35);
+    -webkit-box-shadow: 0 0 0 5px rgba(255,255,255,.35);
+    color: #fff;
+    content: '';
+    display: block;
+    height: 75px;
+    left: -2px; 
+    line-height: 75px;
+    position: absolute;
+    top: 0;
+    width: 75px;
+    z-index: -1;
+}
+a.video-image span:hover:after
+{
+    background: #fff;
+}
+
+.image-overlay-icon .vc_single_image-wrapper
+{
+    position: relative;
+}
+.image-overlay-icon .vc_single_image-wrapper:before
+{
+    background: rgba(0,0,0,.4);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    margin: 0 auto;
+    position: absolute; 
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.image-overlay-icon a.video-image
+{
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    text-align: center; 
+    top: 50%;
+            transform: translateY(-50%);
+       -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    width: 100%;
+}
+
+.gradient-parallax:before
+{
+    background:    -moz-linear-gradient(left, rgba(242, 243, 246, 1) 20%, rgba(242, 243, 246, .72) 30%, rgba(229, 229, 229, 0) 40%, rgba(229, 229, 229, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(242, 243, 246, 1) 20%, rgba(242, 243, 246, .72) 30%, rgba(229, 229, 229, 0) 40%, rgba(229, 229, 229, 0) 100%);
+    background:         linear-gradient(to right, rgba(242, 243, 246, 1) 20%, rgba(242, 243, 246, .72) 30%, rgba(229, 229, 229, 0) 40%, rgba(229, 229, 229, 0) 100%);
+    content: '';
+    display: block;
+    //// filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f2f3f6', endColorstr='#00e5e5e5', GradientType=1); 
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.gradient-parallax .gradient-content
+{
+    padding-right: 45px; 
+    z-index: 9;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    ::i-block-chrome,
+    .safari-hack.vc_row.vc_row-flex
+    {
+        display: block !important;
+    }
+}
+/*.vc_row.vc_row-flex, .vc_row.vc_row-flex > .vc_column_container*/
+
+/*----*****---- << Vc Column custom class >> --****--*/
+.rs_no-padding_column.wpb_column,
+.vc_col-md-12.wpb_column.rs_no-padding_column
+{
+    margin-bottom: 0; 
+    margin-top: -1px;
+    padding-bottom: 0;
+} /* http://prntscr.com/dydqdv */
+
+.light-overlay:before
+{
+    background: rgba(255, 255, 255, .8);
+} /* http://prntscr.com/dydsrd  = Model Home page contact section */
+.dark-overlay:before
+{
+    background: rgba(0, 0, 0, .8);
+}
+
+/*----*****---- << Gray Scale >> --****--*/ /* http://prntscr.com/dydr06 = Hotel Our Firm Page */
+.gray-scale:hover,
+.gray-scale:hover img
+{
+            filter: grayscale(1);
+       -moz-filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+            transition-duration: 1s; 
+       -moz-transition-duration: 1s;
+         -o-transition-duration: 1s;
+        -ms-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+            transition-property:         filter;
+       -moz-transition-property:    -moz-filter;
+        -ms-transition-property:     -ms-filter;
+         -o-transition-property:      -o-filter;
+    -webkit-transition-property: -webkit-filter;
+
+        -ms-filter: grayscale(1);
+         -o-filter: grayscale(1);
+}
+
+/*----*****---- << Text with icon >> --****--*/ /* http://prntscr.com/dydrax = Fitness Home Page */
+.dt-sc-text-with-icon
+{
+    clear: both;
+    float: left;
+    font-weight: bold;
+    padding: 12px 0 12px 20px; 
+    width: 100%;
+}
+.dt-sc-text-with-icon span
+{
+    font-size: 18px;
+    font-weight: bold; 
+    margin: 0 7px 0 0;
+    position: relative;
+    top: 2px;
+}
+
+.dt-sc-text-with-icon.border-bottom
+{
+    border-bottom: 1px solid;
+}
+.dt-sc-text-with-icon.border-right
+{
+    border-right: 1px solid;
+}
+
+.dt-sc-dark-bg .dt-sc-text-with-icon span
+{
+    color: #fff;
+}
+
+/*----*****---- << Hosting Domain Page Table >> --****--*/ /* http://prntscr.com/dydxr3 = Hosting Domain Page */
+.hosting-table
+{
+    border-top: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.hosting-table th
+{
+    background: #e1e1e1;
+    border-radius: 5px 5px 0 0;
+    border-right: 1px solid #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 15px;
+}
+.hosting-table tr td,
+.hosting-table tbody tr:nth-child(2n+1) td
+{
+    background: rgba(0, 0, 0, .95);
+    border-bottom: 0;
+    border-right: 1px solid rgba(255, 255, 255, .2);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 25px 15px;
+}
+.hosting-table tbody tr td:last-child,
+.hosting-table tr th:last-child
+{
+    border: none;
+}
+
+.hosting-table tbody tr:nth-child(2) td
+{
+    background: rgba(0, 0, 0, .9);
+}
+.hosting-table tbody tr:nth-child(3) td
+{
+    background: rgba(0, 0, 0, .85);
+}
+.hosting-table tbody tr:nth-child(4) td
+{
+    background: rgba(0, 0, 0, .8);
+}
+.hosting-table tbody tr:nth-child(5) td
+{
+    background: rgba(0, 0, 0, .75);
+}
+.hosting-table tbody tr:nth-child(6) td
+{
+    background: rgba(0, 0, 0, .7);
+}
+.hosting-table tbody tr:nth-child(7) td
+{
+    background: rgba(0, 0, 0, .65);
+}
+.hosting-table tbody tr:nth-child(8) td
+{
+    background: rgba(0, 0, 0, .6);
+}
+.hosting-table tbody tr:nth-child(9) td
+{
+    background: rgba(0, 0, 0, .55);
+}
+.hosting-table tbody tr:nth-child(10) td
+{
+    background: rgba(0, 0, 0, .5);
+}
+.hosting-table tbody tr:nth-child(11) td
+{
+    background: rgba(0, 0, 0, .45);
+}
+.hosting-table tbody tr:nth-child(12) td
+{
+    background: rgba(0, 0, 0, .4);
+}
+
+.hosting-table tbody tr td:first-child
+{
+    position: relative;
+}
+.hosting-table tbody tr td:first-child:before
+{
+    background: #60ae0d;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.hosting-table tbody tr td.new,
+.hosting-table tbody tr td.hot
+{
+    overflow: hidden; 
+    position: relative;
+}
+.hosting-table tbody tr td.new:before,
+.hosting-table tbody tr td.hot:before
+{
+    background: #60ae0d;
+    color: #fff;
+    content: 'New';
+    font-size: 12px;
+    left: -20px;
+    padding: 2px 22px;
+    position: absolute;
+    top: 5px;
+            transform: rotate(-45deg); 
+       -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.hosting-table tbody tr td.hot:before
+{
+    background: #e80505;
+    content: 'Hot';
+    padding: 2px 24px;
+}
+
+/*----*****---- << Spa rounded corner image >> --****--*/ /* http://prntscr.com/dydylt = Spa */
+.dt-sc-partially-rounded-alt
+{
+            transition: all .3s linear; 
+       -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+         -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.vc_min_height_right.wpb_column.vc_col-sm-6
+{
+    margin-left: 30px;
+    width: calc(50% - 30px);
+} /* http://prntscr.com/e0ka7y *
+    
+    /*----*****---- << Image Caption With Counter >> --****--*/  /* http://prntscr.com/dydzek = Image caption counter */
+.dt-sc-image-caption-with-counter
+{
+    counter-reset: image-caption-counter;
+}
+.dt-sc-image-caption-with-counter h3
+{
+    counter-increment: image-caption-counter;
+}
+.dt-sc-image-caption-with-counter h3:before
+{
+    border-bottom: 2px solid;
+    content: counter(image-caption-counter, decimal-leading-zero);
+    float: left;
+    font-size: 36px;
+    font-weight: 600;
+    margin: -10px 20px 0 0;
+    padding: 0;
+}
+.dt-sc-image-caption-with-counter h3:before
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dt-sc-contact-details-on-map .dt-sc-map-overlay h3,
+.dt-sc-contact-details-on-map .map-switch-icon,
+.dt-sc-contact-details-on-map .map-switch-icon:hover
+{
+    color: #fff;
+}
+.dt-sc-contact-details-on-map .map-switch-icon:hover
+{
+    background: #000;
+} /* http://prntscr.com/dydzs2 = Restaurant */
+
+/*----*****---- << Photography Readmore Plus >> ----*****----*/ /* http://prntscr.com/dydzxp = Photography */
+.dt-sc-readmore-plus-icon:before,
+.dt-sc-readmore-plus-icon:after
+{
+            transition: all .3s linear; 
+       -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+         -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.dt-sc-readmore-plus-icon
+{
+    bottom: 0;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px; 
+    width: 60px;
+}
+.dt-sc-readmore-plus-icon:before,
+.dt-sc-readmore-plus-icon:after
+{
+    bottom: 0;
+    content: '';
+    left: 0;
+    margin: auto; 
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.dt-sc-readmore-plus-icon:before
+{
+    height: 1px;
+    width: 30px;
+}
+.dt-sc-readmore-plus-icon:after
+{
+    height: 30px;
+    width: 1px;
+}
+
+.dt-sc-readmore-plus-icon:before,
+.dt-sc-readmore-plus-icon:after
+{
+    background: #fff;
+}
+.dt-sc-readmore-plus-icon
+{
+    background: #000;
+}
+.dt-sc-readmore-plus-icon:hover
+{
+    background: rgba(0, 0, 0, .8);
+}
+
+/*----*****---- << Nightclub Home page Social icons >> ----*****----*/
+.diamond-narrow-square-border li:before
+{
+            transition: all .3s linear; 
+       -moz-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+         -o-transition: all .3s linear;
+    -webkit-transition: all .3s linear;
+}
+
+.diamond-narrow-square-border li a
+{
+    color: #000;
+}
+.diamond-narrow-square-border li a:hover
+{
+    color: #fff;
+}
+
+/*--------------------------------------------------------------
+    2.0 - Browser Fix
+    --------------------------------------------------------------*/
+/* IE9 and above override */
+@media screen and (min-width:0\0)
+{
+    .dt-sc-contact-details-on-map .dt-sc-map-overlay
+    {
+        padding: 71px 0 0;
+    }
+}
+
+/* IE9 only override */
+.ie9 .dt-sc-contact-details-on-map .dt-sc-map-overlay
+{
+    padding: 72px 0 0;
+}
+
+/*--------------------------------------------------------------
+    3.0 - DT Responsive
+    --------------------------------------------------------------*/
+/* Note: Design for a width of 960px */
+@media only screen and (min-width:992px) and (max-width:1199px)
+{
+    /*----*****---- << Hosting >> ----*****----*/
+    .hosting-contact-info-container .dt-sc-contact-info.type7 span
+    {
+        left: 10px;
+    }
+
+    /*----*****---- << Restaurant >> ----*****----*/
+    .dt-sc-contact-details-on-map .dt-sc-map-overlay
+    {
+        padding: 72px 0 0;
+    }
+
+    /*----*****---- << Miscellaneous >> ----*****----*/
+    .dt-sc-text-with-icon
+    {
+        font-size: 13px;
+    }
+
+    .dt-sc-image-caption.type8 .dt-sc-image-title h6
+    {
+        line-height: normal;
+    }
+}
+
+/* Note: Design for a width of 768px */
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+    .dt-sc-text-with-icon
+    {
+        font-size: 11px;
+    }
+
+    .vc_row.vc_row-no-padding .dt-sc-map-overlay .wpb_column.vc_col-sm-3
+    {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .vc_row.vc_row-no-padding .dt-sc-map-overlay .wpb_column.vc_col-sm-3 .dt-sc-contact-info.type3
+    {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .vc_row.vc_row-no-padding .dt-sc-map-overlay .wpb_column.vc_col-sm-3 .dt-sc-contact-info.type3 h6
+    {
+        font-size: 15px;
+    }
+
+    .dt-sc-contact-details-on-map .dt-sc-map-overlay
+    {
+        padding: 76px 0 0;
+    }
+
+    .rs_line_height p
+    {
+        line-height: normal !important;
+    }
+
+    /*----*****---- << Event >> ----*****----*/
+    .dt-sc-content-with-hexagon-shape
+    {
+        margin-left: 16%;
+    }
+    .event-colored-box
+    {
+        margin-top: 0;
+    }
+    .event-contact-info
+    {
+        margin-left: 25%;
+    }
+
+    /*----*****---- << Architecture >> ----*****----*/
+    .architecture-process.rs_padding_override
+    {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .column.wpb_column.dt-sc-one-fifth.vc_col-md-4
+    {
+        margin-bottom: 20px;
+        min-height: 290px; 
+        width: 32%;
+    }
+    .column.wpb_column.dt-sc-one-fifth.vc_col-md-4:nth-child(4),
+    .column.wpb_column.dt-sc-one-fifth.vc_col-md-4:nth-child(10)
+    {
+        margin-left: 0;
+    }
+
+    .secondary-skin-gradient .dt-sc-contact-info,
+    .secondary-skin-gradient .dt-sc-contact-info span
+    {
+        font-size: 40px;
+    }
+}
+
+/*----*****---- << Mobile (Landscape) >> ----*****----*/
+
+/* Common Styles for the devices below 767px width */
+@media only screen and (max-width: 767px)
+{
+    .fitness-form-container.extend-bg-fullwidth-right::after
+    {
+        background-color: transparent;
+    }
+    .fitness-form-container.extend-bg-fullwidth-right .vc_column-inner
+    {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+    .fitness-contact-boxes .wpb_text_column,
+    .fitness-contact-boxes .wpb_text_column:nth-child(2),
+    .fitness-contact-boxes .wpb_text_column:last-child,
+    .fitness-contact-boxes .wpb_text_column:nth-child(3)
+    {
+        padding: 10px 0; 
+        width: 100%;
+    }
+
+    .hotel_blockquote-type4 blockquote.type4
+    {
+        margin-top: 0;
+    }
+
+    .event-colored-box
+    {
+        margin-top: 0;
+    }
+    .event-contact-info.wpb_column
+    {
+        float: none; 
+        padding: 85px 30px 30px;
+        width: 320px;
+    }
+
+    .gradient-parallax:before
+    {
+        background:    -moz-linear-gradient(to right, rgba(242, 243, 246, 1) 20%, rgba(242, 243, 246, .75) 30%, rgba(242, 243, 246, .65) 40%, rgba(242, 243, 246, .55)60%, rgba(229, 229, 229, 0) 100%);
+        background: -webkit-linear-gradient(to right, rgba(242, 243, 246, 1) 20%, rgba(242, 243, 246, .75) 30%, rgba(242, 243, 246, .65) 40%, rgba(242, 243, 246, .55)60%, rgba(229, 229, 229, 0) 100%);
+        background:         linear-gradient(to right, rgba(242, 243, 246, 1) 20%, rgba(242, 243, 246, .75) 30%, rgba(242, 243, 246, .65) 40%, rgba(242, 243, 246, .55)60%, rgba(229, 229, 229, 0) 100%);
+        //// filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f2f3f6', endColorstr='#00e5e5e5', GradientType=1);
+    }
+
+    /*----*****---- << Hosting >> ----*****----*/
+    .hosting-contact-info-container .dt-sc-contact-info.type7 span
+    {
+        left: 0;
+    }
+    .hosting-contact-info-container .dt-sc-contact-info.type7
+    {
+        padding-left: 100px;
+    }
+    .rs_client_testimonial-center .dt-sc-image-flip a
+    {
+        display: block; 
+        position: relative;
+    }
+    .rs_client_testimonial-center .dt-sc-image-flip
+    {
+        text-align: center;
+    }
+
+    .hosting-table th
+    {
+        font-size: 13px;
+        padding: 13px 10px;
+        text-transform: capitalize;
+    }
+    .hosting-table tr td,
+    .hosting-table tbody tr:nth-child(2n+1) td
+    {
+        font-size: 13px;
+        padding: 21px 10px;
+    }
+    .hosting-contact-info-container:before
+    {
+        content: none;
+    }
+
+    .extend-bg-fullwidth-left::after
+    {
+        content: none;
+    }
+
+    /*----*****---- << Custom Class >> ----*****----*/
+    .rs_col_no_btm_space .wpb_column,
+    .rs_col_no_btm_space.wpb_column,
+    .rs_negative-margin_override.vc_row
+    {
+        margin-left: 0 !important;
+    }
+
+    .rs_padding_override_zero.vc_row,
+    .rs_padding_override_zero.wpb_column .vc_column-inner
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .secondary-skin-gradient .dt-sc-contact-info,
+    .secondary-skin-gradient .dt-sc-contact-info span
+    {
+        font-size: 30px;
+    }
+
+    /*----*****---- << Custom Class >> ----*****----*/
+    .rs_padding_override.vc_row,
+    .rs_padding_override.wpb_column .vc_column-inner
+    {
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+    }
+
+    .vc_row.extend-bg-fill-slanting .extend-bg-fullwidth-left:not(.vc_col-has-fill):after,
+    .vc_row.extend-bg-fill-slanting .extend-bg-fullwidth-left.vc_col-has-fill > .vc_column-inner:after,
+    .vc_row.extend-bg-fill-slanting .extend-bg-fullwidth-right:not(.vc_col-has-fill):after,
+    .vc_row.extend-bg-fill-slanting .extend-bg-fullwidth-right.vc_col-has-fill > .vc_column-inner:after
+    {
+        left: 0;
+        margin: 0 -15px;
+        right: 0;
+        transform: none;
+    }
+}
+
+/* Common Styles for the devices below 479px width */
+@media only screen and (max-width: 479px)
+{
+    /*----*****---- << Event location page >> ----*****----*/
+    .event-contact-info.wpb_column
+    {
+        margin: 20px 0 0 0; 
+        width: 100%;
+    }
+    .event-contact-info:before
+    {
+        background-size: 100%; 
+        left: 0;
+        width: 100%;
+    }
+    .event-contact-info .dt-sc-sociable li
+    {
+        margin-bottom: 20px;
+    }
+
+    /*----*****---- << Custom Class >> ----*****----*/
+    .rs_padding_left-override.vc_row .vc_column-inner,
+    .rs_padding_left-override.wpb_column .vc_column-inner
+    {
+        padding-left: 15px !important;
+    }
+    .vc_row.vc_row-no-padding .responsive-padding > .vc_column-inner
+    {
+        padding-left: 35px; 
+        padding-right: 35px;
+    }
+
+    .gradient-content .dt-sc-button.medium
+    {
+        padding: 14px 20px;
+    }
+
+    .overflow-content
+    {
+        margin: 0;
+    }
+
+    /*----*****---- << Hosting >> ----*****----*/
+    .hosting-table th
+    {
+        font-size: 12px;
+        padding: 13px 6px; 
+        text-transform: capitalize;
+    }
+    .hosting-table tr td,
+    .hosting-table tbody tr:nth-child(2n+1) td
+    {
+        font-size: 12px;
+        padding: 22px 8px;
+    }
+
+    /*----*****---- << Miscellaneous >> ----*****----*/
+    .rs_fontsize_small
+    {
+        font-size: 40px !important;
+    }
+
+    .rs_padding_override.vc_row,
+    .rs_padding_override.wpb_column .vc_column-inner
+    {
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    /*----*****---- << Business >> ----*****----*/
+    .business-contact-social li
+    {
+        margin: 0 15px;
+    }
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 319px)
+{
+    /*----*****---- << Event location page >> ----*****----*/
+    .event-contact-info.wpb_column
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .event-contact-info .dt-sc-contact-info span
+    {
+        float: none;
+        margin: 0; 
+        text-align: center;
+        width: 100%;
+    }
+
+    /*----*****---- << Hosting contact Page >> ----*****----*/
+    .hosting-contact-info-container:before
+    {
+        left: 0;
+    }
+    .hosting-contact-info-container .dt-sc-contact-info.type7
+    {
+        padding-left: 0;
+    }
+    .hosting-contact-info-container .dt-sc-contact-info.type7 span
+    {
+        left: 0;
+    }
+    .hosting-contact-info-container:before
+    {
+        width: 100%;
+    }
+
+    /*----*****---- << Hosting Domain Page >> ----*****----*/
+    .hosting-table th
+    {
+        font-size: 10px;
+        padding: 13px 0;
+    }
+    .hosting-table tr td,
+    .hosting-table tbody tr:nth-child(2n+1) td
+    {
+        font-size: 10px;
+        padding: 21px 7px;
+    }
+
+    /*----*****---- << Common >> ----*****----*/
+    .rs_fontsize_small
+    {
+        font-size: 32px !important;
+    }
+
+    /* http://prntscr.com/dydp42, http://prntscr.com/dydpkf */
+    .rs_padding_override.vc_row,
+    .rs_padding_override.wpb_column .vc_column-inner
+    {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    /*----*****---- << Fitness >> ----*****----*/
+    .dt-sc-text-with-icon
+    {
+        font-size: 10px;
+        padding-left: 15px;
+    }
+    .dt-sc-text-with-icon span
+    {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
+    ::i-block-chrome,
+    .dt-sc-contact-details-on-map .dt-sc-map-overlay
+    {
+        display: block;
+    }
+
+    ::i-block-chrome,
+    .footer-copyright .menu-links li
+    {
+        margin: 0 0 0 28px;
+    }
+
+
+    ::i-block-chrome,
+    .vc_row.vc_row-flex:not(.vc_row-has-fill),
+    .vc_row.vc_row-flex[data-vc-full-width-init='true'],
+    .vc_row.vc_row-has-fill[data-vc-full-width-init='true']
+    {
+        display: table !important;
+    }
+    /* ::i-block-chrome, .vc_row.vc_row-flex > .vc_column_container { float: none; } */
+    ::i-block-chrome,
+    .vc_row.vc_row-flex.vc_row-o-equal-height > .vc_column_container
+    {
+        display: block;
+    }
+    ::i-block-chrome,
+    .vc_row.vc_row-flex.vc_row-o-content-middle:not(.vc_row-o-equal-height) > .vc_column_container
+    {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    ::i-block-chrome,
+    .vc_row.vc_row-flex:not([data-vc-full-width-init='true'])
+    {
+        width: 100%;
+    }
+    ::i-block-chrome,
+    .vc_row.vc_row-flex:not([data-vc-full-width-init='true']) > .vc_column_container
+    {
+        display: block; /* float: none; */
+    }
+    ::i-block-chrome,
+    .vc_row.vc_row-flex.vc_row-o-content-middle.vc_row-o-equal-height:not([data-vc-full-width-init='true']) > .vc_column_container
+    {
+        vertical-align: middle;
+    }
+
+
+    ::i-block-chrome,
+    .vc_separator
+    {
+        display: inline-block;
+    }
+
+    ::i-block-chrome,
+    .dt-logo-container
+    {
+        display: table;
+    }
+    ::i-block-chrome,
+    .dt-logo-container,
+    .dt-logo-container.logo-align-left
+    {
+        margin-right: auto;
+    }
+    ::i-block-chrome,
+    .dt-logo-container.logo-align-right
+    {
+        margin-left: auto;
+    }
+
+    ::i-block-chrome,
+    .dt-header-menu.left,
+    .dt-header-menu.right
+    {
+        float: none;
+    }
+
+    ::i-block-chrome,
+    .flex-col-elements-inline-middle.vc_column_container > .vc_column-inner > .wpb_wrapper
+    {
+        display: table;
+    }
+    ::i-block-chrome,
+    .flex-col-elements-inline-middle.justify-end.vc_column_container > .vc_column-inner > .wpb_wrapper
+    {
+        margin-left: auto;
+    }
+
+    ::i-block-chrome,
+    .dt-logo-container.logo-align-center,
+    .flex-col-elements-inline-middle .dt-header-menu.center,
+    .flex-col-elements-inline-middle.justify-center.vc_column_container > .vc_column-inner > .wpb_wrapper
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    ::i-block-chrome,
+    .dt-sc-testimonial.type6 .dt-sc-testimonial-author img
+    {
+        border: none;
+                box-shadow: 0 0 0 2px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, .1);
+    }
+
+    ::i-block-chrome,
+    .dt-sc-icon-box-counter .vc_row.vc_row-flex
+    {
+        display: block;
+    }
+    ::i-block-chrome,
+    .dt-sc-icon-box-counter .vc_row.vc_row-flex.vc_row-o-equal-height > .vc_column_container
+    {
+        display: inline-block;
+    }
+
+    ::i-block-chrome,
+    .dt-sc-team.style2 .dt-sc-team-thumb img
+    {
+                transform: scale(.9936, .81223) translate(0, -11%); 
+        -webkit-transform: scale(.9936, .81223) translate(0, -11%);
+        width: 100%;
+    }
+
+
+    ::i-block-chrome,
+    .vc_separator.dt-sc-custom-icon-separator,
+    .vc_separator.dt-sc-title-boxed-with-border
+    {
+        display: table;
+    }
+
+    ::i-block-chrome,
+    .vc_separator.dt-sc-title-boxed-with-border.vc_separator_align_center
+    {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    ::i-block-chrome,
+    .vc_separator.dt-sc-custom-icon-separator .vc_sep_holder,
+    .vc_separator.dt-sc-custom-icon-separator .vc_sep_holder.vc_sep_holder_l,
+    .vc_separator.dt-sc-custom-icon-separator .vc_icon_element.vc_icon_element-outer
+    {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    ::i-block-chrome,
+    .vc_separator.dt-sc-title-boxed-with-border .vc_sep_holder,
+    .vc_separator.dt-sc-title-boxed-with-border h4
+    {
+        display: inline-block;
+    }
+
+    ::i-block-chrome,
+    .dt-sc-custom-icon-separator.vc_separator .vc_sep_holder.vc_sep_holder_r
+    {
+        width: 100%;
+    }
+
+    ::i-block-chrome,
+    .dt-sc-custom-icon-separator.vc_separator ~ .vc_row.vc_row-flex
+    {
+        width: 100%;
+    }
+
+    ::i-block-chrome,
+    .flip-box-wrap .horizontal_flip_right .ifb-back,
+    .flip-box-wrap .horizontal_flip_right .ifb-hover .ifb-front
+    {
+        opacity: 0;
+    }
+    ::i-block-chrome,
+    .flip-box-wrap .horizontal_flip_right .ifb-hover .ifb-back
+    {
+        opacity: 1;
+    }
+
+    ::i-block-chrome,
+    .widget .recent-posts-widget li .entry-title
+    {
+        line-height: normal;
+    }
+    ::i-block-chrome,
+    .widget .recent-posts-widget li .thumb
+    {
+        margin-top: 5px;
+    }
+    ::i-block-chrome,
+    .widget .recent-posts-widget li .entry-title h4
+    {
+        display: inline;
+    }
+
+
+    /*::i-block-chrome, .vc_row.dt-sc-simpler-content.overlay-header > .wpb_column.vc_column_container { position: fixed; width: 100%; height: 100%; top: 0; left: 0; z-index: 9999; background: rgba(255,255,255,0.45); }*/
+    ::i-block-chrome,
+    .vc_row.vc_row-flex.vc_row-o-equal-height.dt-sc-simpler-content > .vc_column_container
+    {
+        background: rgba(0,0,0,.1); 
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 9999;
+    }
+    ::i-block-chrome,
+    .vc_row.dt-sc-simpler-content.overlay-header > .vc_column_container .dt-header-menu
+    {
+        left: 0;
+        position: fixed;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+    }
+    ::i-block-chrome,
+    #header .dt-header-tpl .vc_row.dt-sc-simpler-content .dt-sc-simpler-content-bottom
+    {
+        position: fixed;
+    }
+}
+
+/* IE11 only override */
+_:-ms-fullscreen,
+:root .dt-sc-contact-details-on-map .dt-sc-map-overlay
+{
+    padding: 64px 0 0;
+}
+
+
+/* IE9 & above override */
+@media screen and (min-width:0\0)
+{
+    .dt-logo-container
+    {
+        display: block;
+    }
+
+    .no-header-menu ul li a,
+    .dt-header-menu .dt-primary-nav li a
+    {
+        vertical-align: top;
+    }
+
+    .vc_row-flex.vc_row > .vc_column_container > .vc_column-inner > *
+    {
+        min-height: 1px !important;
+    }
+
+    .vc_separator.dt-sc-custom-icon-separator,
+    .vc_separator.dt-sc-title-boxed-with-border
+    {
+        display: table;
+    }
+
+    .vc_separator.dt-sc-title-boxed-with-border.vc_separator_align_center
+    {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .vc_separator.dt-sc-custom-icon-separator .vc_sep_holder,
+    .vc_separator.dt-sc-custom-icon-separator .vc_sep_holder.vc_sep_holder_l,
+    .vc_separator.dt-sc-custom-icon-separator .vc_icon_element.vc_icon_element-outer
+    {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
+    .vc_separator.dt-sc-title-boxed-with-border .vc_sep_holder,
+    .vc_separator.dt-sc-title-boxed-with-border h4
+    {
+        display: inline-block;
+    }
+
+    .dt-sc-custom-icon-separator.vc_separator .vc_sep_holder.vc_sep_holder_r
+    {
+        width: 100%;
+    }
+
+    .dt-sc-custom-icon-separator.vc_separator ~ .vc_row.vc_row-flex
+    {
+        width: 100%;
+    }
+
+    .dt-sc-counter.type4 .dt-sc-couter-icon-holder span
+    {
+        line-height: 70px;
+    }
+}
+
+
+/* IE9 only override */
+@media all and (min-width:0\0) and (min-resolution:.001dpcm)
+{
+    #main-menu ul li.menu-item-simple-parent ul,
+    #main-menu ul li.menu-item-simple-parent ul li ul,
+    #main-menu ul li.menu-item-simple-parent ul li ul li ul
+    {
+        z-index: auto;
+    }
+
+    .vc_row-flex.vc_row
+    {
+        display: table !important;
+    }
+    .vc_row.vc_row-flex.dt-sc-map-overlay
+    {
+        display: block !important;
+    }
+
+    .dt-sc-contact-details-on-map.hide-overlay .vc_row.vc_row-flex.dt-sc-map-overlay
+    {
+        display: none !important;
+    }
+
+    .spa-map::before
+    {
+        content: none !important;
+    }
+}
+
+
+/* Firefox override */
+@-moz-document url-prefix()
+{
+    .dt-sc-contact-details-on-map .dt-sc-map-overlay
+    {
+        padding: 68px 0 0;
+    }
+    .university-contact-form .button-field i
+    {
+        height: 48px;
+        line-height: 48px;
+    }
+}
