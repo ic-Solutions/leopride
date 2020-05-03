@@ -7363,7 +7363,7 @@
     .dt-sc-sociable li { display : inline-block; margin : 2px 6px; padding : 0; position: relative; }
     .dt-sc-sociable li a { float : left; text-align : center; text-indent: -9999px; }
     .dt-sc-sociable li a > i { font-style: normal; font-size: inherit; font-weight: normal; }
-    .dt-sc-sociable li a > i:before { display: inline-block; font-family : "Font Awesome 5 Brands"; height: 100%; position: absolute; left: 0; top: 0; text-indent: 0; width: 100%; z-index: 1; }
+    .dt-sc-sociable li a > i:before { display: inline-block;  height: 100%; position: absolute; left: 0; top: 0; text-indent: 0; width: 100%; z-index: 1; }
         
     .dt-sc-sociable.small li a { font-size : 16px; height : 36px; line-height : 36px; width : 36px; }
     .dt-sc-sociable.small li a.zmdi { font-size : 20px; }
