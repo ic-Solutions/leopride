@@ -557,3 +557,19 @@ a.control_next {
     font-family: "FontAwesome" !important;
   }
 }
+
+
+//gallery page
+.gallery-page {
+  .dt-sc-tabs-horizontal {
+    @include media-query($on-palm) {
+      display: block !important;
+    }
+  }
+
+  .vc_pageable-slide-wrapper .vc_col-sm-3 {
+    @include media-query($on-palm) {
+      width: 50% !important;
+    }
+  }
+}
