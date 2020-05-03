@@ -361,3 +361,90 @@ a.control_next {
 
 
 
+// engineering guide table
+.pricing-table {
+  max-width: 1000px;
+  margin: 0 auto;
+
+  table {
+    margin-bottom: 0 !important;
+  }
+
+
+  td {
+    vertical-align: middle !important;
+    border-color: rgba(0, 0, 0, 0) !important;
+    text-align: left !important;
+  }
+
+  td:first-child {
+    width: 130px;
+    @include media-query($content-width) {
+      display: none;
+    }
+  }
+
+  td img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  td h3 {
+    margin: 0;
+    margin-bottom: 0px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+
+  td span {
+    margin: 0;
+  }
+
+
+  #footable_20753 {
+    background-color: rgba(242, 233, 233, 0.01) !important;
+    /*border-color: rgba(0, 0, 0, 1) !important;*/
+  }
+
+  #footable_20753 thead tr.footable-filtering th {}
+
+  #footable_20753:not(.hide_all_borders) thead tr.footable-filtering th {
+    border: 1px solid transparent !important;
+  }
+
+  #footable_20753 .input-group-btn:last-child>.btn:not(:last-child):not(.dropdown-toggle) {}
+
+  #footable_20753 tr.footable-header,
+  #footable_20753 tr.footable-header th {
+    background-color: rgba(182, 196, 36, 1) !important;
+  }
+
+  #footable_20753:not(.hide_all_borders) tbody tr td {
+    /*border-color: rgba(0, 0, 0, 1) !important;*/
+  }
+
+  #footable_20753 tbody tr:nth-child(even) {
+    background-color: rgba(235, 234, 234, 1);
+    color: rgba(1, 1, 1, 1);
+  }
+
+  #footable_20753 tbody tr:nth-child(odd) {
+    background-color: rgba(251, 186, 24, 1);
+    color: rgba(1, 1, 1, 1);
+  }
+
+  #footable_20753 tbody tr:nth-child(even):hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  #footable_20753 tbody tr:nth-child(odd):hover {
+    background-color: rgba(251, 186, 24, 0.34);
+  }
+
+  #footable_20753 tfoot .footable-paging {}
+
+  #footable_20753 tfoot .footable-paging .footable-page.active a {}
+
+  #footable_20753:not(.hide_all_borders) tfoot tr.footable-paging td {}
+
+}
