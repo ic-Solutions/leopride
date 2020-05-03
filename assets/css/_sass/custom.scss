@@ -531,3 +531,12 @@ a.control_next {
     color: $brand-color !important;
   }
 }
+
+.item-has-icon, .mobile-menu ul.dt-primary-nav li.go-back a {
+  &:before {
+    font-family: "FontAwesome" !important;
+  }
+  &:after {
+    font-family: "FontAwesome" !important;
+  }
+}
