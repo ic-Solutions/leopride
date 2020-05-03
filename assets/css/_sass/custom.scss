@@ -300,6 +300,9 @@ a.control_next {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
+  @include media-query($on-palm) {
+    display: block;
+  }
 }
 
 .full-width {
