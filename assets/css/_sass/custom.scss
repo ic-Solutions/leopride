@@ -312,6 +312,15 @@ a.control_next {
 }
 
 
+
+.container {
+  @include media-query($on-palm) {
+    width: auto !important;
+  }
+}
+
+
+
 .sub-menu {
   z-index: 99999 !important;
   background-color: white !important
