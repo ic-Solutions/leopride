@@ -3876,7 +3876,7 @@
 	.dt-sc-error-box a, .dt-sc-warning-box a, .dt-sc-success-box a, .dt-sc-info-box a { text-decoration:underline; }
 	
 	.dt-sc-error-box { background-color:#ffcccc; border:1px solid #ff9999; color:#d01313; position:relative; }
-	.dt-sc-error-box:before, .dt-sc-warning-box:before, .dt-sc-success-box:before, .dt-sc-info-box:before { top:16px; left:18px; font-family:"Font Awesome 5 Free"; font-style:normal; font-weight:900; text-decoration:inherit; font-size:20px; position:absolute; }		
+	.dt-sc-error-box:before, .dt-sc-warning-box:before, .dt-sc-success-box:before, .dt-sc-info-box:before { top:16px; left:18px; font-family:"FontAwesome"; font-style:normal; font-weight:900; text-decoration:inherit; font-size:20px; position:absolute; }		
 	.dt-sc-error-box:before { content:"\f057"; color:#C54228; }
 	
 	.dt-sc-warning-box { background-color:#fdebae; border:1px solid #e6c555; color:#c79d13; position:relative; }
@@ -4014,7 +4014,7 @@
 
 	.dt-sc-icon-box.type1.custom-style { border: none; box-shadow: 0 0 20px 0 rgba(0,0,0,.25); background: #fff; padding: 75px 40px 40px 40px; border-radius: 10px; }
 	
-	.dt-sc-icon-box.type1.custom-style:before {content: '\f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111'; font-family: 'Font Awesome 5 Free'; font-size: 18px; left: 0; letter-spacing: 30px; margin: 0 auto; overflow: hidden; position: absolute; right: 0; text-shadow: 2px 2px 0 #ccc; top: 12px; width: 80%; }
+	.dt-sc-icon-box.type1.custom-style:before {content: '\f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111'; font-family: 'FontAwesome'; font-size: 18px; left: 0; letter-spacing: 30px; margin: 0 auto; overflow: hidden; position: absolute; right: 0; text-shadow: 2px 2px 0 #ccc; top: 12px; width: 80%; }
 
 	.dt-sc-icon-box.type1.custom-style .icon-wrapper { display: none; }
 	.dt-sc-icon-box.type1.custom-style p a {border-bottom: 1px solid; display: inline-block; float: none; margin-top: 34px; width: auto; }
@@ -4677,7 +4677,7 @@
 	div[class*="custom-style"].dt-sc-icon-box.type13, div[class*="custom-style"].dt-sc-icon-box.type13:before, div[class*="custom-style"].dt-sc-icon-box.type13 *, div[class*="custom-style"].dt-sc-icon-box.type13 *:before, div[class*="custom-style-2"].dt-sc-icon-box.type13 p a span:before { transition: all .3s linear; -moz-transition: all .3s linear; -ms-transition: all .3s linear; -o-transition: all .3s linear; -webkit-transition: all .3s linear; }
 
 	div[class*="custom-style"].dt-sc-icon-box.type13 { border: none; box-shadow: 0 10px 30px rgba(0,0,0,.065); border-radius: 10px; position: relative; padding: 78px 35px 38px; }
-	div[class*='custom-style'].dt-sc-icon-box.type13:before {content: '\f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111'; font-family: 'Font Awesome 5 Free'; font-size: 18px; left: 0; letter-spacing: 36px; margin: auto; margin: 0 auto; overflow: hidden; position: absolute; right: 0; text-shadow: 2px 2px 0 #ccc; top: 12px; width: 80%; }
+	div[class*='custom-style'].dt-sc-icon-box.type13:before {content: '\f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111 \f111'; font-family: 'FontAwesome'; font-size: 18px; left: 0; letter-spacing: 36px; margin: auto; margin: 0 auto; overflow: hidden; position: absolute; right: 0; text-shadow: 2px 2px 0 #ccc; top: 12px; width: 80%; }
 
 	@media all and (-ms-high-contrast:none)
     {
@@ -5805,7 +5805,7 @@
 	ul.dt-sc-fancy-list.align_left.arrow.f_lg li { font-size:22px; padding:5px 0 5px 30px; }
 	ul.dt-sc-fancy-list.model-request-list.f_lg li:before { font-size:22px; top:5px; }
 	
-	ul.dt-sc-fancy-list li:before { font-family: "Font Awesome 5 Free"; font-style:normal; font-weight:900; text-decoration:inherit; font-size:12px; position: absolute; top: 6px; left: 0px; }
+	ul.dt-sc-fancy-list li:before { font-family: "FontAwesome"; font-style:normal; font-weight:900; text-decoration:inherit; font-size:12px; position: absolute; top: 6px; left: 0px; }
 	ul.dt-sc-fancy-list li:first-child:before { top: 1px; }
 	ul.dt-sc-fancy-list.minus li { padding-left: 55px; }
 	
@@ -5861,7 +5861,7 @@
 	ul.dt-sc-fancy-list.twitter li:before,
 	ul.dt-sc-fancy-list.facebook li:before,
 	ul.dt-sc-fancy-list.linkedin li:before,
-	ul.dt-sc-fancy-list.google-plus li:before { font-family: "Font Awesome 5 Brands";  }
+	ul.dt-sc-fancy-list.google-plus li:before { font-family: "FontAwesome";  }
 
 	ul.dt-sc-fancy-list.twitter li:before { content:"\f099";  }
 	ul.dt-sc-fancy-list.facebook li:before { content:"\f09a";  }
@@ -6717,7 +6717,7 @@
 	ul.dt-sc-pricing-table.type4 ul.dt-sc-tb-content > li {text-align:left;margin: 0 0 20px;padding: 0;width: 33%;display: inline-block;float: none;border: none;}
 	ul.dt-sc-pricing-table.type4 ul.dt-sc-tb-content > li i {padding-left: 35px;position: relative;margin-bottom: 15px;top: -15px;}
 	ul.dt-sc-pricing-table.type4 ul.dt-sc-tb-content > li i:last-child { margin: 0; }
-	ul.dt-sc-pricing-table.type4 ul.dt-sc-tb-content > li i:before {content: "\f00c";font-family:"Font Awesome 5 Free";font-size: 10px; font-weight: 900; display: block;position: absolute;left: 0;width: 25px;height: 25px;text-align: center;line-height: 22px;background: #b4d856;float: left;border: 1px solid rgba(0,0,0,0.1);color: #fff;}
+	ul.dt-sc-pricing-table.type4 ul.dt-sc-tb-content > li i:before {content: "\f00c";font-family:"FontAwesome";font-size: 10px; font-weight: 900; display: block;position: absolute;left: 0;width: 25px;height: 25px;text-align: center;line-height: 22px;background: #b4d856;float: left;border: 1px solid rgba(0,0,0,0.1);color: #fff;}
 	ul.dt-sc-pricing-table.type4 ul.dt-sc-tb-content > li i.no:before { content: "\f00d"; background: #e04545; }
 
 	ul.dt-sc-pricing-table.type4 li.dt-sc-pr-tb-col.selected, .dt-sc-pricing .dt-sc-pr-tb-col.type2.selected { position: relative; }
@@ -6846,7 +6846,7 @@
 	.dt-sc-pr-tb-col.type7 .dt-sc-tb-content li { float: left; display: block; clear: both; padding: 5px 0px 5px 30px; width: 100%; border: none; font-size: 16px; letter-spacing: 0.5px; line-height: 25px; position: relative; }
 	.dt-sc-pr-tb-col.type7 .dt-sc-tb-content li.dt-sc-item-enable:before { content: "\f00c"; color: #14b939; }
 	.dt-sc-pr-tb-col.type7 .dt-sc-tb-content li:before { content: "\f068"; color: #f02113; }
-	.dt-sc-pr-tb-col.type7 .dt-sc-tb-content li:before { position: absolute; font-family: "Font Awesome 5 Free"; font-weight: 900; left: 0; top: 5px; margin: auto; }
+	.dt-sc-pr-tb-col.type7 .dt-sc-tb-content li:before { position: absolute; font-family: "FontAwesome"; font-weight: 900; left: 0; top: 5px; margin: auto; }
 	.dt-sc-pr-tb-col.type7 .dt-sc-buy-now { display: inline-block; width: 100%; padding: 0 30px; }
 	.dt-sc-pr-tb-col.type7 .dt-sc-buy-now a { font-size: 16px; font-weight: 700; letter-spacing: 0.5px; padding: 20px 25px 19px; border-radius: 5px; box-sizing: border-box; width: 100%; margin-top: 0; color: #8997a7; background-color: #f7f7f7;
     text-transform: capitalize; }
