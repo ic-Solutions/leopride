@@ -46,12 +46,12 @@
   
   <link rel="stylesheet" href="/assets/css/main.css">
 
-  <script src='/assets/js/greensock.js'></script>
-
+  <!-- Hide preloader when everything loads -->
   <script>
-    jQuery(document).ready(function($) {
-      $(".preloader-plus").hide()
-  });
+    // without jQuery (doesn't work in older IEs)
+    document.addEventListener('DOMContentLoaded', function(){ 
+        document.querySelector(".preloader-plus").style.display = "none";
+    }, false);
   </script>
 
   <script>
@@ -64,7 +64,5 @@
       }
     </style>
   </noscript>
-  
-
 </head>
 
