@@ -212,7 +212,6 @@ small {
   position: relative;
   overflow: hidden;
   margin: 20px auto 0 auto;
-  border-radius: 4px;
 }
 
 #sliderSimple ul {
@@ -351,8 +350,11 @@ a.control_next {
 .dt-sc-title.with-right-border-decor.alignleft p, .dt-sc-title.with-right-border-decor.alignleft {
   margin-left: 0;
 }
-.dt-sc-title.with-right-border-decor.alignleft p {
-
+.goals {
+  .ult-item-wrap {
+    width: 250px;
+    padding: 10px;
+  }
 }
 
 
@@ -573,3 +575,6 @@ a.control_next {
     }
   }
 }
+
+
+// 
