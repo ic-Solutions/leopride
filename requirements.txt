@@ -11,9 +11,9 @@
 Todo
 - tabs in gallery page
 - instapage
-- logo quality(header & footer)
+//- logo quality(header & footer)
 //- remove innovative pic(pencil)
-- remove lazyload on all images
+//- remove lazyload on all images
 - guidance pricing table(mycareershaper.in)
 - career 360 (refer)
 //- update intro slider images
