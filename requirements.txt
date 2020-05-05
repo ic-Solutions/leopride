@@ -10,7 +10,7 @@
 
 Todo
 - tabs in gallery page
-- instapage
+//- instapage
 //- logo quality(header & footer)
 //- remove innovative pic(pencil)
 //- remove lazyload on all images
