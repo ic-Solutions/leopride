@@ -16,6 +16,7 @@ Todo
 - remove lazyload on all images
 - guidance pricing table(mycareershaper.in)
 - career 360 (refer)
+//- update intro slider images
 
 Ask for
 - cache on Cloudflare
