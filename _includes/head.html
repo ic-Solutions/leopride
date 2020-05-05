@@ -13,7 +13,7 @@
     left: 50% !important;
     top: 50% !important;
     transform: translate(-50%,-50%) !important;
-    background-image: url(/assets/images/leopride-130x100.png);
+    background-image: url({{site.data.main.logo}});
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,7 +48,6 @@
 
   <!-- Hide preloader when everything loads -->
   <script>
-    // without jQuery (doesn't work in older IEs)
     document.addEventListener('DOMContentLoaded', function(){ 
         document.querySelector(".preloader-plus").style.display = "none";
     }, false);

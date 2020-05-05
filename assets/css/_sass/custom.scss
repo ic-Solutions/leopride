@@ -522,6 +522,10 @@ a.control_next {
   padding-left: 0;
 }
 
+.footer-logo {
+  max-width: 80% !important;
+}
+
 .social-icons-ul {
   display: flex;
   @include media-query($on-palm) {
