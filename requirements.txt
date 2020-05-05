@@ -9,7 +9,7 @@
 //- speed should be fast
 
 Todo
-- tabs in gallery page
+//- tabs in gallery page
 //- instapage
 //- logo quality(header & footer)
 //- remove innovative pic(pencil)
