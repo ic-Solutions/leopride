@@ -33,35 +33,45 @@ permalink: /gallery/
                   <div id="content_1" class="tabcontent"> 
                      <div class="image-grid">
                         {% for item in site.data.gallery.international %}
-                           <img src="{{item}}" alt="Going International">
+                           <a data-fancybox="gallery" href="{{item}}">
+                              <img src="{{item}}" alt="Going International">
+                           </a>
                         {% endfor %}
                      </div>
                   </div> 
                   <div id="content_2" class="tabcontent" style="display:none;">
                      <div class="image-grid">
                         {% for item in site.data.gallery.country %}
-                           <img src="{{item}}" alt="Guidance Across Country">
+                           <a data-fancybox="gallery" href="{{item}}">
+                              <img src="{{item}}" alt="Guidance Across Country">
+                           </a>
                         {% endfor %}
                      </div>
                   </div>   
                   <div id="content_3" class="tabcontent" style="display:none;">
                      <div class="image-grid">
                         {% for item in site.data.gallery.neet %}
-                           <img src="{{item}}" alt="NEET PG Info Sessions">
+                           <a data-fancybox="gallery" href="{{item}}">
+                              <img src="{{item}}" alt="NEET PG Info Sessions">
+                           </a>
                         {% endfor %}
                      </div>
                   </div>                    
                   <div id="content_4" class="tabcontent" style="display:none;">
                      <div class="image-grid">
                         {% for item in site.data.gallery.seminars %}
-                           <img src="{{item}}" alt="Seminars and Workshops">
+                           <a data-fancybox="gallery" href="{{item}}">
+                              <img src="{{item}}" alt="Seminars and Workshops">
+                           </a>
                         {% endfor %}
                      </div>
                   </div>                  
                   <div id="content_5" class="tabcontent" style="display:none;">
                      <div class="image-grid">
                         {% for item in site.data.gallery.happy %}
-                           <img src="{{item}}" alt="Happy Clients">
+                           <a data-fancybox="gallery" href="{{item}}">
+                              <img src="{{item}}" alt="Happy Clients">
+                           </a>
                         {% endfor %}
                      </div>
                   </div>                  

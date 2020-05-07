@@ -42,6 +42,21 @@ layout: compress
       </script>
 
 
+
+      <!-- Load fancybox -->
+      <script>
+        (function() {
+          let css = document.createElement('link');
+          css.href = '/assets/vendors/fancybox/jquery.fancybox.min.css';
+          css.rel = 'stylesheet';
+          css.type = 'text/css';
+          document.getElementsByTagName('head')[0].appendChild(css);
+      })();
+      </script>
+
+
+
+
     <script src='/assets/js/jQuery.js'></script>
 
 
@@ -116,12 +131,12 @@ layout: compress
       <!-- <script type='text/javascript' src='/wp-content/plugins/final-tiles-grid-gallery-lite/scripts/jquery.finalTilesGallery.js'></script> -->
       <!-- <script type='text/javascript' src='/wp-content/plugins/revslider/public/assets/js/revolution.tools.min.js?ver=6.0' defer='defer'></script>
       <script type='text/javascript' src='/wp-content/plugins/revslider/public/assets/js/rs6.min.js?ver=6.0.7' defer='defer'></script> -->
-      <script type='text/javascript' src='/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js'></script>
+      <!-- <script type='text/javascript' src='/wp-content/plugins/wp-smushit/app/assets/js/smush-lazy-load.min.js'></script> -->
       <script type='text/javascript' src='/wp-content/themes/owly/framework/js/jquery.ui.totop.min.js'></script>
       <script type='text/javascript' src='/wp-content/themes/owly/framework/js/jquery.easing.js'></script>
       <!-- <script type='text/javascript' src='/wp-content/themes/owly/framework/js/jquery.caroufredsel.js'></script> -->
       <!-- <script type='text/javascript' src='/wp-content/themes/owly/framework/js/jquery.debouncedresize.js'></script> -->
-      <script type='text/javascript' src='/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js'></script>
+      <!-- <script type='text/javascript' src='/wp-content/plugins/js_composer/assets/lib/prettyphoto/js/jquery.prettyPhoto.min.js'></script> -->
       <!-- <script type='text/javascript' src='/wp-content/themes/owly/framework/js/jquery.touchswipe.js'></script> -->
       <!-- <script type='text/javascript' src='/wp-content/themes/owly/framework/js/jquery.parallax.js'></script> -->
       <script type='text/javascript' src='/wp-content/themes/owly/framework/js/jquery.downcount.js'></script>
@@ -347,6 +362,7 @@ layout: compress
         {% endif %}
 
 
+<script src="/assets/vendors/fancybox/jquery.fancybox.min.js"></script>
 
 
   {% include whatsapp-chat.html %}
