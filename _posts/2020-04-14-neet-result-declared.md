@@ -3,7 +3,7 @@ title: NEET Results Declared
 image: /assets/images/blog/NEET-Result-Declared.jpg
 description: Aspirants who have scored very good marks in NEET are having moderately good position in the process of counselling and admission procedure. Aspirants having less marks also have chances if they opt for smart counselling process with NEET advisor and can achieve medical institution of which they aimed for.
 layout: post
-author: Vipin Bansal
+author: NEET Advisor
 ---
 
 

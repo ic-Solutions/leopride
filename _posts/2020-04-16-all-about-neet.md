@@ -3,7 +3,7 @@ title: All About NEET counselling
 image: /assets/images/blog/All-about-NEET-Counselling.jpg
 description: In India children are always protected by their parents no matter how old their child is and this the beauty of Indian culture where family values are still respected and taken under consideration by family members.
 layout: post
-author: Vipin Bansal
+author: NEET Advisor
 ---
 
 In India children are always protected by their parents no matter how old their child is and this the beauty of Indian culture where family values are still respected and taken under consideration by family members. As a result of such culture when students appear for NEET exam their parents also start preparing for counselling and admission procedure simultaneously. Parents try their best to fetch as much as information available on internet but that information is not reliable.

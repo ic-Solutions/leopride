@@ -14,14 +14,19 @@ layout: default
 
 		<div class="meta">
 			<p><small>
+				<span><i class="fa fa-calendar mr-2"></i></span>
 				<span class="text-gray">{{ page.date | date: '%B %d, %Y' }}</span>
-				<span class="ml-2"><a href="/about/">{{page.author}}</a></span>
+				
+				<span class="ml-3">
+					
+					<a href="/about/"><span><i class="fa fa-user mr-2"></i></span>{{page.author}}</a></span>
 			</small></p>
 		</div>
 		
 		<div class="content text-body">
 			{{content}}
 		</div>
+		{% include share.html %}
 	</div>
 
 	<div class="blog-sidebar"></div>
