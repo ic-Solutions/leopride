@@ -27,6 +27,7 @@ permalink: /gallery/
                      <li><a href="javascript:rudrSwitchTab('tb_2', 'content_2');" id="tb_2" class="tabmenu">Guidance Across Country</a></li>
                      <li><a href="javascript:rudrSwitchTab('tb_3', 'content_3');" id="tb_3" class="tabmenu">NEET PG Info Sessions</a></li>
                      <li><a href="javascript:rudrSwitchTab('tb_4', 'content_4');" id="tb_4" class="tabmenu">Seminars and Workshops</a></li>
+                     <li><a href="javascript:rudrSwitchTab('tb_5', 'content_5');" id="tb_5" class="tabmenu">Happy Clients</a></li>
                   </ul>
                    
                   <div id="content_1" class="tabcontent"> 
@@ -54,6 +55,13 @@ permalink: /gallery/
                      <div class="image-grid">
                         {% for item in site.data.gallery.seminars %}
                            <img src="{{item}}" alt="Seminars and Workshops">
+                        {% endfor %}
+                     </div>
+                  </div>                  
+                  <div id="content_5" class="tabcontent" style="display:none;">
+                     <div class="image-grid">
+                        {% for item in site.data.gallery.happy %}
+                           <img src="{{item}}" alt="Happy Clients">
                         {% endfor %}
                      </div>
                   </div>                  
