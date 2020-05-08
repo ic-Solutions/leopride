@@ -67,7 +67,7 @@ layout: compress
         
             setInterval(function () {
                 moveRight();
-            }, 5000);
+            }, 15000);
     
           moveRight();
           var slideCount = $('#sliderSimple ul li').length;
@@ -84,7 +84,7 @@ layout: compress
             function moveLeft() {
                 $('#sliderSimple ul').animate({
                     left: + slideWidth
-                }, 500, function () {
+                }, 300, function () {
                     $('#sliderSimple ul li:last-child').prependTo('#sliderSimple ul');
                     $('#sliderSimple ul').css('left', '');
                 });
@@ -93,7 +93,7 @@ layout: compress
             function moveRight() {
                 $('#sliderSimple ul').animate({
                     left: - slideWidth
-                }, 500, function () {
+                }, 300, function () {
                     $('#sliderSimple ul li:first-child').appendTo('#sliderSimple ul');
                     $('#sliderSimple ul').css('left', '');
                 });
