@@ -370,9 +370,9 @@ a.control_next {
 .blog-index {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 30px;
+  grid-gap: 20px;
   @include media-query($on-laptop) {
-     grid-template-columns: 1fr 1fr;
+     grid-template-columns: 1fr;
   }
   @include media-query($on-palm) {
     grid-template-columns: 1fr;
@@ -380,6 +380,7 @@ a.control_next {
 }
 
 .blog-card {
+  width: 400px;
   box-shadow: 0 15px 35px rgba(50,50,93,0.1),0 5px 15px rgba(0,0,0,0.07);
   border-radius: 10px;
 }
@@ -392,12 +393,13 @@ a.control_next {
 
   .blog-image {
     height: 400px;
-    background-size: cover;
+    width: 400px;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.3s linear;
     &:hover {
-       transform: scale(1.2);
+       // transform: scale(1.2);
     }
 
     @include media-query($on-palm) {

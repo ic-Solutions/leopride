@@ -18,18 +18,18 @@ permalink: /blog/
                               <div class="blog-image-container">
                                  <div class="blog-image" style="background-image: url({{post.image}});"></div>
                               </div>
-                              <div class="blog-card-content p-4">
-                                 <div class="blog-title py-1 py-md-2">
+                              <div class="blog-card-content py-2 px-3">
+                                 <div class="blog-title py-0 my-0">
                                     <h4>{{post.title }}</h4>
                                  </div>
                                  <div class="blog-description">
-                                    {{post.description | truncate: 80}}
+                                    {{post.description | truncate: 60}}
                                  </div>
                                  <div class="blog-meta">
                                     <div class="blog-date"></div>
                                     <div class="blog-author"></div>
                                  </div>
-                                 <div class="blog-button text-right pt-4">
+                                 <div class="blog-button text-right pb-3">
                                     <a class="btn btn-h" href="{{post.url}}">Read More</a>
                                  </div>
                               </div>
