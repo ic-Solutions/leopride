@@ -1,0 +1,37 @@
+neet-ug:
+  - title: Medical Mantra
+    description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process through NEET.
+    image: http://127.0.0.1:4000/wp-content/uploads/2019/10/01.png
+
+  - title: Profile Mapping
+    description: Based on your inputs like NEET score, profile mapping will be done to make sure you get the best option available.
+    image: http://127.0.0.1:4000/wp-content/uploads/2019/10/02.png
+
+  - title: Application Filling
+    description: Support in filling of application forms for AIQ/ Deemed,ESI,AFMC, AIIMS, JIPMER & different state counselling
+    image: http://127.0.0.1:4000/wp-content/uploads/2019/10/09.png
+
+  - title: Periodic Alerts
+    description: Regular SMS / Email alerts on announcements, notifications, updates, counselling dates, etc.
+    image: http://127.0.0.1:4000/assets/images/06.png
+
+  - title: College Health Analysis
+    description: Get health analysis of medical colleges to find out which college to choose first ?
+    image: http://127.0.0.1:4000/wp-content/uploads/2019/10/05.png
+
+  - title: Counselling
+    description: Post result consultation with our career expert based on actual NEET score on AIQ, Deemed and state counselling.
+    image: http://127.0.0.1:4000/wp-content/uploads/2019/10/08.png
+
+  - title: Documentation
+    description: Support in the crucial application process and help with documentation, verification and submission in the right format.
+    image: http://127.0.0.1:4000/wp-content/uploads/2019/10/05.png
+
+  - title: Guidance from our Advisor
+    description: An Intensive one to one session with our advisor, who will answer your queries about NEET.
+    image: http://127.0.0.1:4000/wp-content/uploads/2019/10/07.png
+    features:
+      - Look Beyond MBBS
+      - All about NEET counselling
+      - Life in a Medical College
+      - Study MBBS Abroad
