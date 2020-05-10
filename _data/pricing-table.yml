@@ -8,7 +8,7 @@ neet-ug:
     image: /wp-content/uploads/2019/10/02.png
 
   - title: Application Filling
-    description: Support in filling of application forms for AIQ/ Deemed,ESI,AFMC, AIIMS, JIPMER & different state counselling
+    description: Support in filling of application forms for AIQ/ Deemed,ESI,AFMC, AIIMS, JIPMER & different state counselling.
     image: /wp-content/uploads/2019/10/09.png
 
   - title: Periodic Alerts
@@ -51,7 +51,7 @@ neet-pg:
     image: /wp-content/uploads/2019/10/02.png
 
   - title: Application Filling
-    description: Support in filling of application forms for AIQ/ Deemed,ESI,AFMC, AIIMS, JIPMER & different state counselling
+    description: Support in filling of application forms for AIQ/ Deemed,ESI,AFMC, AIIMS, JIPMER & different state counselling.
     image: /wp-content/uploads/2019/10/09.png
 
   - title: Periodic Alerts
@@ -74,3 +74,35 @@ neet-pg:
       - All about NEET counselling
       - Life in a Medical College
       - Study MBBS Abroad
+
+
+
+engg:
+  - title: Application Filling
+    description: Why run around to multiple Institutions for application forms. Get them right here and the support for filling them up too!
+    image: /assets/images/02-1.png
+
+  - title: Psychometric Test
+    description: To identify which branch of engineering suits you the most. Choose wisely.
+    image: /assets/images/03.png
+
+  - title: Shortlist Your Success
+    description: Based on your inputs, a personalized report will be designed to guide you on the options you should opt for.
+    image: /assets/images/04.png
+
+  - title: Periodic Alerts
+    description: Regular SMS / Email alerts on announcements, notifications, updates, counselling dates, etc.
+    image: /assets/images/05-1.png
+
+  - title: Counseling & Documentation
+    description: Post result consultation with our career advisor for documentation, counselling process and getting the best option available.
+    image: /assets/images/08-1-1.png
+
+  - title: Guidance from our Advisor
+    description: An Intensive one to one session with our advisor, who will answer all your queries and clarify your doubts.
+    image: /assets/images/06-1-1.png
+    features:
+      - How to Choose Right College
+      - New Age Engineering Careers
+      - Study Engineering Abroad
+      - Life at an Engineering College

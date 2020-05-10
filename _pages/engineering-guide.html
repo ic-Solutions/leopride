@@ -431,183 +431,34 @@ permalink: /engineering-guide/
 
 
       <div class="vc_row-full-width vc_clearfix"></div>
-<!--       <div data-delay="0" id="pricing_table" class="vc_row wpb_row vc_row-fluid">
-         <div class="wpb_column vc_column_container vc_col-sm-12" data-delay="0">
-            <div class="vc_column-inner">
-               <div class="wpb_wrapper">
-                  <div id="1576054963029-b3bdbea0-d8fa" class="dt-sc-empty-space"></div>
-                  <div class="wpb_text_column wpb_content_element">
-                     <div class="wpb_wrapper py-3 py-md-5">
-                        <p class="neetpricing" style="line-height: normal; text-align: center;"><span style="font-size: 45px; color: #f7d516; line-height: normal;"><b>ENGINEERING GUIDE &#8211; </b></span><span style="font-size: 45px; color: #201169; line-height: normal;">Pricing<br />
-                           </span>
-                        </p>
+
+      <section class="pricing-table pricing-table-neet py-3 py-md-5">
+         <div class="content">
+            <div class="payment-info py-3 py-md-5 text-center">
+               <h2>Engineering Guide (Premium Package)</h2>
+               <h3>19,980 INR</h3>
+               <a class="btn btn-success px-4">Buy Now</a>
+            </div>
+            <div class="table-wrapper">
+               {% for item in site.data.pricing-table.engg %}
+                  <div class="r table-row">
+                     <div class="c-2 text-center">
+                        <img class="image" src="{{item.image}}" alt="{{item.title}}">
+                     </div>
+                     <div class="c-10 d-grid align-content-center">
+                        <h5 class="table-title">{{item.title}}</h5>
+                        <p class="table-description">{{item.description}}</p>
+                        <ul class="features">
+                           {% for i in item.features %}
+                              <li>{{i}}</li>
+                           {% endfor %}
+                        </ul>
                      </div>
                   </div>
-               </div>
+               {% endfor %}
             </div>
          </div>
-      </div>
-      <div data-delay="0" class="vc_row wpb_row vc_row-fluid vc_row-has-fill pricing-table">
-         <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-has-fill" data-delay="0">
-            <div class="vc_column-inner vc_custom_1576051711018">
-               <div class="wpb_wrapper border">
-                  <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
-                  <div class="wpb_text_column wpb_content_element">
-                     <div class="wpb_wrapper">
-                        <h1 style="text-align: center;"><span style="color: #000000; line-height: normal;"><b>Premium Package </b></span></h1>
-                        <h2 style="text-align: center;"><b><span style="color: black;">19,980 INR</span></b></h2>
-                     </div>
-                  </div>
-                  <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
-                  <div class="vc_btn3-container  animated vc_btn3-center"><a style="background-color:#ff0000; color:#ffffff;" class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-custom vc_btn3-icon-left" href="#" title="" target="_blank"><i class="vc_btn3-icon fa fa-download"></i> Buy Now</a></div>
-                  <div class="vc_empty_space" style="height: 20px"><span class="vc_empty_space_inner"></span></div>
-                  <div class="wpb_text_column wpb_content_element  vc_custom_1576056245384">
-                     <div class="wpb_wrapper">
-                        <div id="footable_parent_20753" class="footable_parent ninja_table_wrapper loading_ninja_table wp_table_data_press_parent semantic_ui colored_table">
-                           <table data-ninja_table_instance="ninja_table_instance_0" data-footable_id="20753" data-filter-delay="500" id="footable_20753" class="foo-table ninja_footable foo_table_20753 ui table  nt_type_legacy_table striped vertical_centered ninja_custom_color ninja_custom_color footable-paging-right ninjatable_hide_header_row ninja_table_search_disabled ninja_table_pro">
-                              <colgroup>
-                                 <col class="ninja_column_0">
-                                 <col class="ninja_column_1">
-                              </colgroup>
-
-                              <tbody>
-                                 <tr data-row_id="16" class="ninja_table_row_0 nt_row_id_16">
-                                    <td>
-                                       <img src="/assets/images/02-1.png" width="100" height="100" />
-                                    </td>
-                                    <td>
-                                       <h3>Application Filling</h3>
-                                       <span style="font-family: Source Sans Pro; font-size: 18px; font-weight: 200px;">Why run around to multiple Institutions for application forms. Get them right here and the support for filling them up too!.</span>
-                                    </td>
-                                 </tr>
-                                 <tr data-row_id="22" class="ninja_table_row_1 nt_row_id_22">
-                                    <td>
-                                       <img src="/assets/images/03.png" width="100" height="100" />
-                                    </td>
-                                    <td>
-                                       <h3>Psychometric Test</h3>
-                                       <span style="font-family: Source Sans Pro; font-size: 18px; font-weight: 200px;">To identify which branch of engineering suits you the most. Choose wisely.</span>
-                                    </td>
-                                 </tr>
-                                 <tr data-row_id="17" class="ninja_table_row_2 nt_row_id_17">
-                                    <td>
-                                       <img src="/assets/images/04.png" width="100" height="100" />
-                                    </td>
-                                    <td>
-                                       <h3>Shortlist Your Success</h3>
-                                       <span style="font-family: Source Sans Pro; font-size: 18px; font-weight: 200px;">Based on your inputs, a personalized report will be designed to guide you on the options you should opt for.</span>
-                                    </td>
-                                 </tr>
-                                 <tr data-row_id="18" class="ninja_table_row_3 nt_row_id_18">
-                                    <td>
-                                       <img src="/assets/images/05-1.png" width="100" height="100" />
-                                    </td>
-                                    <td>
-                                       <h3>Periodic Alerts</h3>
-                                       <span style="font-family: Source Sans Pro; font-size: 18px; font-weight: 200px;">Regular SMS/Email alerts on announcements,notifications, updates, counselling dates, etc.</span>
-                                    </td>
-                                 </tr>
-                                 <tr data-row_id="19" class="ninja_table_row_4 nt_row_id_19">
-                                    <td>
-                                       <img src="/assets/images/08-1-1.png" width="100" height="100" />
-                                    </td>
-                                    <td>
-                                       <h3> Counseling & Documentation </h3>
-                                       <span style="font-family: Source Sans Pro; font-size: 18px; font-weight: 200px;">Post result consultation with our career advisor for documentation, counselling process and getting the best option available.</span>
-                                    </td>
-                                 </tr>
-                                 <tr data-row_id="21" class="ninja_table_row_5 nt_row_id_21">
-                                    <td>
-                                       <img src="/assets/images/06-1-1.png" width="100" height="100" />
-                                    </td>
-                                    <td>
-                                       <h3>Guidance from our Advisor</h3>
-                                       <span style="font-family: Source Sans Pro; font-size: 18px; font-weight: 200px;">An Intensive one to one session with our advisor , who will answer all your queries and clarify your doubts.</span>
-                                       <ul>
-                                          <li align="left"><span style="text-align: left; font-size: 18px; font-family: Source Sans Pro;">How to Choose Right College.</span></li>
-                                          <li align="left"><span style="text-align: left; font-size: 18px; font-family: Source Sans Pro;"><span style="text-align: left; font-size: 18px; font-family: Source Sans Pro;">New Age Engineering Careers.</span> </span></li>
-                                          <li align="left"><span style="text-align: left; font-size: 18px; font-family: Source Sans Pro;"><span style="text-align: left; font-size: 18px; font-family: Source Sans Pro;">Study Engineering Abroad</span> </span></li>
-                                          <li align="left"><span style="text-align: left; font-size: 18px; font-family: Source Sans Pro;"><span style="text-align: left; font-size: 18px; font-family: Source Sans Pro;">Life at an Engineering College</span></span></li>
-                                       </ul>
-                                    </td>
-                                 </tr>
-                              </tbody>
-                           </table>
-                           <style id="ninja_table_custom_css_20753" type="text/css">
-                              
-                           </style>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> -->
-
-
-      <div class="py-3 py-md-5 pricing-table-new">
-         <div class="background">
-           <div class="container">
-             <div class="panel pricing-table">
-               <div class="pricing-plan">
-                 <i class="pricing-icon fa fa-3x fa-space-shuttle"></i>
-                 <h2 class="pricing-header">Premium Package</h2>
-                 <ul class="pricing-features list-style-none">
-                   <li class="pricing-features-item">
-                        <div>
-                           <h5>Application Filling</h5>
-                           <p>Why run around to multiple Institutions for application forms. Get them right here and the support for filling them up too!</p>
-                        </div>
-                     </li>
-                     <li class="pricing-features-item">
-                        <div>
-                           <h5>Psychometric Test</h5>
-                           <p>To identify which branch of engineering suits you the most. Choose wisely.</p>
-                        </div>
-                     </li>
-                   
-                     <li class="pricing-features-item">
-                        <div>
-                           <h5>Shortlist Your Success</h5>
-                           <p>Based on your inputs, a personalized report will be designed to guide you on the options you should opt for.</p>
-                        </div>
-                     </li>
-                   
-                     <li class="pricing-features-item">
-                        <div>
-                           <h5>Periodic Alerts</h5>
-                           <p>Regular SMS/Email alerts on announcements, notifications, updates, counselling dates, etc.</p>
-                        </div>
-                     </li>
-                   
-                     <li class="pricing-features-item">
-                        <div>
-                           <h5>Counseling & Documentation</h5>
-                           <p>Post result consultation with our career advisor for documentation, counselling process and getting the best option available.</p>
-                        </div>
-                     </li>
-                   
-                     <li class="pricing-features-item">
-                        <div>
-                           <h5>Guidance from our Advisor</h5>
-                           <p>An Intensive one to one session with our advisor, who will answer all your queries and clarify your doubts.</p>
-                           <ul>
-                              <li>How to Choose Right College</li>
-                              <li>New Age Engineering Careers</li>
-                              <li>Study Engineering Abroad</li>
-                              <li>Life at an Engineering College</li>
-                           </ul>
-                        </div>
-                     </li>
-                 </ul>
-                 <span class="pricing-price">Limited Seats</span>
-                 <a href="https://www.cashfree.com/product/3413" class="px-5 my-4 btn btn-h">Buy Now</a>
-               </div>
-             </div>
-           </div>
-         </div>
-      </div>
-
+      </section>
 
    </div>
 </section>
