@@ -1,11 +1,42 @@
 .pricing-table {
+  float: none;
+  clear: both;
+  
+  p {
+    font-size: 1em !important;
+  }
+  .payment-info {
+    border: 3px solid $h-color;
+    border-bottom: none;
+  }
 
   .table-wrapper {
+    float: none;
+    clear: both;
     border: 3px solid $h-color;
     }
-  .r {
+
+  .r:not(:last-child) {
     border-bottom: 3px solid $h-color;
   }
+  
+  .table-row:nth-child(odd) {
+    background-color: $brand-color;
+  }
+  
+  .table-title, .table-description {
+    @include media-query($on-palm) {
+      text-align: center;
+    }
+  }
+
+  .features {
+    li {
+      font-size: 0.9em;
+      font-weight: 400;
+    }
+  }
+
 }
 
 
