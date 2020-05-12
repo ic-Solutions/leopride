@@ -587,7 +587,15 @@ a.control_next {
 
 .guidance {
   .vc_single_image-img {
-    height: 250px !important;
     object-fit: contain;
+    height: 90%;
+  }
+}
+
+
+// study abroad page
+.flags {
+  .dt-sc-image-caption .dt-sc-image-content {
+    margin: 0 !important;
   }
 }
