@@ -14,26 +14,27 @@ permalink: /blog/
                   <div class="dt-sc-posts-list-wrapper" data-delay="0">
                      <div class="blog-index px-3 px-md-0 pb-3 py-3 py-md-5">
                       {% for post in site.posts %}
+                      
                            <div class="blog-card">
                               <div class="blog-image-container">
-                                 <div class="blog-image" style="background-image: url({{post.image}});"></div>
+                                 <a href="{{post.url}}">
+                                    <div class="blog-image" style="background-image: url({{post.image}});"></div>
+                                 </a>
                               </div>
-                              <div class="blog-card-content py-2 px-3">
+                              <div class="blog-card-content py-2 px-3 d-flex flex-direction-column">
                                  <div class="blog-title py-0 my-0">
-                                    <h4>{{post.title }}</h4>
+                                    <a href="{{post.url}}"><h2>{{post.title }}</h2></a>
                                  </div>
                                  <div class="blog-description">
-                                    {{post.description | truncate: 60}}
+                                   <a class="text-body" href="{{post.url}}"><p>{{post.description | truncate: 300}}</p></a>
                                  </div>
                                  <div class="blog-meta">
                                     <div class="blog-date"></div>
                                     <div class="blog-author"></div>
                                  </div>
-                                 <div class="blog-button text-right pb-3">
-                                    <a class="btn btn-h" href="{{post.url}}">Read More</a>
-                                 </div>
                               </div>
                            </div>
+                      
                         {% endfor %}
                      </div>
                   </div>

@@ -61,6 +61,9 @@ small {
 .align-content-center {
   align-content: center;
 }
+.flex-direction-column {
+  flex-direction: column;
+}
 
 .text-gray {
   color: #888 !important;
@@ -224,6 +227,12 @@ small {
   }
 }
 
+.uavc-list-icon {
+  padding: 5px !important;
+}
+.uavc-list-content {
+  margin-bottom: 0 !important;
+}
 
 //yoga page
 .yoga-slider {
@@ -392,46 +401,72 @@ a.control_next {
 // blog styles
 
 .blog-index {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  @include media-query($on-laptop) {
-     grid-template-columns: 1fr;
-  }
-  @include media-query($on-palm) {
-    grid-template-columns: 1fr;
-  }
+  display: block;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .blog-card {
-  width: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 50px;
   box-shadow: 0 15px 35px rgba(50,50,93,0.1),0 5px 15px rgba(0,0,0,0.07);
   border-radius: 10px;
+  
+  &:hover {
+    box-shadow: 0 30px 35px rgba(50,50,93,0.1),0 5px 30px rgba(0,0,0,0.07);
+  }
+
   @include media-query($on-palm) {
-    width: 250px;
+    display: block;
+  }
+
+}
+
+.blog-card-content {
+  margin-top: auto;
+  margin-bottom: auto;
+
+  .blog-title h2 {
+    font-size: 1.5em !important;
+    @include media-query($on-palm) {
+       font-size: 1em !important;
+    }
+  }
+  
+  .blog-description {
+    p {
+      font-size: 1em !important;
+      @include media-query($on-palm) {
+       font-size: 0.9em !important;
+    }
+    }
   }
 }
 
 
 .blog-image-container {
   border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   overflow: hidden;
 
+    @include media-query($on-palm) {
+      border-bottom-left-radius: 0px;
+      border-top-right-radius: 10px;
+    }
+
   .blog-image {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     transition: all 0.3s linear;
-    &:hover {
-       // transform: scale(1.2);
-    }
 
     @include media-query($on-palm) {
-      height: 250px;
-      width: 250px;
+      background-size: cover;
+      height: 350px;
+      width: 100%;
     }
 
   }
@@ -440,6 +475,7 @@ a.control_next {
 .blog-container {
   max-width: 800px;
   margin: 0 auto;
+
 
   .image {
     // height: 350px;
