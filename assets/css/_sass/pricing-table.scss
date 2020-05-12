@@ -5,33 +5,42 @@
   margin: 0 auto;
 
   .table-header {
-    font-size: 2.5em !important;
-    text-shadow: 0 1px 5px #aaa;
+    font-size: 2.25em !important;
+    text-transform: uppercase !important;
      @include media-query($on-palm) {
       font-size: 2em !important;
+     }
+
+     span {
+      color: $h-color;
+     }
+  }
+  .price {
+    font-size: 1.8em !important;
+     @include media-query($on-palm) {
+      font-size: 1.4em !important;
      }
   }
   p {
     font-size: 1em !important;
   }
   .payment-info {
-    border-bottom: 3px solid $h-color;
+    // border-bottom: 3px solid $h-color;
   }
 
   .table-wrapper {
     float: none;
     clear: both;
     border: 3px solid $h-color;
-    box-shadow: 0 0 15px #888;
-  }
-
-  .r:not(:last-child) {
-    border-bottom: 3px solid $h-color;
-  }
-  
-  .table-row:nth-child(odd) {
+    box-shadow: 0 0 25px rgba(0,0,0,0.4);
     background-color: $brand-color;
   }
+
+  .r{
+    border-top: 2px solid black;
+  }
+  
+
   
   .table-title, .table-description {
     @include media-query($on-palm) {
