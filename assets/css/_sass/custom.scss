@@ -58,6 +58,10 @@ small {
   align-items: center;
 }
 
+.align-self-center {
+  align-self: center;
+}
+
 .align-content-center {
   align-content: center;
 }
@@ -623,8 +627,7 @@ a.control_next {
 
 .guidance {
   .vc_single_image-img {
-    object-fit: contain;
-    height: 90%;
+    height: 300px !important;
   }
 }
 
