@@ -432,33 +432,7 @@ permalink: /engineering-guide/
 
       <div class="vc_row-full-width vc_clearfix"></div>
 
-      <section class="pricing-table pricing-table-neet py-3 py-md-5">
-         <div class="content">
-            <div class="payment-info py-3 py-md-5 text-center">
-               <h2>Engineering Guide (Premium Package)</h2>
-               <h3>19,980 INR</h3>
-               <a class="btn btn-success px-4">Buy Now</a>
-            </div>
-            <div class="table-wrapper">
-               {% for item in site.data.pricing-table.engg %}
-                  <div class="r table-row">
-                     <div class="c-2 text-center">
-                        <img class="image" src="{{item.image}}" alt="{{item.title}}">
-                     </div>
-                     <div class="c-10 d-grid align-content-center">
-                        <h5 class="table-title">{{item.title}}</h5>
-                        <p class="table-description">{{item.description}}</p>
-                        <ul class="features">
-                           {% for i in item.features %}
-                              <li>{{i}}</li>
-                           {% endfor %}
-                        </ul>
-                     </div>
-                  </div>
-               {% endfor %}
-            </div>
-         </div>
-      </section>
+{% include pricing-table-engg.html %}
 
    </div>
 </section>

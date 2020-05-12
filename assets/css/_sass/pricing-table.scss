@@ -1,20 +1,29 @@
 .pricing-table {
   float: none;
   clear: both;
-  
+  max-width: 1000px;
+  margin: 0 auto;
+
+  .table-header {
+    font-size: 2.5em !important;
+    text-shadow: 0 1px 5px #aaa;
+     @include media-query($on-palm) {
+      font-size: 2em !important;
+     }
+  }
   p {
     font-size: 1em !important;
   }
   .payment-info {
-    border: 3px solid $h-color;
-    border-bottom: none;
+    border-bottom: 3px solid $h-color;
   }
 
   .table-wrapper {
     float: none;
     clear: both;
     border: 3px solid $h-color;
-    }
+    box-shadow: 0 0 15px #888;
+  }
 
   .r:not(:last-child) {
     border-bottom: 3px solid $h-color;
