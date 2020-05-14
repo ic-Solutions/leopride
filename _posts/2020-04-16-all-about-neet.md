@@ -6,7 +6,7 @@ layout: post
 author: NEET Advisor
 ---
 
-In India children are always protected by their parents no matter how old their child is and this the beauty of Indian culture where family values are still respected and taken under consideration by family members. As a result of such culture when students appear for NEET exam their parents also start preparing for counselling and admission procedure simultaneously. Parents try their best to fetch as much as information available on internet but that information is not reliable.
+In India children are always protected by their parents no matter how old their child is and this the beauty of Indian culture where family values are still respected and taken under consideration by family members. As a result of such culture when students appear for NEET exam their parents also start preparing for counselling and admission procedure simultaneously. Parents try their best to fetch maximum information available on internet but that information is not reliable.
 
 ## Tighten up the seat belt
 
@@ -26,13 +26,13 @@ NEET advisor with filtered data help each student by providing them information 
 
 ## Complete tracking and monitoring
 
-NEET advisor also helps in documentation and take all the stress from students and parents because our aim is to keep our students tension free. Other than that, everything will be taken care by us. We as an organization also works as a psychologist where students can talk about their doubts and non- optimistic thoughts which will be taken care by listening them and serving them with the best possible solution.
+NEET advisor also helps in documentation and take all the stress from students and parents because our aim is to keep our students tension free. We as an organization also works as a psychologist where students can talk about their doubts and non- optimistic thoughts which will be taken care by listening them and serving them with the best possible solution.
 
 ## LeoPride Career Solutions - NEET Advisor
 
-NEET advisor works as a family we don&#39;t treat our client as a customer or as a profit maker but as our own family member because if we are able contribute in someone&#39;s future than our motive of making this organization is fulfilled.
+NEET advisor works as a family and we don&#39;t treat our client as a customer or as a profit maker but as our own family member because if we are able to contribute in someone&#39;s future than our motive of making this organization is fulfilled.
 
-NEET advisor is the one organization with whom you can never be disheartened. Our service is our pride. NEET advisor on which every medical aspirant trust.
+NEET advisor is the one organization with whom you can never be disheartened. Our service is our pride.
 
 <hr>
 

@@ -30,7 +30,7 @@ You, prepare for what comes after it, The counseling procedure. A plethora of co
 
 ## Do you doubt an effective contribution and involvement from your end?
 
-If you doubt your efficiency and effectiveness in terms of involvement. You&#39;re not alone. With their hectic schedules, it is almost impossible for every parent to sufficiently contributes to the cause. 
+If you doubt your efficiency and effectiveness in terms of involvement. You&#39;re not alone. With hectic schedules, it is almost impossible for every parent to sufficiently contribute to the cause. 
 
 In a colossal country like India, it is not easy to research about each and every college. In many cases, it is also necessary to visit the colleges to get a better understanding. But the amount of time and finances that you will have to put in to get a better understanding of the colleges is downright insane. 
 
