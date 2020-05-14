@@ -8,9 +8,18 @@
     font-size: 2.5em !important;
     text-transform: uppercase !important;
      @include media-query($on-palm) {
-      font-size: 2.25em !important;
+      font-size: 1.8em !important;
+      margin: 0;
      }
   }
+  
+  h3 {
+    @include media-query($on-palm) {
+      font-size: 1em !important;
+      margin: 0;
+     }
+  }
+
   .price {
     font-size: 1.8em !important;
      @include media-query($on-palm) {
@@ -19,10 +28,13 @@
   }
   p {
     font-size: 1em !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    @include media-query($on-palm) {
+      font-size: 0.9em !important;
+    }
   }
-  .payment-info {
-    // border-bottom: 3px solid $h-color;
-  }
+
 
   .table-wrapper {
     float: none;
@@ -32,8 +44,17 @@
     background-color: $brand-color;
   }
 
-  .r{
+  .r {
     border-top: 2px solid black;
+    @include media-query($on-palm) {
+      grid-gap: 5px;
+    }
+
+    .c-2, .c-10 {
+      @include media-query($on-palm) {
+        padding: 0;
+      }
+    }
   }
   
 
@@ -41,22 +62,27 @@
   .table-title, .table-description {
     @include media-query($on-palm) {
       text-align: center;
+      margin: 0;
     }
   }
 
+
+  .table-title {
+    @include media-query($on-palm) {
+      font-size: 1em !important;
+    }
+  }
   .features {
     li {
       font-size: 0.9em;
       font-weight: 400;
+      margin-left: 20px;
     }
   }
 
   .image {
     @include media-query($on-palm) {
-      height: 100px;
-      width: 100px;
-      margin-bottom: -10px;
-      margin-top: 10px;
+      display: none;
     }
   }
 
