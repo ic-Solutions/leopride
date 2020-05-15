@@ -709,13 +709,18 @@ a.control_next {
    
    @include media-query($on-palm) {
       padding: 10px;
+      order: 1;
    }
   }
 
   .content {
     align-self: center;
     p {
-      font-size: 1em !important;
+      font-weight: 400 !important;
+    }
+
+    @include media-query($on-palm) {
+      order: 2;
     }
   }
 }
