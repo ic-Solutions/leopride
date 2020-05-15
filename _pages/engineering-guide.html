@@ -435,5 +435,27 @@ permalink: /engineering-guide/
    </div>
 </section>
 
-
-<!-- <script src="https://www.cashfree.com/assets/cashfree.sdk.v1.2.js" type="text/javascript"></script> -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+    var options = {    "key": "rzp_live_k6LISBLtOrAVxg",
+                        "amount": "1998000", 
+                        "currency": "INR",    
+                        "name": "LeoPride",    
+                        "description": "Engineering Guide (Premium Package)",    
+                        "image": "{{site.url}}/assets/images/leopride-100x75.png",    
+                        "handler": function (response){        
+                           alert(response.razorpay_payment_id);   
+                        },     
+                        "notes": {        
+                           "address": "Engineering Guide"    
+                        },    
+                        "theme": {        
+                           "color": "#270a68"    
+                           }
+                        };
+   var rzp1 = new Razorpay(options);
+   document.getElementById('rzp-button1').onclick = function(e){    
+                                                      rzp1.open();    
+                                                      e.preventDefault();
+                                                   }
+</script>

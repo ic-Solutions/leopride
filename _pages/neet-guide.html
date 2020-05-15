@@ -14,3 +14,53 @@ published: true
     <div class="vc_row-full-width vc_clearfix"></div>  
     </div>
 </section>
+
+
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+    var options = {    "key": "rzp_live_k6LISBLtOrAVxg",
+                        "amount": "3998000", 
+                        "currency": "INR",    
+                        "name": "LeoPride",
+                        "description": "NEET UG Guide (Premium Package)",    
+                        "image": "{{site.url}}/assets/images/leopride-100x75.png",    
+                        "handler": function (response){        
+                           alert(response.razorpay_payment_id);   
+                        },     
+                        "notes": {        
+                           "address": "NEET UG Guide"    
+                        },    
+                        "theme": {        
+                           "color": "#270a68"    
+                           }
+                        };
+   var rzp2 = new Razorpay(options);
+   document.getElementById('rzp-button2').onclick = function(e){    
+                                                      rzp2.open();    
+                                                      e.preventDefault();
+                                                   }
+</script>
+
+<script>
+    var options = {    "key": "rzp_live_k6LISBLtOrAVxg",
+                        "amount": "4998000", 
+                        "currency": "INR",    
+                        "name": "LeoPride",    
+                        "description": "NEET PG Guide (Platinum Package)",    
+                        "image": "{{site.url}}/assets/images/leopride-100x75.png",    
+                        "handler": function (response){        
+                           alert(response.razorpay_payment_id);   
+                        },     
+                        "notes": {        
+                           "address": "NEET PG Guide"    
+                        },    
+                        "theme": {        
+                           "color": "#270a68"    
+                           }
+                        };
+   var rzp3 = new Razorpay(options);
+   document.getElementById('rzp-button3').onclick = function(e){    
+                                                      rzp3.open();    
+                                                      e.preventDefault();
+                                                   }
+</script>
