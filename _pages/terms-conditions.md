@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Terms & Refund Policy
 permalink: /terms-refund-policy/
 ---

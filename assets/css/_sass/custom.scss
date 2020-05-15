@@ -661,7 +661,7 @@ a.control_next {
       grid-gap: 20px;
     }
   @include media-query($on-palm) {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
       grid-gap: 10px;
     }
 }
