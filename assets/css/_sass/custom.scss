@@ -25,6 +25,13 @@ small {
   font-size: 0.95em;
 }
 
+header {
+  margin-top: 20px !important;
+  @include media-query($on-palm) {
+    margin-top: 0 !important;
+  }
+}
+
 #header-wrapper {
   margin-bottom: 0 
 }
@@ -101,7 +108,6 @@ small {
   grid-template-columns: 1fr 1fr 1fr;
 
   @include media-query($on-palm) {
-    // display: block;
     grid-gap: 10px;
   }
 }
