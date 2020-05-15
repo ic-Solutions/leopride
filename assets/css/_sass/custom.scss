@@ -724,3 +724,12 @@ a.control_next {
     }
   }
 }
+
+
+
+
+.dt-sc-title.with-right-border-decor.small-in-phone h3:first-child {
+  @include media-query($on-palm) {
+      font-size: 0.9em !important;
+    }
+}
