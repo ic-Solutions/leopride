@@ -688,3 +688,34 @@ a.control_next {
     margin: 0 !important;
   }
 }
+
+
+//donate book
+
+.grid-image-content {
+  float: none;
+  clear: both;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+
+  @include media-query($on-palm) {
+    grid-template-columns: 1fr;
+    padding: 20px 40px;
+  }
+
+  .image {
+    padding: 20px;
+   
+   @include media-query($on-palm) {
+      padding: 10px;
+   }
+  }
+
+  .content {
+    align-self: center;
+    p {
+      font-size: 1em !important;
+    }
+  }
+}
