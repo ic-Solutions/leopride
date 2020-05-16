@@ -258,7 +258,11 @@ header {
 }
 
 .dt-sc-team-thumb img {
-  width: 150px !important;
+  width: 130px !important;
+  height: 130px !important;
+  padding: 10px;
+  border-radius: 50%;
+  border: 4px solid #333;
 }
 
 //homepage simple slider
