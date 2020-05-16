@@ -473,10 +473,12 @@ a.control_next {
   .blog-title h2 {
     font-size: 1.5em !important;
     @include media-query($on-palm) {
-       font-size: 1em !important;
+       font-size: 0.8em !important;
     }
   }
   
+  
+
   .blog-description {
     p {
       font-size: 1em !important;
@@ -562,8 +564,27 @@ a.control_next {
   .content {
     p {
       font-size: 1em !important;
+      font-weight: 400 !important;
     }
   }
+
+  h1 {
+    @include media-query($on-palm) {
+      font-size: 1.5em !important;
+    }
+  }
+
+  h2 {
+    @include media-query($on-palm) {
+      font-size: 1.2em !important;
+    }
+  }
+  h3 {
+    @include media-query($on-palm) {
+      font-size: 1.1em !important;
+    }
+  }
+
 }
 
 .blog-index-related {
@@ -590,6 +611,11 @@ a.control_next {
       border-top-right-radius: 5px;
       border-bottom: 1px solid #eee;
      }
+
+    .blog-title {
+      font-size: 0.9em !important;
+      font-weight: 400 !important;
+    }
   }
 
 }
