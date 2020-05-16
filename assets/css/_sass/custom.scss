@@ -494,6 +494,20 @@ a.control_next {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
+    align-self: center;
+    @include media-query($on-palm) {
+      height: 50px;
+      width: 50px;
+    }
+
+  }
+
+  .author-name {
+    p {
+      @include media-query($on-palm) {
+        font-size: 0.8em !important;
+      }
+    }
   }
 }
 
