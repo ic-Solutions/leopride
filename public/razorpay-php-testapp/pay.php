@@ -18,7 +18,7 @@ $orderData = [
     'receipt'         => 3456,
     'amount'          => 2000 * 100, // 2000 rupees in paise
     'currency'        => 'INR',
-    'payment_capture' => 1 // auto capture
+    'description'       => 'Tron Legacy'
 ];
 
 $razorpayOrder = $api->order->create($orderData);
@@ -48,7 +48,6 @@ $data = [
     "key"               => $keyId,
     "amount"            => $amount,
     "name"              => "DJ Tiesto",
-    "description"       => "Tron Legacy",
     "image"             => "https://s29.postimg.org/r6dj1g85z/daft_punk.jpg",
     "prefill"           => [
     "name"              => "Daft Punk",
