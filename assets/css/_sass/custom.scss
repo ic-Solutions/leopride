@@ -745,7 +745,7 @@ a.control_next {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 30px;
-
+  
   @include media-query($on-palm) {
     grid-template-columns: 1fr;
     padding: 20px 40px;
@@ -764,6 +764,9 @@ a.control_next {
     align-self: center;
     p {
       font-weight: 400 !important;
+        @include media-query($on-palm) {
+          text-align: justify;
+        }
     }
 
     @include media-query($on-palm) {
