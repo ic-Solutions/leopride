@@ -23,11 +23,11 @@
                 choice = this.value;
                 if (choice === 'orders') 
                 {
-                    form.attr('action', 'pay.php?checkout=manual');
+                    form.attr('action', 'payment-link.php?checkout=manual');
                 } 
                 else 
                 {
-                    form.attr('action', 'pay.php?checkout=automatic');
+                    form.attr('action', 'payment-link.php?checkout=automatic');
                 }
             });
         });

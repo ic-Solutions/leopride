@@ -5,13 +5,13 @@
     <link rel="stylesheet" href="http://yegor256.github.io/tacit/tacit.min.css"/>
 </head>
 <body>
-    <form action="payment-link.php" id="checkout-selection" method="POST">
+    <form id="checkout-selection" method="POST">
         <input type="radio" name="checkout" value="automatic">Automatic Checkout Demo<br>
         <input type="radio" name="checkout" value="orders">Manual Checkout Demo<br>
         <input type="submit" value="Submit">
     </form>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<!--     <script>
+    <script>
         jQuery(document).ready(function($) 
         {
             var form = $('#checkout-selection');
@@ -23,15 +23,15 @@
                 choice = this.value;
                 if (choice === 'orders') 
                 {
-                    form.attr('action', 'pay.php?checkout=manual');
+                    form.attr('action', 'payment-link.php?checkout=manual');
                 } 
                 else 
                 {
-                    form.attr('action', 'pay.php?checkout=automatic');
+                    form.attr('action', 'payment-link.php?checkout=automatic');
                 }
             });
         });
-    </script> -->
+    </script>
 
 </body>
 </html>
