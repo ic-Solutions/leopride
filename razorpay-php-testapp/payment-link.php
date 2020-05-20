@@ -19,7 +19,7 @@ $orderData = [
     'amount'          => 19980 * 100, // 2000 rupees in paise
     'currency'        => 'INR',
     "description"       => "Engineering Guide (Premium Pack)",
-    "partial_payment"   => 1
+    "partial_payment"   => "1"
 ];
 
 $razorpayOrder = $api->invoice->create($orderData);
