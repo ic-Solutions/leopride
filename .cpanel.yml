@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/leopridevv/public_html/leopride-website
-    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -r public $DEPLOYPATH
