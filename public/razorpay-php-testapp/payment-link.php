@@ -46,7 +46,12 @@ if (isset($_GET['checkout']) and in_array($_GET['checkout'], ['automatic', 'manu
 
 $data = [
     "key"               => $keyId,
-    "amount"            => $amount
+    "amount"            => $amount,
+    "name"              => "LeoPride Career Solutions",
+    "image"             => "https://s29.postimg.org/r6dj1g85z/daft_punk.jpg",
+    "theme"             => [
+    "color"             => "#F37254"
+    ]
 ];
 
 if ($displayCurrency !== 'INR')
