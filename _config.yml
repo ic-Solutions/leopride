@@ -12,7 +12,7 @@ sass:
 include:
   - _pages
 
-destination: output_site
+destination: public
 
 plugins:
   - jekyll-seo-tag
