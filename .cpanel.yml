@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/leopridevv/public_html/leopride-website
+    - /bin/cp public/ $DEPLOYPATH

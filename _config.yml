@@ -11,6 +11,8 @@ sass:
 
 include:
   - _pages
+exclude:
+  - .cpanel.yml
 
 destination: public
 
