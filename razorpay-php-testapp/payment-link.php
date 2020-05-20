@@ -17,8 +17,7 @@ $api = new Api($keyId, $keySecret);
 $orderData = [
     'type'         => 'link',
     'amount'          => 19980 * 100, // 2000 rupees in paise
-    'currency'        => 'INR',
-    'payment_capture' => 1 // auto capture
+    'currency'        => 'INR'
 ];
 
 $razorpayOrder = $api->invoice->create($orderData);
