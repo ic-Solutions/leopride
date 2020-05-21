@@ -5,12 +5,12 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
-// Load Composer's autoloader
-require 'vendor/autoload.php';
-
-
 
 if($_SERVER["REQUEST_METHOD"] == "POST") {
+
+    // Load Composer's autoloader
+    require 'vendor/autoload.php';
+
     $name=$_POST["name"];
     $email = $_POST["email"];
     $phone = $_POST["phone"];
