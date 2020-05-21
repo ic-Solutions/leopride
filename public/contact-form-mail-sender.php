@@ -6,16 +6,19 @@ use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
 
-if($_SERVER["REQUEST_METHOD"] == "POST") {
+//Don't run this unless we're handling a form submission
+if (array_key_exists('email', $_POST)) {
+
+    date_default_timezone_set('Etc/UTC');
 
     // Load Composer's autoloader
     require 'vendor/autoload.php';
 
-    $name=$_POST["name"];
-    $email = $_POST["email"];
-    $phone = $_POST["phone"];
-    $message = $_POST["message"];
-    $to = "sharath.dt@gmail.com";
+    // $name=$_POST["name"];
+    // $email = $_POST["email"];
+    // $phone = $_POST["phone"];
+    // $message = $_POST["message"];
+    // $to = "sharath.dt@gmail.com";
 
     // Instantiation and passing `true` enables exceptions
     $mail = new PHPMailer(true);
@@ -44,8 +47,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Content
         $mail->isHTML(true);                                  // Set email format to HTML
-        $mail->Subject = '$subject';
-        $mail->Body    = 'Name: $name<br />Email: $email<br />Phone: $phone<br />message: $message';
+        $mail->Subject = '$_POST['subject']';
+        $mail->Body    = 'Name: $_POST['name']<br />Email: $_POST['email']<br />Phone: $_POST['phone']<br />message: $_POST['message']';
         $mail->AltBody = '$message';
 
         $mail->send();
