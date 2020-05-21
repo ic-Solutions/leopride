@@ -18,7 +18,12 @@ if(isset($_POST['submit'])){
     $name=$_POST['name']; // Get Name value from HTML Form
     $phone=$_POST['phone'];  // Get Mobile No
     $email=$_POST['email'];  // Get Email Value
-    $message=$_POST['message']; // Get Message Value
+    $dob=$_POST['dob'];
+    $alt=$_POST['alt-phone'];
+    $yr=$_POST['experience-yr'];
+    $mnt=$_POST['experience-mnt'];
+    $address=$_POST['address'];
+    $gender=$_POST['gender'];
     //Create a new PHPMailer instance
 
 
