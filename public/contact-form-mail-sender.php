@@ -38,7 +38,7 @@ if(isset($_POST['submit'])){
     $mail->setFrom('consult@leopride.in', 'LeoPride Career Solutions');
     //$mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient          // Name is optional
     $mail->addReplyTo($email, $name);
-    $mail->addBCC('sharu725@gmail.com');
+    $mail->addBCC('consult@leopride.in');
     //$mail->addBCC('sharathdt@gmail.com');
 
 
