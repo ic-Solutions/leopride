@@ -45,32 +45,7 @@ if(isset($_POST['submit'])){
     $mail->isHTML(true);    
     $mail->Subject = "Enquiry from Website submitted by $name"; // This is your subject
 
-   $mail->Body = "
-    <html>
-        <body>
-            <table style='width:600px;'>
-                <tbody>
-                    <tr>
-                        <td style='width:150px'><strong>Name: </strong></td>
-                        <td style='width:400px'>$name</td>
-                    </tr>
-                    <tr>
-                        <td style='width:150px'><strong>Email ID: </strong></td>
-                        <td style='width:400px'>$email</td>
-                    </tr>
-                    <tr>
-                        <td style='width:150px'><strong>Mobile No: </strong></td>
-                        <td style='width:400px'>$phone</td>
-                    </tr>
-                    <tr>
-                        <td style='width:150px'><strong>Message: </strong></td>
-                        <td style='width:400px'>$message</td>
-                    </tr>
-                </tbody>
-            </table>
-        </body>
-    </html>
-    ";
+   $mail->Body = "$name $phone $email $message";
     $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
     $mail->send();
             echo 'Message has been sent';
