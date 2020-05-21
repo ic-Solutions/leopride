@@ -38,7 +38,7 @@ if(isset($_POST['submit'])){
     $mail->setFrom('consult@leopride.in', 'LeoPride Career Solutions');
     //$mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient          // Name is optional
     $mail->addReplyTo($email, $name);
-    $mail->addCC('consult@leopride.in');
+    //$mail->addCC('consult@leopride.in');
     $mail->addBCC('sharu725@gmail.com');
 
 
@@ -47,7 +47,7 @@ if(isset($_POST['submit'])){
 
     $mail->Body = "Hi $name, <br/> We have received the following details.<br /><br />Name: $name<br />Phone: $phone<br />Email: $email<br />Message: $message<br /><br />We will get back to you as soon as possible. In case you think we missed it, please call us at 9911203280<br /><br />Thanks<br />LeoPride Career Solutions<br />https://leopride.in";
     $mail->send();
-    header("Location: /success.php");
+    header("Location: https://leopride.in/success.php");
         } catch (Exception $e) {
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo} <br/> Please contact consult@leopride.in";
 
