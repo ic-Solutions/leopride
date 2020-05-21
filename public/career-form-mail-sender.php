@@ -38,7 +38,7 @@ if(isset($_POST['submit'])){
     if (array_key_exists('resume', $_FILES)) {
          $uploadResume = tempnam(sys_get_temp_dir(), hash('sha256', $_FILES['resume']['name']));
             if (move_uploaded_file($_FILES['resume']['tmp_name'], $uploadResume)) {
-                $mail->addAttachment($uploadResume, 'Resume' 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
+                $mail->addAttachment($uploadResume, 'Resume', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
             }
     }
 
