@@ -4,6 +4,9 @@ description: 14+ Glorious Years of Excellence
 
 permalink: /blog/:title/
 
+
+rzp-key: rzp_live_5l5MyQbw9aux1L
+
 sass:
   sass_dir: /assets/css/_sass
   style: compressed
