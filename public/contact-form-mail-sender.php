@@ -23,7 +23,8 @@ if(isset($_POST['submit'])){
 
     try {
     //Tell PHPMailer to use SMTP - requires a local mail server
-    //Faster and safer than using mail()
+
+    //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'sg2plcpnl0113.prod.sin2.secureserver.net';        // Set the SMTP server to send through
@@ -33,17 +34,14 @@ if(isset($_POST['submit'])){
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
-    //Use a fixed address in your own domain as the from address
-    //**DO NOT** use the submitter's address here as it will be forgery
-    //and will cause your messages to fail SPF checks
-    $mail->setFrom('consult@leopride.in', 'LeoPride Career Solutions');
-    //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addReplyTo($email);
-    $mail->addCC('sharu725@gmail.com');
-    //Put the submitter's address in a reply-to header
-    //This will fail if the address provided is invalid,
-    //in which case we should ignore the whole request
+    $mail->setFrom('submissions@leopride.in', 'LeoPride Career Solutions');
+    //$mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient          // Name is optional
+    $mail->addReplyTo('sharu725@gmail.com', 'Sharu725');
+    $mail->addCC('sharath.dt@gmail.com');
+    //$mail->addBCC('sharathdt@gmail.com');
 
+
+    $mail->isHTML(true);    
     $mail->Subject = "Enquiry from Website submitted by $name"; // This is your subject
 
    $mail->Body = "
