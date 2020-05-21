@@ -36,7 +36,7 @@ if(isset($_POST['submit'])){
     $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     $mail->setFrom('consult@leopride.in', 'LeoPride Career Solutions');
-    //$mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient          // Name is optional
+    $mail->addAddress($email, $name);       // Add a recipient          // Name is optional
     $mail->addReplyTo($email, $name);
     $mail->addCC('consult@leopride.in');
     $mail->addBCC('support@icsoln.com');
