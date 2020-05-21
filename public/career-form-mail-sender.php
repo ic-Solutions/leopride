@@ -29,18 +29,20 @@ if(isset($_POST['submit'])){
 
 // photo attachment
     if (array_key_exists('photo', $_FILES)) {
-         $uploadPhoto = tempnam(sys_get_temp_dir(), hash('sha256', $_FILES['photo']['name']));
+         // $uploadPhoto = tempnam(sys_get_temp_dir(), hash('sha256', $_FILES['photo']['name']));
+        move_uploaded_file($_FILES["file"]["tmp_name"],"./upload/" . $_FILES["photo"]["name"]);
+        $filename = "./upload/" . $_FILES["file"]["name"];
             if (move_uploaded_file($_FILES['photo']['tmp_name'], $uploadPhoto)) {
-                $mail->addAttachment($uploadPhoto, 'Photo.png');
+                $mail->addAttachment($filename);
             }
     }
 // resume attachment
-    if (array_key_exists('resume', $_FILES)) {
-         $uploadResume = tempnam(sys_get_temp_dir(), hash('sha256', $_FILES['resume']['name']));
-            if (move_uploaded_file($_FILES['resume']['tmp_name'], $uploadResume)) {
-                $mail->addAttachment($uploadResume, 'Resume.docx');
-            }
-    }
+    // if (array_key_exists('resume', $_FILES)) {
+    //      $uploadResume = tempnam(sys_get_temp_dir(), hash('sha256', $_FILES['resume']['name']));
+    //         if (move_uploaded_file($_FILES['resume']['tmp_name'], $uploadResume)) {
+    //             $mail->addAttachment($uploadResume, 'Resume.docx');
+    //         }
+    // }
 
 
     try {
