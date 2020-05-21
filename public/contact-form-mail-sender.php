@@ -45,8 +45,7 @@ if(isset($_POST['submit'])){
     $mail->isHTML(true);    
     $mail->Subject = "Enquiry from Website submitted by $name"; // This is your subject
 
-   $mail->Body = "$name $phone $email $message";
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->Body = "Name: $name<br />Phone: $phone<br />Email: $email<br />Message: $message";
     $mail->send();
             echo 'Message has been sent';
         } catch (Exception $e) {
