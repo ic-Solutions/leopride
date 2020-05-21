@@ -27,6 +27,15 @@ if(isset($_POST['submit'])){
     //Create a new PHPMailer instance
 
 
+// file attachment
+    if (array_key_exists('photo', $_FILES)) {
+         $uploadPhoto = tempnam(sys_get_temp_dir(), hash('sha256', $_FILES['photo']['name']));
+            if (move_uploaded_file($_FILES['photo']['tmp_name'], $uploadPhoto)) {
+                $mail->addAttachment($uploadPhoto, 'Photo');
+            }
+    }
+
+
     try {
     //Tell PHPMailer to use SMTP - requires a local mail server
 
