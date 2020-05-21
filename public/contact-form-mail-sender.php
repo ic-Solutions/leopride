@@ -35,17 +35,17 @@ if(isset($_POST['submit'])){
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
-    $mail->setFrom('submissions@leopride.in', 'LeoPride Career Solutions');
+    $mail->setFrom('consult@leopride.in', 'LeoPride Career Solutions');
     //$mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient          // Name is optional
-    $mail->addReplyTo('sharu725@gmail.com', 'Sharu725');
-    $mail->addCC('sharath.dt@gmail.com');
+    $mail->addReplyTo($email, $name);
+    $mail->addBCC('sharu725@gmail.com');
     //$mail->addBCC('sharathdt@gmail.com');
 
 
     $mail->isHTML(true);    
-    $mail->Subject = "Enquiry from Website submitted by $name"; // This is your subject
+    $mail->Subject = "Contact form submitted by $name"; // This is your subject
 
-    $mail->Body = "Name: $name<br />Phone: $phone<br />Email: $email<br />Message: $message";
+    $mail->Body = "Hi $name, <br/> We have received the following details.<br /><br />Name: $name<br />Phone: $phone<br />Email: $email<br />Message: $message<br /><br />We will get back to you as soon as possible. In case you think we missed it, please email us at consult@leopride.in<br /><br />Thanks<br />LeoPride Career Solutions<br />https://leopride.in";
     $mail->send();
             echo 'Message has been sent';
         } catch (Exception $e) {
