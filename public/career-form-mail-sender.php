@@ -31,14 +31,14 @@ if(isset($_POST['submit'])){
     if (array_key_exists('photo', $_FILES)) {
          $uploadPhoto = tempnam(sys_get_temp_dir(), hash('sha256', $_FILES['photo']['name']));
             if (move_uploaded_file($_FILES['photo']['tmp_name'], $uploadPhoto)) {
-                $mail->addAttachment($uploadPhoto);
+                $mail->addAttachment($uploadPhoto, 'Photo', 'image/jpeg');
             }
     }
 // resume attachment
     if (array_key_exists('resume', $_FILES)) {
          $uploadResume = tempnam(sys_get_temp_dir(), hash('sha256', $_FILES['resume']['name']));
             if (move_uploaded_file($_FILES['resume']['tmp_name'], $uploadResume)) {
-                $mail->addAttachment($uploadResume);
+                $mail->addAttachment($uploadResume, 'Resume' 'application/vnd.openxmlformats-officedocument.wordprocessingml.document');
             }
     }
 
