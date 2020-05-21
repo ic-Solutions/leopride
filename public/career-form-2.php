@@ -15,15 +15,15 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
     $mail->isSMTP();                                            // Send using SMTP
-    $mail->Host       = 'smtpout.asia.secureserver.net';        // Set the SMTP server to send through
+    $mail->Host       = 'sg2plcpnl0113.prod.sin2.secureserver.net';        // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'user@example.com';                     // SMTP username
-    $mail->Password   = 'secret';                               // SMTP password
+    $mail->Username   = 'submissions@leopride.in';                     // SMTP username
+    $mail->Password   = ';a~VtLxho.5!';                               // SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
     $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom('noreply@leopride.in', 'Mailer');
+    $mail->setFrom('consult@leopride.in', 'Mailer');
     $mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient
     $mail->addAddress('hello@webjeda.com');               // Name is optional
     $mail->addReplyTo('sharu725@gmail.com', 'Sharu725');
