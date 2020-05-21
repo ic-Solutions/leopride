@@ -8,17 +8,17 @@ use PHPMailer\PHPMailer\Exception;
 // Load Composer's autoloader
 require 'vendor/autoload.php';
 
-// Instantiation and passing `true` enables exceptions
-$mail = new PHPMailer(true);
 
-if($_SERVER["REQUEST_METHOD"] == "POST"){
 
+if($_SERVER["REQUEST_METHOD"] == "POST") {
     $name=$_POST["name"];
     $email = $_POST["email"];
     $phone = $_POST["phone"];
     $message = $_POST["message"];
     $to = "sharath.dt@gmail.com";
 
+    // Instantiation and passing `true` enables exceptions
+    $mail = new PHPMailer(true);
 
     try {
         //Server settings
@@ -53,5 +53,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }
+
+
 
 }
