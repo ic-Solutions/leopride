@@ -23,12 +23,11 @@ try {
     $mail->Port       = 465;                                    // TCP port to connect to, use 465 for `PHPMailer::ENCRYPTION_SMTPS` above
 
     //Recipients
-    $mail->setFrom('consult@leopride.in', 'Mailer');
-    $mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient
-    $mail->addAddress('hello@webjeda.com');               // Name is optional
+    $mail->setFrom('consult@leopride.in', 'LeoPride Career Solutions');
+    //$mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient          // Name is optional
     $mail->addReplyTo('sharu725@gmail.com', 'Sharu725');
     $mail->addCC('sharu.725@gmail.com');
-    $mail->addBCC('sharathdt@gmail.com');
+    //$mail->addBCC('sharathdt@gmail.com');
 
     // Attachments
     //$mail->addAttachment('/CNAME');         // Add attachments
