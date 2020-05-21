@@ -47,9 +47,10 @@ if(isset($_POST['submit'])){
 
     $mail->Body = "Hi $name, <br/> We have received the following details.<br /><br />Name: $name<br />Phone: $phone<br />Email: $email<br />Message: $message<br /><br />We will get back to you as soon as possible. In case you think we missed it, please email us at consult@leopride.in<br /><br />Thanks<br />LeoPride Career Solutions<br />https://leopride.in";
     $mail->send();
-            echo 'Message has been sent';
+            header("Location: success.php");
         } catch (Exception $e) {
-            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo} <br/> Please contact consult@leopride.in";
+
         }
 }
 ?>
