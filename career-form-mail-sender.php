@@ -29,18 +29,16 @@ if(isset($_POST['submit'])){
 
 // photo attachment
     if (array_key_exists('photo', $_FILES)) {
-        $extension = pathinfo($_FILES['photo']['name'], PATHINFO_EXTENSION);
          $uploadPhoto = tempnam(sys_get_temp_dir(), hash('sha256', $_FILES['photo']['name']));
             if (move_uploaded_file($_FILES['photo']['tmp_name'], $uploadPhoto)) {
-                $mail->addAttachment($uploadPhoto, 'Photo.".$extension."');
+                $mail->addAttachment($uploadPhoto, 'Photo.png');
             }
     }
 // resume attachment
     if (array_key_exists('resume', $_FILES)) {
-         $extensionR = pathinfo($_FILES['resume']['name'], PATHINFO_EXTENSION);
          $uploadResume = tempnam(sys_get_temp_dir(), hash('sha256', $_FILES['resume']['name']));
             if (move_uploaded_file($_FILES['resume']['tmp_name'], $uploadResume)) {
-                $mail->addAttachment($uploadResume, 'Resume.".$extensionR."');
+                $mail->addAttachment($uploadResume, 'Resume.docx');
             }
     }
 
