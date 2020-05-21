@@ -75,7 +75,7 @@ permalink: /contact/
 	                                            
 	                                                   <div class="columns two">
 	                                                      <div class="field">
-	                                                         <label></label><input type="submit" value="Send" class="px-4 mt-3" />
+	                                                         <label></label><input name="submit" type="submit" value="Send" class="px-4 mt-3" />
 	                                                         <p class="info-tip"></p>
 	                                                      </div>
 	                                                   </div>
@@ -179,7 +179,18 @@ permalink: /contact/
 
             </div>
          </div>
-      </div>
+      </div> if(!$mail->Send()) {
+            // Message if mail has been sent
+            echo "<script>
+                alert('Submission failed.');
+            </script>";
+        }
+        else {
+            // Message if mail has been not sent
+            echo "<script>
+                alert('Email has been sent successfully.');
+            </script>";
+        }
       <div class="vc_row-full-width vc_clearfix"></div>
    </div>
 </section>

@@ -12,10 +12,12 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
 
-$msg = '';
-//Don't run this unless we're handling a form submission
-if (array_key_exists('email', $_POST)) {    
+if(isset($_POST['submit'])){
 
+    $name=$_POST['name']; // Get Name value from HTML Form
+    $mobile=$_POST['phone'];  // Get Mobile No
+    $email=$_POST['email'];  // Get Email Value
+    $message=$_POST['message']; // Get Message Value
     //Create a new PHPMailer instance
     $mail = new PHPMailer;
     //Tell PHPMailer to use SMTP - requires a local mail server
@@ -38,26 +40,48 @@ if (array_key_exists('email', $_POST)) {
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
-    if ($mail->addReplyTo($_POST['email'], $_POST['name'])) {
-        $mail->Subject = 'PHPMailer contact form';
-        //Keep it simple - don't use HTML
-        $mail->isHTML(false);
-        //Build a simple message body
-        $mail->Body = <<<EOT
-        Email: {$_POST['email']}
-        Name: {$_POST['name']}
-        Message: {$_POST['message']}
-        EOT;
-        //Send the message, check for errors
-        if (!$mail->send()) {
-            //The reason for failing to send will be in $mail->ErrorInfo
-            //but you shouldn't display errors to users - process the error, log it on your server.
-            $msg = 'Sorry, something went wrong. Please try again later.';
-        } else {
-            $msg = 'Message sent! Thanks for contacting us.';
+
+    $mail->Subject = "Enquiry from Website submitted by $name"; // This is your subject
+
+   $mail->Body = "
+    <html>
+        <body>
+            <table style='width:600px;'>
+                <tbody>
+                    <tr>
+                        <td style='width:150px'><strong>Name: </strong></td>
+                        <td style='width:400px'>$name</td>
+                    </tr>
+                    <tr>
+                        <td style='width:150px'><strong>Email ID: </strong></td>
+                        <td style='width:400px'>$email</td>
+                    </tr>
+                    <tr>
+                        <td style='width:150px'><strong>Mobile No: </strong></td>
+                        <td style='width:400px'>$phone</td>
+                    </tr>
+                    <tr>
+                        <td style='width:150px'><strong>Message: </strong></td>
+                        <td style='width:400px'>$message</td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+    </html>
+    ";
+
+     if(!$mail->Send()) {
+            // Message if mail has been sent
+            echo "<script>
+                alert('Submission failed.');
+            </script>";
         }
-    } else {
-        $msg = 'Invalid email address, message ignored.';
-    }
+        else {
+            // Message if mail has been not sent
+            echo "<script>
+                alert('Email has been sent successfully.');
+            </script>";
+        }
+
 }
 ?>
