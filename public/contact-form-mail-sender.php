@@ -11,6 +11,7 @@ use PHPMailer\PHPMailer\Exception;
 
 require 'vendor/autoload.php';
 
+$mail = new PHPMailer;
 
 if(isset($_POST['submit'])){
 
@@ -19,7 +20,7 @@ if(isset($_POST['submit'])){
     $email=$_POST['email'];  // Get Email Value
     $message=$_POST['message']; // Get Message Value
     //Create a new PHPMailer instance
-    $mail = new PHPMailer;
+
 
     try {
     //Tell PHPMailer to use SMTP - requires a local mail server
@@ -70,6 +71,7 @@ if(isset($_POST['submit'])){
         </body>
     </html>
     ";
+    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
     $mail->send();
             echo 'Message has been sent';
         } catch (Exception $e) {
