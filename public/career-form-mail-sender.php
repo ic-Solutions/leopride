@@ -59,8 +59,8 @@ if(isset($_POST['submit'])){
     $mail->setFrom('consult@leopride.in', 'LeoPride Career Solutions');
     $mail->addAddress($email, $name);       // Add a recipient          // Name is optional
     $mail->addReplyTo($email, $name);
-    //$mail->addCC('consult@leopride.in');
-    $mail->addBCC('sharu725@gmail.com');
+    $mail->addCC('consult@leopride.in');
+    $mail->addBCC('support@icsoln.com');
 
 
     $mail->isHTML(true);    
