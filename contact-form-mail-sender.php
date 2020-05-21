@@ -9,11 +9,12 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
 
+require 'vendor/autoload.php';
+
+
 $msg = '';
 //Don't run this unless we're handling a form submission
-if (array_key_exists('email', $_POST)) {
-
-    require 'vendor/autoload.php';
+if (array_key_exists('email', $_POST)) {    
 
     //Create a new PHPMailer instance
     $mail = new PHPMailer;
