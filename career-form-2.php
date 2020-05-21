@@ -25,7 +25,7 @@ try {
     //Recipients
     $mail->setFrom('noreply@leopride.in', 'Mailer');
     $mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient
-    $mail->addAddress('hello@webjeda');               // Name is optional
+    $mail->addAddress('hello@webjeda.com');               // Name is optional
     $mail->addReplyTo('sharu725@gmail.com', 'Sharu725');
     $mail->addCC('sharu.725@gmail.com');
     $mail->addBCC('sharathdt@gmail.com');
