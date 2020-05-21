@@ -20,6 +20,8 @@ if(isset($_POST['submit'])){
     $message=$_POST['message']; // Get Message Value
     //Create a new PHPMailer instance
     $mail = new PHPMailer;
+
+    try {
     //Tell PHPMailer to use SMTP - requires a local mail server
     //Faster and safer than using mail()
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
@@ -69,19 +71,10 @@ if(isset($_POST['submit'])){
         </body>
     </html>
     ";
-
-     if(!$mail->Send()) {
-            // Message if mail has been sent
-            echo "<script>
-                alert('Submission failed.');
-            </script>";
+    $mail->send();
+            echo 'Message has been sent';
+        } catch (Exception $e) {
+            echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
-        else {
-            // Message if mail has been not sent
-            echo "<script>
-                alert('Email has been sent successfully.');
-            </script>";
-        }
-
 }
 ?>
