@@ -7,9 +7,7 @@ use PHPMailer\PHPMailer\Exception;
 
 
 //Don't run this unless we're handling a form submission
-if (array_key_exists('email', $_POST)) {
-
-    date_default_timezone_set('Etc/UTC');
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Load Composer's autoloader
     require 'vendor/autoload.php';
