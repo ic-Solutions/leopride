@@ -15,7 +15,7 @@ require 'vendor/autoload.php';
 if(isset($_POST['submit'])){
 
     $name=$_POST['name']; // Get Name value from HTML Form
-    $mobile=$_POST['phone'];  // Get Mobile No
+    $phone=$_POST['phone'];  // Get Mobile No
     $email=$_POST['email'];  // Get Email Value
     $message=$_POST['message']; // Get Message Value
     //Create a new PHPMailer instance
@@ -38,7 +38,8 @@ if(isset($_POST['submit'])){
     //and will cause your messages to fail SPF checks
     $mail->setFrom('consult@leopride.in', 'LeoPride Career Solutions');
     //Send the message to yourself, or whoever should receive contact for submissions
-    $mail->addAddress('sharath.dt@gmail.com', 'Sharath Kumar');
+    $mail->addReplyTo($email);
+    $mail->addCC('sharu725@gmail.com');
     //Put the submitter's address in a reply-to header
     //This will fail if the address provided is invalid,
     //in which case we should ignore the whole request
