@@ -39,7 +39,7 @@ if(isset($_POST['submit'])){
     //$mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient          // Name is optional
     $mail->addReplyTo($email, $name);
     //$mail->addCC('consult@leopride.in');
-    $mail->addBCC('support@icsoln.com');
+    $mail->addBCC('sharu725@gmail.com');
 
 
     $mail->isHTML(true);    
