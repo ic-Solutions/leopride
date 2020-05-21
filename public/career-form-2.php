@@ -31,8 +31,8 @@ try {
     $mail->addBCC('sharathdt@gmail.com');
 
     // Attachments
-    $mail->addAttachment('/CNAME');         // Add attachments
-    $mail->addAttachment('/php.ini');    // Optional name
+    //$mail->addAttachment('/CNAME');         // Add attachments
+    //$mail->addAttachment('/php.ini');    // Optional name
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
