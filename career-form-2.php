@@ -30,7 +30,7 @@ try {
     //$mail->addBCC('sharathdt@gmail.com');
 
     // Attachments
-    $mail->addAttachment('/CNAME');         // Add attachments
+    $mail->addAttachment('/home/leopridevv/public_html/leopride-website/CNAME');         // Add attachments
     //$mail->addAttachment('/php.ini');    // Optional name
 
     // Content
