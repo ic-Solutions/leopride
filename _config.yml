@@ -15,8 +15,24 @@ sass:
 include:
   - _pages
 
+# These details are for opengraph tags
+social:
+  name: LeoPride Consultants
+  links:
+    - https://www.facebook.com/leopride.in/
+    - https://www.linkedin.com/company/14512687/
+    - https://www.instagram.com/leopridecareersolutions/
+    - https://www.youtube.com/channel/UCiJqbK5EeRtijkCgqwP5e4A
+
+facebook:
+  app_id: 272085763872601
+  # publisher: 1234
+  # admins: 1234
+
+
 
 destination: public
+
 
 plugins:
   - jekyll-seo-tag
