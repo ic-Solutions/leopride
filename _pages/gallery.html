@@ -43,7 +43,7 @@ permalink: /gallery/
                      <div class="image-grid">
                         {% for item in site.data.gallery.country %}
                            <a data-fancybox="gallery" href="{{item}}">
-                              <img loading="lazy" src="{{item}}" alt="Guidance Across Country">
+                              <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} Guidance Across Country">
                            </a>
                         {% endfor %}
                      </div>
@@ -52,7 +52,7 @@ permalink: /gallery/
                      <div class="image-grid">
                         {% for item in site.data.gallery.neet %}
                            <a data-fancybox="gallery" href="{{item}}">
-                              <img loading="lazy" src="{{item}}" alt="NEET PG Info Sessions">
+                              <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} PG Info Sessions">
                            </a>
                         {% endfor %}
                      </div>
@@ -61,7 +61,7 @@ permalink: /gallery/
                      <div class="image-grid">
                         {% for item in site.data.gallery.seminars %}
                            <a data-fancybox="gallery" href="{{item}}">
-                              <img loading="lazy" src="{{item}}" alt="Seminars and Workshops">
+                              <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} Seminars and Workshops">
                            </a>
                         {% endfor %}
                      </div>
@@ -70,7 +70,7 @@ permalink: /gallery/
                      <div class="image-grid">
                         {% for item in site.data.gallery.happy %}
                            <a data-fancybox="gallery" href="{{item}}">
-                              <img loading="lazy" src="{{item}}" alt="Happy Clients">
+                              <img loading="lazy" src="{{item}}" alt="{{site.data.keywords.keyword-year}} Happy Clients">
                            </a>
                         {% endfor %}
                      </div>
