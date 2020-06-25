@@ -12,7 +12,6 @@ sass:
   sass_dir: /assets/css/_sass
   style: compressed
 
-
 include:
   - _pages
 
