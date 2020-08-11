@@ -4,6 +4,8 @@ image: /assets/images/blog/NEET-Counselling-Seminars-2.jpg
 description: NEET ADVISOR conducts a number of seminars on “ALL ABOUT NEET COUNSELLING” from time to time. We come across a number of students and parents who shows great interest and enthusiasm for these seminars. 
 layout: post
 author: NEET Advisor
+redirect_to: https://neetadvisor.com/blog/neet-counselling/
+
 ---
 
 As soon as the NEET result is declared, every parent, every student gets busy in preparing an action plan for the admission procedure. That includes the most crucial, Counseling procedure as well. 

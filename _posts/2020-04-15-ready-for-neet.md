@@ -4,6 +4,7 @@ image: /assets/images/blog/Are-you-ready-for-NEET.jpg
 description: How tough is it to prepare for an exam? How long does it take to make it through? Is it a single step procedure? Or does it have multiple layers? With increasing competition, the chances of making it through NEET in itself is quite tough. It is not just about hard work and burning overnight oil now.
 layout: post
 author: NEET Advisor
+redirect_to: https://neetadvisor.com/blog/ready-for-neet/
 ---
 
 How tough is it to prepare for an exam? How long does it take to make it through? Is it a single step procedure? Or does it have multiple layers? With increasing competition, the chances of making it through NEET in itself is quite tough. 
