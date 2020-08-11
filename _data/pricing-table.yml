@@ -41,41 +41,40 @@ neet-pg:
   - title: Medical Mantra
     description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process through NEET.
     image: /assets/images/icons/Medical-Mantra.png
-      
-  - title: College Health Analysis
-    description: Get health analysis of medical colleges to find out which college to choose first ?
-    image: /assets/images/icons/College-Health-Analysis.png
-      
+
   - title: Profile Mapping
-    description: Based on your inputs like NEET score, profile mapping will be done to make sure you get the best option available.
+    description: Based on your inputs like NEET PG score/AIR/home state/category, a personalized report will be designed to make sure you get the best option available.
     image: /assets/images/icons/Profile-Mapping.png
 
   - title: Application Filling
-    description: Support in filling of application forms for AIQ/ Deemed,ESI,AFMC, AIIMS, JIPMER & different state counselling.
+    description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
     image: /assets/images/icons/Application-Filling.png
 
   - title: Periodic Alerts
-    description: Regular SMS / Email alerts on announcements, notifications, updates, counselling dates, etc.
+    description: Regular SMS/Email alerts on announcements, notifications, updates, counselling dates, etc.
     image: /assets/images/icons/Periodic-Alerts.png
 
+  - title: Guidance from our Advisor
+    description: An intensive one-to-one session with our NEET Advisor who will answer your queries about NEET PG.
+    image: /assets/images/icons/Guidance-From-Advisor.png
+    features:
+      - All about NEET counselling
+      - Look Beyond MD/MS
+      - Life in a Medical College
+      - Study Medicine Abroad
+  
+  - title: College Health Analysis
+    description: Get health analysis of medical colleges to find out which college to choose first ?
+    image: /assets/images/icons/College-Health-Analysis.png
+
   - title: Counselling
-    description: Post result consultation with our career expert based on actual NEET score on AIQ, Deemed and state counselling.
+    description: Post result consultation with our career expert based on actual NEET PG score on AIQ, Deemed and state counselling.
     image: /assets/images/icons/Counselling.png
 
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
     image: /assets/images/icons/Documentation.png
   
-  - title: Guidance from our Advisor
-    description: An Intensive one to one session with our advisor, who will answer your queries about NEET.
-    image: /assets/images/icons/Guidance-From-Advisor.png
-    features:
-      - Look Beyond MBBS
-      - All about NEET counselling
-      - Life in a Medical College
-      - Study MBBS Abroad
-
-
 
 engg:
   - title: Application Filling
