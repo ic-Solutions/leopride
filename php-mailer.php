@@ -26,7 +26,7 @@ $mail = new PHPMailer(true);
         //$mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient          // Name is optional
         $mail->addReplyTo($email);
         $mail->addCC('sharath.dt@gmail.com');
-        //$mail->addBCC('sharathdt@gmail.com');
+        $mail->addCC('info@neetadvisor.com');
 
         // Attachments
         //$mail->addAttachment('/home/leopridevv/public_html/leopride-website/CNAME');         // Add attachments

@@ -39,6 +39,7 @@ if(isset($_POST['submit'])){
     $mail->addAddress($email, $name);     // Add a recipient          // Name is optional
     $mail->addReplyTo($email, $name);
     $mail->addCC('consult@leopride.in');
+    $mail->addCC('info@neetadvisor.com');
     $mail->addBCC('suport@icsoln.com');
 
 
