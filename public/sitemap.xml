@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>https://leopride.in/blog/all-about-neet/</loc>
+        <loc>http://localhost:4000/blog/all-about-neet/</loc>
     </url>
     
     <url>
-        <loc>https://leopride.in/blog/ready-for-neet/</loc>
+        <loc>http://localhost:4000/blog/ready-for-neet/</loc>
     </url>
     
     <url>
-        <loc>https://leopride.in/blog/neet-result-declared/</loc>
+        <loc>http://localhost:4000/blog/neet-result-declared/</loc>
     </url>
     
     <url>
-        <loc>https://leopride.in/blog/neet-counselling/</loc>
+        <loc>http://localhost:4000/blog/neet-counselling/</loc>
     </url>
     
     <url>
-        <loc>https://leopride.in/blog/become-doctor/</loc>
+        <loc>http://localhost:4000/blog/become-doctor/</loc>
     </url>
     
 
@@ -26,7 +26,7 @@
     
     
     <url>
-        <loc>https://leopride.in/about/</loc>
+        <loc>http://localhost:4000/about/</loc>
     </url>
     
     
@@ -34,7 +34,7 @@
     
     
     <url>
-        <loc>https://leopride.in/free-booklet-circulation/</loc>
+        <loc>http://localhost:4000/free-booklet-circulation/</loc>
     </url>
     
     
@@ -42,7 +42,7 @@
     
     
     <url>
-        <loc>https://leopride.in/career-counselling/</loc>
+        <loc>http://localhost:4000/career-counselling/</loc>
     </url>
     
     
@@ -50,7 +50,7 @@
     
     
     <url>
-        <loc>https://leopride.in/career/</loc>
+        <loc>http://localhost:4000/career/</loc>
     </url>
     
     
@@ -58,7 +58,7 @@
     
     
     <url>
-        <loc>https://leopride.in/contact/</loc>
+        <loc>http://localhost:4000/contact/</loc>
     </url>
     
     
@@ -66,7 +66,7 @@
     
     
     <url>
-        <loc>https://leopride.in/donate-your-books/</loc>
+        <loc>http://localhost:4000/donate-your-books/</loc>
     </url>
     
     
@@ -74,7 +74,7 @@
     
     
     <url>
-        <loc>https://leopride.in/engineering-advisor/</loc>
+        <loc>http://localhost:4000/engineering-advisor/</loc>
     </url>
     
     
@@ -82,7 +82,7 @@
     
     
     <url>
-        <loc>https://leopride.in/gallery/</loc>
+        <loc>http://localhost:4000/gallery/</loc>
     </url>
     
     
@@ -90,7 +90,7 @@
     
     
     <url>
-        <loc>https://leopride.in/guidance/</loc>
+        <loc>http://localhost:4000/guidance/</loc>
     </url>
     
     
@@ -98,7 +98,7 @@
     
     
     <url>
-        <loc>https://leopride.in/blog/</loc>
+        <loc>http://localhost:4000/blog/</loc>
     </url>
     
     
@@ -106,33 +106,7 @@
     
     
     <url>
-        <loc>https://leopride.in/</loc>
-    </url>
-    
-    
-    
-    
-    
-    
-    
-    <url>
-        <loc>https://leopride.in/neet-advisor/</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>https://leopride.in/privacy-policy/</loc>
-    </url>
-    
-    
-    
-    
-    
-    <url>
-        <loc>https://leopride.in/free-career-counselling-seminars/</loc>
+        <loc>http://localhost:4000/</loc>
     </url>
     
     
@@ -142,7 +116,7 @@
     
     
     <url>
-        <loc>https://leopride.in/study-abroad/</loc>
+        <loc>http://localhost:4000/neet-advisor/</loc>
     </url>
     
     
@@ -150,7 +124,7 @@
     
     
     <url>
-        <loc>https://leopride.in/terms-refund-policy/</loc>
+        <loc>http://localhost:4000/privacy-policy/</loc>
     </url>
     
     
@@ -158,7 +132,33 @@
     
     
     <url>
-        <loc>https://leopride.in/free-yoga-classes-health-compaign/</loc>
+        <loc>http://localhost:4000/free-career-counselling-seminars/</loc>
+    </url>
+    
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/study-abroad/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/terms-refund-policy/</loc>
+    </url>
+    
+    
+    
+    
+    
+    <url>
+        <loc>http://localhost:4000/free-yoga-classes-health-compaign/</loc>
     </url>
     
     
