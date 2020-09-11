@@ -25,8 +25,8 @@ $mail = new PHPMailer(true);
         $mail->setFrom('consult@leopride.in', 'LeoPride Career Solutions');
         //$mail->addAddress('sharath.dt@gmail.com', 'Shartah D T');     // Add a recipient          // Name is optional
         $mail->addReplyTo($email);
-        $mail->addCC('sharath.dt@gmail.com');
-        $mail->addCC('info@neetadvisor.com');
+        // $mail->addCC('sharath.dt@gmail.com');
+        $mail->addCC('consult@leopride.in');
 
         // Attachments
         //$mail->addAttachment('/home/leopridevv/public_html/leopride-website/CNAME');         // Add attachments
