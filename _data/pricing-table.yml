@@ -4,7 +4,7 @@ neet-ug:
     image: /assets/images/icons/Medical-Mantra.png
 
   - title: Profile Mapping
-    description: Based on your inputs like NEET score, profile mapping will be done to make sure you get the best option available.
+    description: Best possible state’s Counseling where we should apply based on NEET Score / Category / Domicile
     image: /assets/images/icons/Profile-Mapping.png
 
   - title: Application Filling
@@ -43,7 +43,7 @@ neet-pg:
     image: /assets/images/icons/Medical-Mantra.png
 
   - title: Profile Mapping
-    description: Based on your inputs like NEET PG score/AIR/home state/category, a personalized report will be designed to make sure you get the best option available.
+    description: Best possible state’s Counseling where we should apply based on NEET Score / Category / Domicile
     image: /assets/images/icons/Profile-Mapping.png
 
   - title: Application Filling
