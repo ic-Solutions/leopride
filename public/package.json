@@ -1,0 +1,21 @@
+{
+  "name": "leopride",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "jekyll serve --livereload",
+    "build": "jekyll build -d public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ic-Solutions/leopride.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ic-Solutions/leopride/issues"
+  },
+  "homepage": "https://github.com/ic-Solutions/leopride#readme"
+}
