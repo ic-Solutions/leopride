@@ -4,6 +4,7 @@ url: https://leopride.in
 
 permalink: /blog/:title/
 
+destination: public
 
 rzp-key: rzp_live_5l5MyQbw9aux1L
 #rzp-neet-key: rzp_live_LLG1Bxq7atk0FU

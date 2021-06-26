@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "jekyll serve --livereload",
-    "build": "jekyll build -d public"
+    "build": "jekyll build"
   },
   "repository": {
     "type": "git",
