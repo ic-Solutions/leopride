@@ -17,7 +17,7 @@ neet-ug:
 
   - title: Periodic Alerts
     description: Regular SMS/ Email alerts on announcements, notifications, updates, counselling dates, etc.
-    image: /assets/images/icons/Profile-Mapping.png
+    image: /assets/images/icons/Periodic-Alerts.png
 
   - title: Exclusive Webinars by Vipin Bansal
     description: Exclusive live webinars on smart counselling by our Founder & CEO "Mr. Vipin Bansal"
@@ -34,7 +34,7 @@ neet-ug:
 
   - title: Application Filling
     description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
-    image: /assets/images/icons/Profile-Mapping.png
+    image: /assets/images/icons/Application-Filling.png
 
   - title: Profile Mapping
     description: Based on your profile like NEET score/ All India Rank/ state rank/ category, a personalized report will be designed to help you to get the best option available.
@@ -42,11 +42,11 @@ neet-ug:
 
   - title: Health Analysis
     description: Get complete health report of medical colleges, "To know which college to choose first"
-    image: /assets/images/icons/Documentation.png
+    image: /assets/images/icons/College-Health-Analysis.png
 
   - title: Counselling
     description: Post result consultation with your NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
-    image: /assets/images/icons/Documentation.png
+    image: /assets/images/icons/Counselling.png
 
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
@@ -74,7 +74,7 @@ neet-pg:
 
   - title: Periodic Alerts
     description: Regular SMS/ Email alerts on announcements, notifications, updates, counselling dates, etc.
-    image: /assets/images/icons/Profile-Mapping.png
+    image: /assets/images/icons/Periodic-Alerts.png
 
   - title: Exclusive Webinars by Vipin Bansal
     description: Exclusive live webinars on smart counselling by our Founder & CEO "Mr. Vipin Bansal"
@@ -92,7 +92,7 @@ neet-pg:
 
   - title: Application Filling
     description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
-    image: /assets/images/icons/Profile-Mapping.png
+    image: /assets/images/icons/Application-Filling.png
 
   - title: Profile Mapping
     description: Based on your profile like NEET score/ All India Rank/ state rank/ category, a personalized report will be designed to help you to get the best option available.
@@ -100,11 +100,11 @@ neet-pg:
 
   - title: Health Analysis
     description: Get complete health report of medical colleges, "To know which college to choose first"
-    image: /assets/images/icons/Documentation.png
+    image: /assets/images/icons/College-Health-Analysis.png
 
   - title: Counselling
     description: Post result consultation with your NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
-    image: /assets/images/icons/Documentation.png
+    image: /assets/images/icons/Counselling.png
 
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
