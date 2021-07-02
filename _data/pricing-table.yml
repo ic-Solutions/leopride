@@ -6,10 +6,10 @@ neet-ug:
 
   - title: Rank UP NEET
     description: Boost up your NEET Score and enhance final preparation for NEET 2021
-    image: /assets/images/icons/Profile-Mapping.png
+    image: /assets/images/icons/Rank-UP-NEET.png
 
   - title: Gear UP NEET
-    image: /assets/images/icons/Guidance-From-Advisor.png
+    image: /assets/images/icons/Gear-UP-NEET.png
     features:
       - Predict your Rank based on your Expected Score.
       - Facts & Figures of NEET 2020.
@@ -21,11 +21,11 @@ neet-ug:
 
   - title: Exclusive Webinars by Vipin Bansal
     description: Exclusive live webinars on smart counselling by our Founder & CEO "Mr. Vipin Bansal"
-    image: /assets/images/icons/Profile-Mapping.png
+    image: /assets/images/icons/Exclusive-Webinars-by-Vipin-Bansal.png
 
   - title: Guidance from our Advisor
     description: An intensive one-to-one session with your NEET Advisor who will answer your queries about NEET Counselling.
-    image: /assets/images/icons/Guidance-From-Advisor.png
+    image: /assets/images/icons/Guidance-from-your-Advisor.png
     features:
       - All about NEET Counselling
       - Look Beyond MBBS
@@ -42,7 +42,7 @@ neet-ug:
 
   - title: Health Analysis
     description: Get complete health report of medical colleges, "To know which college to choose first"
-    image: /assets/images/icons/College-Health-Analysis.png
+    image: /assets/images/icons/Health-Analysis.png
 
   - title: Counselling
     description: Post result consultation with your NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
@@ -54,11 +54,11 @@ neet-ug:
 
   - title: Refund Formalities
     description: We help you to track the refund status of security deposits paid by you in various counselling.
-    image: /assets/images/icons/Documentation.png
+    image: /assets/images/icons/Refund-Formalities.png
 
   - title: Complete Tracking and Monitoring* (on demand)*
     description: We handhold you throughout the entire process-from start to finish, till you get admission in a medical college.
-    image: /assets/images/icons/Documentation.png
+    image: /assets/images/icons/Complete-Tracking-and-Monitioring.png
 
 neet-pg:
   - title: Medical Mantra
@@ -66,7 +66,7 @@ neet-pg:
     image: /assets/images/icons/Medical-Mantra.png
 
   - title: Gear UP NEET
-    image: /assets/images/icons/Guidance-From-Advisor.png
+    image: /assets/images/icons/Gear-UP-NEET.png
     features:
       - Gear UP NEET
       - Facts & Figures of NEET 2020.
@@ -79,11 +79,11 @@ neet-pg:
   - title: Exclusive Webinars by Vipin Bansal
     description: Exclusive live webinars on smart counselling by our Founder & CEO "Mr. Vipin Bansal"
 
-    image: /assets/images/icons/Profile-Mapping.png
+    image: /assets/images/icons/Exclusive-Webinars-by-Vipin-Bansal.png
 
   - title: Guidance from our Advisor
     description: An intensive one-to-one session with your NEET Advisor who will answer your queries about NEET Counselling.
-    image: /assets/images/icons/Guidance-From-Advisor.png
+    image: /assets/images/icons/Guidance-from-your-Advisor.png
     features:
       - All about NEET Counselling
       - Look Beyond MD/MS
@@ -100,7 +100,7 @@ neet-pg:
 
   - title: Health Analysis
     description: Get complete health report of medical colleges, "To know which college to choose first"
-    image: /assets/images/icons/College-Health-Analysis.png
+    image: /assets/images/icons/Health-Analysis.png
 
   - title: Counselling
     description: Post result consultation with your NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
@@ -112,11 +112,11 @@ neet-pg:
 
   - title: Refund Formalities
     description: We help you to track the refund status of security deposits paid by you in various counselling.
-    image: /assets/images/icons/Documentation.png
+    image: /assets/images/icons/Refund-Formalities.png
 
   - title: Complete Tracking and Monitoring* (on demand)*
     description: We handhold you throughout the entire process-from start to finish, till you get admission in a medical college.
-    image: /assets/images/icons/Documentation.png
+    image: /assets/images/icons/Complete-Tracking-and-Monitioring.png
 
 engg:
   - title: Application Filling
