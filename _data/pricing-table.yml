@@ -1,159 +1,234 @@
 neet-ug:
-  - title: Medical Mantra
+  - title: NEET ADVISOR <sub>(All in one Guide Book)</sub>
     description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process through NEET.
+    image: /assets\images\icons\Medical-Mantra.png
+    mode: Offline
+    basic: true
+    premium: true
 
-    image: /assets/images/icons/Medical-Mantra.png
+  - title: Periodic Alerts
+    description: Regular alerts on announcements, notifications, updates, news, counselling dates, etc.
+    image: /assets\images\icons\Periodic-Alerts.png
+    mode: Online
+    basic: true
+    premium: true
 
-  - title: Rank UP NEET
-    description: Boost up your NEET Score and enhance final preparation for NEET 2021
-    image: /assets/images/icons/Rank-UP-NEET.png
+  - title: Dedicated NEET Advisor
+    description: An intensive one-to-one session with our NEET Advisor who will answer your queries about NEET Counselling
+    image: /assets\images\icons\Guidance-from-your-Advisor.png
+    mode: "Offline/<br>Online"
+    basic: Two Sessions*
+    premium: Six <sup>#</sup><br>Sessions
 
-  - title: Gear UP NEET
-    image: /assets/images/icons/Gear-UP-NEET.png
+  - title: Support Team
+    description: Navigating the complexities and hurdles of NEET counselling, the support teamstands as a pillar of strength, providing assistance with a compassionate touch.
+    image: /assets\images\icons\Gear-UP-NEET.png
+    mode: Online
+    basic: true
+    premium: true
+
+  - title: Exclusive Webinars by Vipin Bansal
+    description: Exclusive live webinars on smart counselling by our Founder & CEO <br> <strong>"Mr. Vipin Bansal"</strong>
+    image: /assets\images\icons\Exclusive-Webinars-by-Vipin-Bansal.png
+    mode: Online
+    basic: Two Sessions*
+    premium: Six<br>Sessions
+
+  - title: Application Filling
+    description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
+    image: /assets\images\icons\Application-Filling.png
+    mode: Tele-Support /<br> At our office
+    basic: false
+    premium: true
+
+  - title: Colleges Health Report
+    description: Get complete health report of medical colleges, <br> "To know which college to choose first".
+    image: /assets\images\icons\Health-Analysis.png
+    mode: Online
+    basic: false
+    premium: true
+
+  - title: Counselling
+    description: Post result consultation with our NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
+    image: /assets\images\icons\Counselling.png
+    mode: Offline /<br> Online
+    basic: false
+    premium: true
+
+  - title: Documentation
+    description: Support in the crucial application process and help with documentation, verification and submission in the right format.
+    image: /assets\images\icons\Documentation.png
+    mode: Offline /<br> Online
+    basic: false
+    premium: true
+
+  - title: Refund Formalities
+    description: We help you to track the refund status of security deposits paid by you in various counselling.
+    image: /assets\images\icons\Refund-Formalities.png
+    mode: Online
+    basic: false
+    premium: true
+
+  - title: Gear UP NEET<sub>(Portal Access)</sub>
+    description:
     features:
       - Predict your Rank based on your Expected Score.
-      - Facts & Figures of NEET 2020.
-      - Get E-Books on State Quota Counselling.
+      - Colleges, Fees & Seats  |  Facts & Figures of NEET 2023.
+      - Get E-Books on State Quota Counselling
+    image: /assets\images\icons\Gear-UP-NEET.png
+    mode: Online
+    basic: true
+    premium: true
 
-  - title: Periodic Alerts
-    description: Regular SMS/ Email alerts on announcements, notifications, updates, counselling dates, etc.
-    image: /assets/images/icons/Periodic-Alerts.png
-
-  - title: Exclusive Webinars by Vipin Bansal
-    description: Exclusive live webinars on smart counselling by our Founder & CEO "Mr. Vipin Bansal"
-    image: /assets/images/icons/Exclusive-Webinars-by-Vipin-Bansal.png
-
-  - title: Guidance from our Advisor
-    description: An intensive one-to-one session with your NEET Advisor who will answer your queries about NEET Counselling.
-    image: /assets/images/icons/Guidance-from-your-Advisor.png
-    features:
-      - All about NEET Counselling
-      - Look Beyond MBBS
-      - Life in a Medical College
-      - Study Medicine Abroad
-
-  - title: Application Filling
-    description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
-    image: /assets/images/icons/Application-Filling.png
-
-  - title: Profile Mapping
-    description: Based on your profile like NEET score/ All India Rank/ state rank/ category, a personalized report will be designed to help you to get the best option available.
-    image: /assets/images/icons/Profile-Mapping.png
-
-  - title: Health Analysis
-    description: Get complete health report of medical colleges, "To know which college to choose first"
-    image: /assets/images/icons/Health-Analysis.png
-
-  - title: Counselling
-    description: Post result consultation with your NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
-    image: /assets/images/icons/Counselling.png
-
-  - title: Documentation
-    description: Support in the crucial application process and help with documentation, verification and submission in the right format.
-    image: /assets/images/icons/Documentation.png
-
-  - title: Refund Formalities
-    description: We help you to track the refund status of security deposits paid by you in various counselling.
-    image: /assets/images/icons/Refund-Formalities.png
-
-  - title: Complete Tracking and Monitoring* (on demand)*
-    description: We handhold you throughout the entire process-from start to finish, till you get admission in a medical college.
-    image: /assets/images/icons/Complete-Tracking-and-Monitioring.png
+  - title: Rank Up NEET
+    description: <sup>(complimentary)</sup><br>Boost up your NEET Score and enhance final preparation for NEET 2024
+    image: /assets\images\icons\Rank-UP-NEET.png
+    mode: Online
+    basic: true
+    premium: true
 
 neet-pg:
-  - title: Medical Mantra
-    description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process of M.D./ M.S./ PG Diploma courses/ DNB seats.
-    image: /assets/images/icons/Medical-Mantra.png
-
-  - title: Gear UP NEET
-    image: /assets/images/icons/Gear-UP-NEET.png
-    features:
-      - Gear UP NEET
-      - Facts & Figures of NEET 2020.
-      - Get E-Books on State Quota Counselling.
+  - title: NEET ADVISOR <sub>(All in one Guide Book)</sub>
+    description: A comprehensive handbook which answer all questions on preparation, cut-off, fees and admission process through NEET.
+    image: /assets\images\icons\Medical-Mantra.png
+    mode: Offline
+    basic: true
+    premium: true
 
   - title: Periodic Alerts
-    description: Regular SMS/ Email alerts on announcements, notifications, updates, counselling dates, etc.
-    image: /assets/images/icons/Periodic-Alerts.png
+    description: Regular alerts on announcements, notifications, updates, news, counselling dates, etc.
+    image: /assets\images\icons\Periodic-Alerts.png
+    mode: Online
+    basic: true
+    premium: true
+
+  - title: Dedicated NEET Advisor
+    description: An intensive one-to-one session with our NEET Advisor who will answer your queries about NEET Counselling
+    image: /assets\images\icons\Guidance-from-your-Advisor.png
+    mode: "Offline/<br>Online"
+    basic: Two Sessions*
+    premium: Six <sup>#</sup><br>Sessions
+
+  - title: Support Team
+    description: Navigating the complexities and hurdles of NEET counselling, the support teamstands as a pillar of strength, providing assistance with a compassionate touch.
+    image: /assets\images\icons\Gear-UP-NEET.png
+    mode: Online
+    basic: true
+    premium: true
 
   - title: Exclusive Webinars by Vipin Bansal
-    description: Exclusive live webinars on smart counselling by our Founder & CEO "Mr. Vipin Bansal"
-
-    image: /assets/images/icons/Exclusive-Webinars-by-Vipin-Bansal.png
-
-  - title: Guidance from our Advisor
-    description: An intensive one-to-one session with your NEET Advisor who will answer your queries about NEET Counselling.
-    image: /assets/images/icons/Guidance-from-your-Advisor.png
-    features:
-      - All about NEET Counselling
-      - Look Beyond MD/MS
-      - Life in a Medical College
-      - Study Medicine Abroad
+    description: Exclusive live webinars on smart counselling by our Founder & CEO <br> <strong>"Mr. Vipin Bansal"</strong>
+    image: /assets\images\icons\Exclusive-Webinars-by-Vipin-Bansal.png
+    mode: Online
+    basic: Two Sessions*
+    premium: Six<br>Sessions
 
   - title: Application Filling
-    description: Support in filling of application forms for AIQ, Deemed, ESI, AFMC, AIIMS, JIPMER & different state counselling.
-    image: /assets/images/icons/Application-Filling.png
+    description: Support in filling of application forms for AIQ, DNB, PG Diploma, Deemed ESI, AFMC & different state counselling.
+    image: /assets\images\icons\Application-Filling.png
+    mode: Tele-Support /<br> At our office
+    basic: false
+    premium: true
 
-  - title: Profile Mapping
-    description: Based on your profile like NEET score/ All India Rank/ state rank/ category, a personalized report will be designed to help you to get the best option available.
-    image: /assets/images/icons/Profile-Mapping.png
-
-  - title: Health Analysis
-    description: Get complete health report of medical colleges, "To know which college to choose first"
-    image: /assets/images/icons/Health-Analysis.png
+  - title: Colleges Health Report
+    description: Get complete health report of medical colleges, <br> "To know which college to choose first".
+    image: /assets\images\icons\Health-Analysis.png
+    mode: Online
+    basic: false
+    premium: true
 
   - title: Counselling
-    description: Post result consultation with your NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
-    image: /assets/images/icons/Counselling.png
+    description: Post result consultation with our NEET ADVISOR based on your NEET score in AIQ, Deemed & state counselling.
+    image: /assets\images\icons\Counselling.png
+    mode: Offline /<br> Online
+    basic: false
+    premium: true
 
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
-    image: /assets/images/icons/Documentation.png
+    image: /assets\images\icons\Documentation.png
+    mode: Offline /<br> Online
+    basic: false
+    premium: true
 
   - title: Refund Formalities
     description: We help you to track the refund status of security deposits paid by you in various counselling.
-    image: /assets/images/icons/Refund-Formalities.png
+    image: /assets\images\icons\Refund-Formalities.png
+    mode: Online
+    basic: false
+    premium: true
 
-  - title: Complete Tracking and Monitoring* (on demand)*
-    description: We handhold you throughout the entire process-from start to finish, till you get admission in a medical college.
-    image: /assets/images/icons/Complete-Tracking-and-Monitioring.png
+  - title: Gear UP NEET<sub>(Portal Access)</sub>
+    description:
+    features:
+      - Predict your Rank based on your Expected Score.
+      - Colleges, Fees & Seats  |  Facts & Figures of NEET 2023.
+      - Get E-Books on State Quota Counselling
+    image: /assets\images\icons\Gear-UP-NEET.png
+    mode: Online
+    basic: true
+    premium: true
 
 engg:
   - title: Engineering Advisor <span style='font-size:smaller'>(All in One Guide Book)</span>
     description: A comprehensive handbook which answers all questions on preparation, cut-off, fees and admission process through JEE and other competitive exams.
     image: /assets/images/icons/Engineering-Mantra.png
+    mode: Offline/<br>Online
+    basic: true
+    premium: true
 
   - title: Periodic Alerts
     description: Regular alerts on announcements, notifications, updates, news, counselling dates, etc
     image: /assets/images/icons/Periodic-Alerts.png
+    mode: Online
+    basic: true
+    premium: true
 
   - title: Dedicated Advisor
     description: An intensive one-to-one session with our Advisor who will answer your queries about Engineering Counselling.
     image: /assets/images/icons/Guidance-from-your-Advisor.png
+    mode: Offline/<br>Online
+    basic: true
+    premium: true
 
   - title: Support Team
     description: Navigating the complexities & hurdles of Engineering counselling, the support team stands as a pillar of strength, providing assistance with a compassionate touch.
     image: /assets/images/icons/Gear-UP-JEE.png
+    mode: Online
+    basic: true
+    premium: true
 
   - title: Application Filling
     description: Support in filling of application forms for JoSAA Counselling, Private Universities, & different state counselling
     image: /assets/images/icons/Application-Filling.png
+    mode: Tele-Support/<br>at our office
+    basic: true
+    premium: true
 
   - title: Counselling
     description: Post result consultation with our ADVISOR based on your score in AIQ, Private Universities & State Counselling.
     image: /assets/images/icons/Counselling.png
+    mode: Offline/<br>Online
+    basic: true
+    premium: true
 
   - title: Documentation
     description: Support in the crucial application process and help with documentation, verification and submission in the right format.
     image: /assets/images/icons/Documentation.png
+    mode: Offline/<br>Online
+    basic: true
+    premium: true
 
   - title: Refund Formalities
     description: We help you to track the refund status of security deposits paid by you in various counselling.
     image: /assets/images/icons/Refund-Formalities.png
+    mode: Online
+    basic: true
+    premium: true
 
-  - title: Complete Tracking and Monitoring
-    description: We handhold you throughout the entire process-from start to finish, On Demand till you get admission in a engineering college.
-    image: /assets/images/icons/Complete-Tracking-and-Monitioring.png
+  # - title: Complete Tracking and Monitoring
+  #   description: We handhold you throughout the entire process-from start to finish, On Demand till you get admission in a engineering college.
+  #   image: /assets/images/icons/Complete-Tracking-and-Monitioring.png
 
 
   # - title: Counselling

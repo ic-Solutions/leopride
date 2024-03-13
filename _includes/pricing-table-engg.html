@@ -1,13 +1,12 @@
-      <section class="pricing-table pricing-table-neet py-3 py-md-5">
+      <!-- <section class="pricing-table pricing-table-neet py-3 py-md-5">
          <div class="content">
             <div class="table-wrapper m-3 m-md-0">
                <div class="payment-info py-3 py-md-5 text-center">
                   <h2 class="table-header" style="margin:0px;">Engineering Guide</h2>
-                  <h3>(Premium Package)</h3>
                   <h2 style="text-decoration: line-through red; margin:0px;">39,980 + GST = 47,176 /-</h2>
                   <h2 class="price">24,980 + GST = 29,476<sup>*</sup> /-</h2>
-                  <!-- <a id="rzp-button1" class="btn btn-danger mr-2 px-4">Buy Now</a> -->
-                  <a class="btn btn-danger px-4" href="https://rzp.io/l/EnggGuide">Buy Now</a>
+                  <a id="rzp-button1" class="btn btn-danger mr-2 px-4">Buy Now</a>
+                  <a class="btn btn-danger px-4 " href="https://rzp.io/l/EnggGuide">Buy Now</a>
 
                </div>
                {% for item in site.data.pricing-table.engg %}
@@ -28,4 +27,355 @@
                {% endfor %}
             </div>
          </div>
-      </section>
+      </section> -->
+       
+       <div class="centeral py-3 py-md-5 hide-on-phone">
+         <div class="text-center">
+           <h3 class="text-gray">An innovative guide exclusively</h3>
+           <h2 class="text-brand text-2xl">designed for Engineering Aspirants</h2>
+         </div>
+       
+         <div class="rows8 table-head m-2 mb-md-5">
+           <div class="c-5 place-items-center bg-secondary py-4">
+             <h2 class="text-center">Engineering Guide Services</h2>
+           </div>
+           <div class="c-3 place-items-center bg-secondary hide-on-phone" style="flex-direction: column">
+             <h4 class="text-center m-0" >
+               <span style="text-decoration: line-through red; font-size:large;">39,980 + GST = 47,176 /-</span>
+               <br>24,980 + GST = 29,476<sup>*</sup> /-
+             </h4>
+             <a class="btn btn-danger px-4 " href="https://rzp.io/l/EnggGuide">Buy Now</a>
+           </div>
+         </div>
+         {% for item in site.data.pricing-table.engg %}
+         <div class="rows8 m-2 mb-md-5">
+           <div class="c-5 relative place-items-center" style="padding: 0">
+             <img loading="lazy"
+               class="left-0 absolute hide-on-phone"
+               src="{{item.image}}"
+               alt="NEET UG Package"
+               width="100"
+               height="100"
+               style="left:-10px"
+             />
+             <div
+               class="realtive w-full bg-primary p-10 left-rounded-border ml-50-pl-60" style="min-height: 100px"
+             >
+               {% if item.basic != true %} {% if item.premium.size %}
+               <span
+                 class="
+                   hide-on-desk
+                   bg-accent
+                   text-white
+                   border-radius
+                   px-2
+                   absolute
+                   right-0
+                   top--1
+                 "
+                 >{{item.premium}}</span
+               >
+               {% else %}
+               <span
+                 class="
+                   hide-on-desk
+                   bg-accent
+                   text-white
+                   border-radius
+                   px-2
+                   absolute
+                   right-0
+                   top--1
+                 "
+                 >Premium</span
+               >
+               {% endif %} {% else %}
+               <span
+                 class="
+                   hide-on-desk
+                   bg-success
+                   text-white
+                   border-radius
+                   px-2
+                   absolute
+                   right-0
+                   top--1
+                 "
+                 >Basic</span
+               >
+               {% endif %}
+               <div class="font-bold text-xl">{{item.title}}</div>
+               <p>{{item.description}}</p>
+               <ul class="features" style="margin: 0;">
+                 {% for feat in item.features %}
+                 <li>{{feat}}</li>
+                 {% endfor %}
+               </ul>
+             </div>
+           </div>
+           <div class="c-1 place-items-center bg-accent hide-on-phone text-center">
+             <p class="text-white">{{item.mode}}</p>
+           </div>
+           <div
+             class="
+               c-2
+               place-items-center
+               bg-primary
+               right-rounded-border
+               hide-on-phone
+             "
+             style="text-align: center";
+           >
+             {% if item.premium.size > 1 %}
+             <p>{{item.premium}}</p>
+             {% else %} {% if item.premium %}
+             <img
+               src="/assets/images/right-tick-blue-100.webp"
+               alt="NEET counselling"
+               width="50"
+             />
+             {% else %}
+             <img
+               src="/assets/images/cross-checkmark-100.webp"
+               alt="NEET counselling"
+               width="50"
+             />
+             {% endif %} {% endif %}
+           </div>
+         </div>
+         {% endfor %}
+         <div class="rows8 m-2 mb-md-5">
+           <div class="c-5 relative place-items-center" style="padding: 0"> <img loading="lazy"
+               class="left-0 absolute hide-on-phone" src="/assets/images/icons/Complete-Tracking-and-Monitioring.png" alt="NEET UG Package"
+               width="100" height="100" style="left:-10px">
+             <div class="realtive w-full bg-primary p-10 left-rounded-border ml-50-pl-60" style="min-height: 100px"> <span
+                 class=" hide-on-desk bg-accent text-white border-radius px-2 absolute right-0 top--1 ">On Demand*</span>
+               <div class="font-bold text-xl">Complete Tracking and Monitoring</div>
+               <p>We handhold you throughout the entire process-from start to finish, till you get admission in a medical
+                 college.</p>
+             </div>
+           </div>
+           <div class=" c-3 place-items-center bg-primary right-rounded-border hide-on-phone " style="text-align: center" ;="">
+             <p>On Demand <sup>#</sup></p>
+           </div>
+         </div>
+         <p>
+           <small><em><sup>#</sup>Conditions Apply</em></small>
+           <small class="float-right"><em>*Limited Time Only</em></small>
+         </p>
+       
+         <div class="text-center justify-content-center m-2">
+           <h2 class="mr-4">Engineering Guide</h2>
+           <div class="text-center">
+             <!-- <a
+               href="{{site.payment-links.ug-basic}}"
+               class="btn btn-danger px-4 py-2 text-white mr-4"
+               >Buy Basic</a
+             > -->
+             <a
+               href="https://rzp.io/l/EnggGuide"
+               class="btn btn-danger px-4 py-2 text-white"
+               >Buy Engineering Guide</a
+             >
+           </div>
+         </div>
+       </div>
+      
+       <style>
+         .md-flex {
+           display: flex;
+         }
+         .justify-content-center {
+           justify-content: center;
+         }
+         .rows8 {
+           display: grid;
+           grid-template-columns: repeat(8, 1fr);
+           grid-gap: 10px;
+           margin-bottom: 10px;
+         }
+       
+         .bg-primary {
+           background-color: #fcd21c;
+         }
+         .bg-secondary {
+           background-color: #bbadaa;
+         }
+         .bg-accent {
+           background-color: #201169;
+         }
+         .bg-success {
+           background-color: #0a5;
+         }
+         .bg-primary-light {
+           background-color: #f2d379;
+         }
+         .text-white {
+           color: white !important;
+         }
+         .text-brand {
+           color: #201169 !important;
+         }
+         .rounded {
+           border-radius: 4px;
+         }
+         .place-items-center {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+         }
+         .font-bold {
+           font-weight: bold;
+         }
+         .text-xl {
+           font-size: 1.2em;
+         }
+         .text-2xl {
+           font-size: 2em !important;
+         }
+         .text-xs {
+           font-size: 0.8em;
+         }
+         .font-normal {
+           font-weight: 400;
+         }
+         .table-head {
+           overflow: hidden;
+           border-top-left-radius: 40px;
+           border-top-right-radius: 40px;
+         }
+         .central {
+           margin: 0 auto;
+           width: 100%;
+         }
+         .rows8 h3,
+         .rows8 h2,
+         .rows8 p {
+           margin: 0;
+         }
+         .rows8 p {
+           line-height: 1.7;
+         }
+       
+         .p-10 {
+           padding: 8px;
+         }
+         .left-rounded-border {
+           border-top-left-radius: 10px;
+           border-bottom-left-radius: 10px;
+         }
+         .right-rounded-border {
+           border-top-right-radius: 10px;
+           border-bottom-right-radius: 10px;
+         }
+         .relative {
+           position: relative;
+         }
+         .absolute {
+           position: absolute;
+         }
+         .ml-50-pl-60 {
+           margin-left: 40px;
+           padding-left: 50px;
+         }
+         .left-0 {
+           left: 0;
+         }
+         .right-0 {
+           right: 0;
+         }
+         .top--1 {
+           top: -0.8em;
+         }
+         .w-full {
+           width: 100%;
+         }
+         .features {
+           list-style: none;
+         }
+         .features li {
+           font-size: 1rem;
+           padding-bottom: 0;
+         }
+         .features li:before {
+           content: '\2714\0020';
+         }
+         .hide-on-desk {
+           display: none;
+         }
+         .mb-md-5 {
+           margin-bottom: inherit !important;
+         }
+         .call-us {
+           text-decoration: underline;
+         }
+         @media screen and (max-width: 600px) {
+           .md-flex {
+             display: block;
+           }
+           .hide-on-phone {
+             display: none;
+           }
+           .ml-50-pl-60 {
+             margin-left: unset;
+             padding-left: 10px;
+           }
+           .left-rounded-border {
+             border-radius: 10px;
+           }
+           .mb-md-5 {
+             margin-bottom: 2em !important;
+           }
+           .hide-on-desk {
+             display: block;
+           }
+         }
+       </style>
+       
+       <div class="text-center">
+         <h4>Discuss your queries with us. We are just a call away.</h4>
+         <h2>Call: <a class="call-us" href="tel:9911203280">9911203280</a></h2>
+       </div>
+       
+       <div class="hide-on-desk">
+         <section class="pricing-table pricing-table-neet py-3 py-md-5">
+            <div class="content">
+               <div class="table-wrapper m-3 m-md-0">
+                  <div class="payment-info py-3 py-md-5 text-center">
+                     <h2 class="table-header" style="margin:0px;">Engineering Guide Services</h2>
+                     <h2 style="text-decoration: line-through red; margin:0px;">39,980 + GST = 47,176 /-</h2>
+                     <h2 class="price">24,980 + GST = 29,476<sup>*</sup> /-</h2>
+                     <!-- <a id="rzp-button1" class="btn btn-danger mr-2 px-4">Buy Now</a> -->
+                     <a class="btn btn-danger px-4 " href="https://rzp.io/l/EnggGuide">Buy Now</a>
+   
+                  </div>
+                  {% for item in site.data.pricing-table.engg %}
+                     <div class="r table-row">
+                        <div class="c-2 text-center">
+                           <img class="image" src="{{item.image}}" alt="{{item.title}}">
+                        </div>
+                        <div class="c-10 d-grid align-content-center">
+                           <h5 class="table-title">{{item.title}}</h5>
+                           <p class="table-description">{{item.description}}</p>
+                           <ul class="features">
+                              {% for i in item.features %}
+                                 <li>{{i}}</li>
+                              {% endfor %}
+                           </ul>
+                        </div>
+                     </div>
+                  {% endfor %}
+                  <div class="r table-row">
+                     <div class="c-2 text-center">
+                        <img class="image" src="/assets/images/icons/Complete-Tracking-and-Monitioring.png" alt="Complete Tracking and Monitoring">
+                     </div>
+                     <div class="c-10 d-grid align-content-center">
+                        <h5 class="table-title">Complete Tracking and Monitoring</h5>
+                        <p class="table-description">We handhold you throughout the entire process-from start to finish, On Demand till you get admission in a engineering college.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+       </div>
+       

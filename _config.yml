@@ -30,7 +30,11 @@ facebook:
   # publisher: 1234
   # admins: 1234
 
-
+payment-links:
+  ug-basic: https://rzp.io/l/neet-ug-basic-package
+  ug-premium: https://rzp.io/l/neet-advisor-ug-guide
+  pg-basic: https://rzp.io/l/neet-advisor-pg-basic
+  pg-premium: https://rzp.io/l/neet-advisor-pg-guide
 
 plugins:
   - jekyll-seo-tag
